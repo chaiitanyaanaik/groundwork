@@ -32,6 +32,8 @@ class Settings(BaseSettings):
     reality_check_feedback_enabled: bool = True
     # Hide llm_configured on /api/health in production
     reality_check_expose_health_details: bool | None = None
+    # Password protecting the analytics dashboard (empty = no protection)
+    analytics_password: str = ""
 
     @field_validator("reality_check_env")
     @classmethod

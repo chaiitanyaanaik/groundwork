@@ -1,3 +1,9 @@
 {"ts": "2026-05-26T13:01:47.812345+00:00", "event": "page_view", "properties": {"referrer": "https://6ef3f92f-eb76-42c4-acbb-01a740a45f6a-00-yx4qo3pii706.sisko.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=default-start-application"}}
 {"ts": "2026-05-26T13:01:48.226790+00:00", "event": "page_view", "properties": {"referrer": null}}
 {"ts": "2026-05-26T13:05:38.647295+00:00", "event": "page_view", "properties": {"referrer": "https://replit.com/"}}
+{"ts": "2026-05-26T13:07:26.289484+00:00", "event": "page_view", "properties": {"referrer": "https://6ef3f92f-eb76-42c4-acbb-01a740a45f6a-00-yx4qo3pii706.sisko.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=default-start-application"}}
+{"ts": "2026-05-26T13:07:38.994742+00:00", "event": "aspiration_selected", "properties": {"aspiration_id": "move_faster_quality", "label": "Move faster without losing quality", "theme": "velocity"}}
+{"ts": "2026-05-26T13:07:40.099847+00:00", "event": "calibration_started", "properties": {"aspiration_id": "move_faster_quality"}}
+{"ts": "2026-05-26T13:08:01.585712+00:00", "event": "stress_test_submitted", "properties": {"aspiration_id": "move_faster_quality", "label": "Move faster without losing quality"}}
+{"ts": "2026-05-26T13:08:17.455526+00:00", "event": "stress_test_completed", "properties": {"aspiration_id": "move_faster_quality", "confidence": "high", "transformation_name": "Move faster without losing quality"}}
+{"ts": "2026-05-26T13:08:48.523078+00:00", "event": "page_view", "properties": {"referrer": "https://6ef3f92f-eb76-42c4-acbb-01a740a45f6a-00-yx4qo3pii706.sisko.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=default-start-application"}}

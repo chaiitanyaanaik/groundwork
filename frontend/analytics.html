@@ -21,6 +21,67 @@
         padding: 2rem 1rem 4rem;
       }
 
+      /* ── Login ── */
+      .login-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+      }
+      .login-card {
+        background: #fff;
+        border: 1px solid #e4e4df;
+        border-radius: 14px;
+        padding: 2.5rem 2rem;
+        width: 100%;
+        max-width: 360px;
+        text-align: center;
+      }
+      .login-card h1 {
+        font-family: "Literata", serif;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #1e4d35;
+        margin-bottom: 0.4rem;
+      }
+      .login-card p {
+        font-size: 0.875rem;
+        color: #6b7280;
+        margin-bottom: 1.5rem;
+      }
+      .login-input {
+        width: 100%;
+        padding: 0.65rem 0.9rem;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-family: inherit;
+        margin-bottom: 0.75rem;
+        outline: none;
+        transition: border-color 0.15s;
+      }
+      .login-input:focus { border-color: #3a7d55; }
+      .login-btn {
+        width: 100%;
+        padding: 0.65rem;
+        background: #1e4d35;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-family: inherit;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .login-btn:hover { background: #2a6347; }
+      .login-error {
+        margin-top: 0.75rem;
+        font-size: 0.85rem;
+        color: #dc2626;
+      }
+
+      /* ── Dashboard ── */
       .page-header {
         max-width: 900px;
         margin: 0 auto 2.5rem;
@@ -41,18 +102,19 @@
         text-decoration: none;
       }
       .page-header a:hover { text-decoration: underline; }
-      .refresh-btn {
-        margin-left: auto;
+      .header-actions { margin-left: auto; display: flex; gap: 0.5rem; }
+      .btn-sm {
         padding: 0.4rem 1rem;
-        background: #1e4d35;
-        color: #fff;
         border: none;
         border-radius: 6px;
         font-size: 0.85rem;
         font-family: inherit;
         cursor: pointer;
       }
-      .refresh-btn:hover { background: #2a6347; }
+      .btn-primary { background: #1e4d35; color: #fff; }
+      .btn-primary:hover { background: #2a6347; }
+      .btn-ghost { background: transparent; color: #6b7280; border: 1px solid #d1d5db; }
+      .btn-ghost:hover { background: #f3f3f0; }
 
       .grid {
         max-width: 900px;
@@ -62,14 +124,12 @@
         gap: 1rem;
         margin-bottom: 1.5rem;
       }
-
       .card {
         background: #fff;
         border-radius: 12px;
         padding: 1.25rem 1.5rem;
         border: 1px solid #e4e4df;
       }
-
       .stat-card .label {
         font-size: 0.78rem;
         font-weight: 700;
@@ -85,16 +145,9 @@
         color: #1e4d35;
         line-height: 1;
       }
-      .stat-card .sub {
-        font-size: 0.8rem;
-        color: #6b7280;
-        margin-top: 0.3rem;
-      }
+      .stat-card .sub { font-size: 0.8rem; color: #6b7280; margin-top: 0.3rem; }
 
-      .section {
-        max-width: 900px;
-        margin: 0 auto 1.5rem;
-      }
+      .section { max-width: 900px; margin: 0 auto 1.5rem; }
       .section-title {
         font-size: 0.78rem;
         font-weight: 700;
@@ -119,23 +172,14 @@
         color: #374151;
         font-weight: 600;
       }
-      .bar-track {
-        background: #e9ede9;
-        border-radius: 4px;
-        height: 8px;
-        overflow: hidden;
-      }
+      .bar-track { background: #e9ede9; border-radius: 4px; height: 8px; overflow: hidden; }
       .bar-fill {
         height: 100%;
         background: #3a7d55;
         border-radius: 4px;
         transition: width 0.4s ease;
       }
-      .bar-row .count {
-        text-align: right;
-        color: #6b7280;
-        font-size: 0.82rem;
-      }
+      .bar-row .count { text-align: right; color: #6b7280; font-size: 0.82rem; }
 
       .two-col {
         max-width: 900px;
@@ -169,7 +213,6 @@
         align-items: flex-end;
         gap: 4px;
         height: 80px;
-        margin-top: 0.5rem;
       }
       .day-bar-wrap {
         flex: 1;
@@ -185,44 +228,128 @@
         background: #3a7d55;
         border-radius: 3px 3px 0 0;
         min-height: 2px;
-        transition: height 0.4s ease;
       }
-      .day-label {
-        font-size: 0.65rem;
-        color: #9ca3af;
-        white-space: nowrap;
-      }
+      .day-label { font-size: 0.65rem; color: #9ca3af; white-space: nowrap; }
 
       .status { color: #6b7280; font-size: 0.9rem; text-align: center; padding: 3rem 0; }
-      .status.error { color: #dc2626; }
     </style>
   </head>
   <body>
-    <div class="page-header">
-      <h1>GroundWork — Usage Analytics</h1>
-      <a href="/">← Back to app</a>
-      <button class="refresh-btn" onclick="load()">Refresh</button>
+
+    <!-- Login screen -->
+    <div class="login-wrap" id="login-screen">
+      <div class="login-card">
+        <h1>GroundWork Analytics</h1>
+        <p>Enter the analytics password to continue.</p>
+        <form id="login-form" onsubmit="handleLogin(); return false;">
+          <input
+            type="password"
+            class="login-input"
+            id="password-input"
+            placeholder="Password"
+            autocomplete="current-password"
+          />
+          <button type="submit" class="login-btn" id="login-btn">View Analytics</button>
+        </form>
+        <p class="login-error" id="login-error" hidden>Incorrect password. Try again.</p>
+      </div>
     </div>
 
-    <div id="content"><p class="status">Loading…</p></div>
+    <!-- Dashboard (hidden until authenticated) -->
+    <div id="dashboard" hidden>
+      <div class="page-header">
+        <h1>GroundWork — Usage Analytics</h1>
+        <a href="/">← Back to app</a>
+        <div class="header-actions">
+          <button class="btn-sm btn-ghost" id="logout-btn">Log out</button>
+          <button class="btn-sm btn-primary" id="refresh-btn">Refresh</button>
+        </div>
+      </div>
+      <div id="content"><p class="status">Loading…</p></div>
+    </div>
 
     <script>
-      async function load() {
-        const content = document.getElementById("content");
-        content.innerHTML = '<p class="status">Loading…</p>';
-        try {
-          const res = await fetch("/api/analytics/summary");
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const d = await res.json();
-          render(d);
-        } catch (e) {
-          content.innerHTML = `<p class="status error">Error: ${e.message}</p>`;
-        }
+      const SESSION_KEY = "analytics_token";
+
+      function getToken() {
+        return sessionStorage.getItem(SESSION_KEY) || "";
       }
 
       function esc(s) {
         return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
       }
+
+      async function load() {
+        const token = getToken();
+        const content = document.getElementById("content");
+        content.innerHTML = '<p class="status">Loading…</p>';
+        try {
+          const res = await fetch(`/api/analytics/summary?token=${encodeURIComponent(token)}`);
+          if (res.status === 401) {
+            sessionStorage.removeItem(SESSION_KEY);
+            showLogin("Incorrect password. Try again.");
+            return;
+          }
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const d = await res.json();
+          render(d);
+        } catch (e) {
+          content.innerHTML = `<p class="status" style="color:#dc2626">Error: ${esc(e.message)}</p>`;
+        }
+      }
+
+      function showLogin(errorMsg) {
+        document.getElementById("login-screen").hidden = false;
+        document.getElementById("dashboard").hidden = true;
+        const err = document.getElementById("login-error");
+        if (errorMsg) {
+          err.textContent = errorMsg;
+          err.hidden = false;
+        } else {
+          err.hidden = true;
+        }
+        document.getElementById("password-input").value = "";
+        document.getElementById("password-input").focus();
+      }
+
+      function showDashboard() {
+        document.getElementById("login-screen").hidden = true;
+        document.getElementById("dashboard").hidden = false;
+        load();
+      }
+
+      async function handleLogin() {
+        const pw = document.getElementById("password-input").value;
+        if (!pw) return;
+        const btn = document.getElementById("login-btn");
+        btn.textContent = "Checking…";
+        btn.disabled = true;
+        try {
+          const res = await fetch(`/api/analytics/summary?token=${encodeURIComponent(pw)}`);
+          if (res.status === 401) {
+            document.getElementById("login-error").hidden = false;
+            document.getElementById("login-error").textContent = "Incorrect password. Try again.";
+          } else if (res.ok) {
+            sessionStorage.setItem(SESSION_KEY, pw);
+            showDashboard();
+          } else {
+            document.getElementById("login-error").hidden = false;
+            document.getElementById("login-error").textContent = `Error: HTTP ${res.status}`;
+          }
+        } catch (e) {
+          document.getElementById("login-error").hidden = false;
+          document.getElementById("login-error").textContent = e.message;
+        } finally {
+          btn.textContent = "View Analytics";
+          btn.disabled = false;
+        }
+      }
+
+      document.getElementById("refresh-btn").addEventListener("click", load);
+      document.getElementById("logout-btn").addEventListener("click", () => {
+        sessionStorage.removeItem(SESSION_KEY);
+        showLogin();
+      });
 
       function barList(obj, maxItems) {
         const entries = Object.entries(obj).slice(0, maxItems || 10);
@@ -242,17 +369,16 @@
         const max = Math.max(...entries.map(([, v]) => v), 1);
         return `<div class="daily-chart">${entries.map(([day, count]) => {
           const pct = Math.max(Math.round(count / max * 100), 2);
-          const label = day.slice(5);
           return `<div class="day-bar-wrap">
             <div class="day-bar" style="height:${pct}%" title="${day}: ${count}"></div>
-            <span class="day-label">${label}</span>
+            <span class="day-label">${day.slice(5)}</span>
           </div>`;
         }).join("")}</div>`;
       }
 
       function render(d) {
-        const completionColor = d.completion_rate_pct >= 50 ? "#1e4d35" : d.completion_rate_pct >= 25 ? "#b45309" : "#dc2626";
-
+        const completionColor = d.completion_rate_pct >= 50 ? "#1e4d35"
+          : d.completion_rate_pct >= 25 ? "#b45309" : "#dc2626";
         document.getElementById("content").innerHTML = `
           <div class="grid">
             <div class="card stat-card">
@@ -275,7 +401,7 @@
           </div>
 
           <div class="section">
-            <div class="section-title">Events by last 14 days</div>
+            <div class="section-title">Events — last 14 days</div>
             <div class="card">${dailyChart(d.daily_events_last_14d)}</div>
           </div>
 
@@ -292,7 +418,7 @@
 
           <div class="two-col">
             <div class="section">
-              <div class="section-title">All Events Breakdown</div>
+              <div class="section-title">All Events</div>
               <div class="card">
                 <table class="event-table">
                   <thead><tr><th>Event</th><th>Count</th></tr></thead>
@@ -310,7 +436,12 @@
         `;
       }
 
-      load();
+      // On load — if token is cached in sessionStorage, go straight to dashboard
+      if (getToken()) {
+        showDashboard();
+      } else {
+        showLogin();
+      }
     </script>
   </body>
 </html>

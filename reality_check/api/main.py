@@ -120,7 +120,10 @@ async def track_event(body: AnalyticsEventRequest, request: Request):
 
 
 @app.get("/api/analytics/summary")
-def analytics_summary():
+def analytics_summary(token: str | None = None):
+    expected = settings.analytics_password
+    if expected and token != expected:
+        raise HTTPException(status_code=401, detail="Unauthorized")
     return compute_summary()
 
 
