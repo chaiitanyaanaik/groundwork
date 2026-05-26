@@ -8,3 +8,7 @@ deploymentTarget = "cloudrun"
 
 [env]
 REALITY_CHECK_ENV = "production"
+
+[nix]
+packages = ["libxcrypt"]
+channel = "stable-25_05"
