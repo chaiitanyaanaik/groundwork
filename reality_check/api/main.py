@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pydantic
 from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,6 +15,7 @@ from reality_check.api.security import (
     verify_stress_test_api_key,
 )
 from reality_check.engine.feedback_store import append_feedback
+from reality_check.engine.analytics_store import append_event, compute_summary
 from reality_check.engine.calibration_bundle import get_calibration_for_philosophy
 from reality_check.engine.loader import (
     aspiration_by_id,
@@ -101,6 +103,25 @@ def _feedback_record(body: FeedbackRequest) -> dict:
         "aspiration_id": body.aspiration_id,
         "result_summary": slim_summary,
     }
+
+
+class AnalyticsEventRequest(pydantic.BaseModel):
+    event: str
+    properties: dict = {}
+
+
+@app.post("/api/analytics/event", status_code=204)
+async def track_event(body: AnalyticsEventRequest, request: Request):
+    check_rate_limit(request, "analytics_event", 120)
+    try:
+        append_event(body.event, body.properties)
+    except Exception:
+        pass
+
+
+@app.get("/api/analytics/summary")
+def analytics_summary():
+    return compute_summary()
 
 
 @app.get("/api/health")

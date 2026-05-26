@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GroundWork — Analytics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&family=Nunito+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: "Nunito Sans", sans-serif;
+        background: #f5f5f2;
+        color: #1a1a18;
+        min-height: 100vh;
+        padding: 2rem 1rem 4rem;
+      }
+
+      .page-header {
+        max-width: 900px;
+        margin: 0 auto 2.5rem;
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .page-header h1 {
+        font-family: "Literata", serif;
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: #1e4d35;
+      }
+      .page-header a {
+        font-size: 0.85rem;
+        color: #3a7d55;
+        text-decoration: none;
+      }
+      .page-header a:hover { text-decoration: underline; }
+      .refresh-btn {
+        margin-left: auto;
+        padding: 0.4rem 1rem;
+        background: #1e4d35;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .refresh-btn:hover { background: #2a6347; }
+
+      .grid {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 1.25rem 1.5rem;
+        border: 1px solid #e4e4df;
+      }
+
+      .stat-card .label {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #6b7280;
+        margin-bottom: 0.35rem;
+      }
+      .stat-card .value {
+        font-family: "Literata", serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #1e4d35;
+        line-height: 1;
+      }
+      .stat-card .sub {
+        font-size: 0.8rem;
+        color: #6b7280;
+        margin-top: 0.3rem;
+      }
+
+      .section {
+        max-width: 900px;
+        margin: 0 auto 1.5rem;
+      }
+      .section-title {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #6b7280;
+        margin-bottom: 0.75rem;
+      }
+
+      .bar-list { display: flex; flex-direction: column; gap: 0.5rem; }
+      .bar-row {
+        display: grid;
+        grid-template-columns: 9rem 1fr 3rem;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 0.875rem;
+      }
+      .bar-row .key {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #374151;
+        font-weight: 600;
+      }
+      .bar-track {
+        background: #e9ede9;
+        border-radius: 4px;
+        height: 8px;
+        overflow: hidden;
+      }
+      .bar-fill {
+        height: 100%;
+        background: #3a7d55;
+        border-radius: 4px;
+        transition: width 0.4s ease;
+      }
+      .bar-row .count {
+        text-align: right;
+        color: #6b7280;
+        font-size: 0.82rem;
+      }
+
+      .two-col {
+        max-width: 900px;
+        margin: 0 auto 1.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      @media (max-width: 600px) { .two-col { grid-template-columns: 1fr; } }
+
+      .event-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+      .event-table th {
+        text-align: left;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #9ca3af;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e4e4df;
+      }
+      .event-table td {
+        padding: 0.45rem 0;
+        border-bottom: 1px solid #f3f3f0;
+        color: #374151;
+      }
+      .event-table td:last-child { text-align: right; color: #6b7280; }
+
+      .daily-chart {
+        display: flex;
+        align-items: flex-end;
+        gap: 4px;
+        height: 80px;
+        margin-top: 0.5rem;
+      }
+      .day-bar-wrap {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        height: 100%;
+        justify-content: flex-end;
+      }
+      .day-bar {
+        width: 100%;
+        background: #3a7d55;
+        border-radius: 3px 3px 0 0;
+        min-height: 2px;
+        transition: height 0.4s ease;
+      }
+      .day-label {
+        font-size: 0.65rem;
+        color: #9ca3af;
+        white-space: nowrap;
+      }
+
+      .status { color: #6b7280; font-size: 0.9rem; text-align: center; padding: 3rem 0; }
+      .status.error { color: #dc2626; }
+    </style>
+  </head>
+  <body>
+    <div class="page-header">
+      <h1>GroundWork — Usage Analytics</h1>
+      <a href="/">← Back to app</a>
+      <button class="refresh-btn" onclick="load()">Refresh</button>
+    </div>
+
+    <div id="content"><p class="status">Loading…</p></div>
+
+    <script>
+      async function load() {
+        const content = document.getElementById("content");
+        content.innerHTML = '<p class="status">Loading…</p>';
+        try {
+          const res = await fetch("/api/analytics/summary");
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const d = await res.json();
+          render(d);
+        } catch (e) {
+          content.innerHTML = `<p class="status error">Error: ${e.message}</p>`;
+        }
+      }
+
+      function esc(s) {
+        return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      }
+
+      function barList(obj, maxItems) {
+        const entries = Object.entries(obj).slice(0, maxItems || 10);
+        if (!entries.length) return "<p style='color:#9ca3af;font-size:.85rem'>No data yet</p>";
+        const max = Math.max(...entries.map(([, v]) => v), 1);
+        return `<div class="bar-list">${entries.map(([k, v]) => `
+          <div class="bar-row">
+            <span class="key" title="${esc(k)}">${esc(k)}</span>
+            <div class="bar-track"><div class="bar-fill" style="width:${Math.round(v / max * 100)}%"></div></div>
+            <span class="count">${v}</span>
+          </div>`).join("")}</div>`;
+      }
+
+      function dailyChart(daily) {
+        const entries = Object.entries(daily);
+        if (!entries.length) return "<p style='color:#9ca3af;font-size:.85rem'>No data yet</p>";
+        const max = Math.max(...entries.map(([, v]) => v), 1);
+        return `<div class="daily-chart">${entries.map(([day, count]) => {
+          const pct = Math.max(Math.round(count / max * 100), 2);
+          const label = day.slice(5);
+          return `<div class="day-bar-wrap">
+            <div class="day-bar" style="height:${pct}%" title="${day}: ${count}"></div>
+            <span class="day-label">${label}</span>
+          </div>`;
+        }).join("")}</div>`;
+      }
+
+      function render(d) {
+        const completionColor = d.completion_rate_pct >= 50 ? "#1e4d35" : d.completion_rate_pct >= 25 ? "#b45309" : "#dc2626";
+
+        document.getElementById("content").innerHTML = `
+          <div class="grid">
+            <div class="card stat-card">
+              <div class="label">Total Events</div>
+              <div class="value">${d.total_events.toLocaleString()}</div>
+            </div>
+            <div class="card stat-card">
+              <div class="label">Stress Tests Run</div>
+              <div class="value">${d.stress_tests_submitted.toLocaleString()}</div>
+            </div>
+            <div class="card stat-card">
+              <div class="label">Reports Generated</div>
+              <div class="value">${d.stress_tests_completed.toLocaleString()}</div>
+            </div>
+            <div class="card stat-card">
+              <div class="label">Completion Rate</div>
+              <div class="value" style="color:${completionColor}">${d.completion_rate_pct}%</div>
+              <div class="sub">tests → reports</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Events by last 14 days</div>
+            <div class="card">${dailyChart(d.daily_events_last_14d)}</div>
+          </div>
+
+          <div class="two-col">
+            <div class="section">
+              <div class="section-title">Top Aspirations Selected</div>
+              <div class="card">${barList(d.top_aspirations_selected)}</div>
+            </div>
+            <div class="section">
+              <div class="section-title">Top Aspirations Completed</div>
+              <div class="card">${barList(d.top_aspirations_completed)}</div>
+            </div>
+          </div>
+
+          <div class="two-col">
+            <div class="section">
+              <div class="section-title">All Events Breakdown</div>
+              <div class="card">
+                <table class="event-table">
+                  <thead><tr><th>Event</th><th>Count</th></tr></thead>
+                  <tbody>${Object.entries(d.by_event).map(([k, v]) =>
+                    `<tr><td>${esc(k)}</td><td>${v.toLocaleString()}</td></tr>`
+                  ).join("") || '<tr><td colspan="2" style="color:#9ca3af">No events yet</td></tr>'}</tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section">
+              <div class="section-title">Confidence Distribution</div>
+              <div class="card">${barList(d.confidence_distribution)}</div>
+            </div>
+          </div>
+        `;
+      }
+
+      load();
+    </script>
+  </body>
+</html>

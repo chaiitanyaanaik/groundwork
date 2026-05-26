@@ -1,3 +1,14 @@
+function track(event, properties) {
+  try {
+    fetch("/api/analytics/event", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ event, properties: properties || {} }),
+      keepalive: true,
+    }).catch(() => {});
+  } catch (_) {}
+}
+
 const state = {
   step: 1,
   aspiration: null,
@@ -223,6 +234,7 @@ async function loadTransformations() {
 }
 
 function selectTransformation(a, clickedBtn) {
+  track("aspiration_selected", { aspiration_id: a.id, label: a.label, theme: a.theme });
   state.aspiration = a;
   $("#selected-aspiration-label").textContent = a.label.toLowerCase();
 
@@ -238,6 +250,7 @@ function selectTransformation(a, clickedBtn) {
 
 async function continueToCalibration() {
   if (!state.aspiration) return;
+  track("calibration_started", { aspiration_id: state.aspiration.id });
   showStep(2);
 }
 
@@ -947,6 +960,11 @@ async function runStressTest() {
     try {
       renderResults(data);
       $("#results").hidden = false;
+      track("stress_test_completed", {
+        aspiration_id: state.aspiration?.id,
+        confidence: data.confidence,
+        transformation_name: data.transformation_name,
+      });
     } catch (renderErr) {
       console.error(renderErr);
       $("#error-state").hidden = false;
@@ -955,9 +973,11 @@ async function runStressTest() {
   } catch (e) {
     $("#error-state").hidden = false;
     if (e.name === "AbortError") {
+      track("stress_test_failed", { aspiration_id: state.aspiration?.id, reason: "timeout" });
       $("#error-message").textContent =
         "Request timed out after 55 seconds. Check your network or set REALITY_CHECK_SKIP_LLM=1 in .env for instant results.";
     } else {
+      track("stress_test_failed", { aspiration_id: state.aspiration?.id, reason: e.message });
       $("#error-message").textContent = e.message || String(e);
     }
   } finally {
@@ -993,6 +1013,10 @@ function bindEvents() {
       aspiration_id: state.aspiration.id,
       org_profile: buildOrgProfile(e.target),
     };
+    track("stress_test_submitted", {
+      aspiration_id: state.aspiration.id,
+      label: state.aspiration.label,
+    });
     showStep(3);
     runStressTest();
   });
@@ -1010,7 +1034,10 @@ function bindEvents() {
   $("#feedback-thumb-down").addEventListener("click", () => selectFeedbackRating("down"));
   $("#feedback-submit").addEventListener("click", submitFeedback);
 
-  const resetFlow = () => {
+  const resetFlow = (source) => () => {
+    track(source === "try_another" ? "try_another" : "start_over", {
+      aspiration_id: state.aspiration?.id,
+    });
     state.aspiration = null;
     state.lastRequest = null;
     state.lastResult = null;
@@ -1026,12 +1053,13 @@ function bindEvents() {
     showStep(1);
   };
 
-  $("#start-over").addEventListener("click", resetFlow);
-  $("#try-another").addEventListener("click", resetFlow);
+  $("#start-over").addEventListener("click", resetFlow("start_over"));
+  $("#try-another").addEventListener("click", resetFlow("try_another"));
   $("#retry-stress-test").addEventListener("click", runStressTest);
 }
 
 async function init() {
+  track("page_view", { referrer: document.referrer || null });
   bindEvents();
   $("#wizard-panel").innerHTML =
     '<p class="loading-text">Choose a transformation to continue.</p>';
