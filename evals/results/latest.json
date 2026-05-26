@@ -1,0 +1,223 @@
+{
+  "generated_at": "20260526T114523Z",
+  "synthesis_mode": "fallback",
+  "judge_model": "gpt-4o-mini",
+  "thresholds": {
+    "overall_min": 3.8,
+    "dimension_min": 3
+  },
+  "results": [
+    {
+      "scenario_id": "experiment_exec_kill_pm",
+      "scenario_description": "PM wants experimentation with learning; exec deprioritizes tests; weekly priority chaos.",
+      "synthesis_path": "fallback",
+      "latency_seconds": 0.0,
+      "headline": "You want to experiment more without chaos, but Exec priority shift \u2014 experiment deprioritized \u2014 and with CEO / exec team, Weekly or more, you often see autonomy collapse under escalation.",
+      "gap_notice": null,
+      "verdict": {
+        "scenario_id": "experiment_exec_kill_pm",
+        "overall_score": 4.0,
+        "pass_recommendation": true,
+        "dimensions": [
+          {
+            "dimension": "mismatch_clarity",
+            "score": 5,
+            "evidence": "The headline clearly states the desire for experimentation without chaos and identifies the issue of exec priority shifts.",
+            "improvement": "No improvement needed."
+          },
+          {
+            "dimension": "calibration_use",
+            "score": 4,
+            "evidence": "The output reflects calibration answers like 'exec_override' and 'chaos_weekly' in the context of experimentation.",
+            "improvement": "Could include more specific references to other calibration answers."
+          },
+          {
+            "dimension": "actionability",
+            "score": 5,
+            "evidence": "Concrete actions such as standing up an experiment log and requiring insight briefs are clearly outlined.",
+            "improvement": "No improvement needed."
+          },
+          {
+            "dimension": "philosophy_grounding",
+            "score": 4,
+            "evidence": "The advice is tailored to the aspiration of increasing learning rather than just volume of experiments.",
+            "improvement": "Could further emphasize the learning aspect in all recommendations."
+          },
+          {
+            "dimension": "tone",
+            "score": 5,
+            "evidence": "The tone is empathetic and direct, addressing the challenges faced by the PM.",
+            "improvement": "No improvement needed."
+          },
+          {
+            "dimension": "evidence_hygiene",
+            "score": 5,
+            "evidence": "Sources are relevant and credible, with no visible artifacts.",
+            "improvement": "No improvement needed."
+          }
+        ],
+        "summary": "The output effectively addresses the user's aspiration for experimentation without chaos, providing clear actions and maintaining an empathetic tone. While it reflects calibration answers well, there is room for improvement in explicitly referencing more calibration points.",
+        "critical_issues": []
+      },
+      "output_snapshot": {
+        "confidence": "high",
+        "confidence_reason": "Strong match \u2014 5 grounded patterns for this philosophy and org",
+        "headline": "You want to experiment more without chaos, but Exec priority shift \u2014 experiment deprioritized \u2014 and with CEO / exec team, Weekly or more, you often see autonomy collapse under escalation.",
+        "transformation_name": "Experiment more without chaos",
+        "philosophy_label": "Experiment more without chaos",
+        "what_youre_trying_to_change": {
+          "goal": "More learning, not just more experiments.",
+          "operational_meaning": "Experimentation cultures often optimize for volume before learning compounds."
+        },
+        "environment_readiness": {
+          "supporting_conditions": [
+            "Clear intent: More learning, not just more experiments.",
+            "Org context (scaleup, medium, b2b) is known enough to tailor the operating model.",
+            "As PM or product lead, you can influence how experiment more without chaos shows up in weekly decisions."
+          ],
+          "resisting_conditions": [
+            "Your answers point to autonomy collapses under revenue or exec pressure.",
+            "Friction: CEO / exec team.",
+            "Friction: Weekly or more.",
+            "Friction: Decisions recentralize.",
+            "AI velocity outpaces design and governance"
+          ],
+          "readiness_summary": "The environment is not simply ready or unready. Intent is real, but Exec priority shift \u2014 experiment deprioritized, CEO / exec team, Weekly or more will shape how experiment more without chaos behaves when stakes rise."
+        },
+        "first_bottleneck": {
+          "bottleneck": "While pursuing high experimentation, teams operating with Exec priority shift \u2014 experiment deprioritized often hit uX-degrading growth hacks before there is a shared playbook for experiment throughput and learning.",
+          "what_teams_usually_do_next": "Teams often respond by pM/design capacity squeeze from eng velocity, which feels like responsible progress in the moment.",
+          "unintended_effect": "That frequently undermines high experimentation: inconsistent experiment quality, without anyone explicitly choosing it."
+        },
+        "likely_resistance": {
+          "patterns": [
+            "PM/design capacity squeeze from eng velocity",
+            "Controversial growth tests",
+            "Board AI mandate",
+            "Employee cynicism from mandates without tools",
+            "Stagnating DAU"
+          ]
+        },
+        "how_to_drive_change": {
+          "start_with": [
+            "Stand up a single experiment log: hypothesis, metric, owner, and kill date \u2014 especially when Decisions recentralize.",
+            "Require a one-page insight brief before any winning test scales; route learnings to adjacent teams weekly.",
+            "Cap concurrent experiments per squad so CEO / exec team does not deprioritize learning work every month."
+          ],
+          "avoid": [
+            "Do not turn the philosophy into a broad governance program before teams trust the behavior.",
+            "Do not add checkpoints for every edge case; start with the pressure points your answers surfaced.",
+            "Do not measure adoption by enthusiasm or stated agreement."
+          ],
+          "introduce_later": [
+            "Clear eng-week thresholds",
+            "Red line vs testable controversy framework",
+            "Executive AI office hours"
+          ]
+        },
+        "what_to_measure": {
+          "positive_signals": [
+            "Teams ship with the agreed experiment more without chaos bar without extra exec escalation.",
+            "Review exceptions decrease week over week while throughput holds.",
+            "Partners can name what must hold for experiment more without chaos under pressure."
+          ],
+          "warning_signs": [
+            "UX-degrading growth hacks",
+            "Inconsistent experiment quality",
+            "Deck-driven transformation",
+            "IT blocks exec tools"
+          ]
+        },
+        "when_to_course_correct": {
+          "course_correct_if": [
+            "The transformation starts creating the opposite effect.",
+            "Coordination overhead increases faster than velocity or quality improves.",
+            "Teams stop voluntarily following the new system.",
+            "The behavior implied by weekly or more becomes the default under pressure."
+          ],
+          "typical_adaptation": "You may need lighter-weight coordination and clearer pressure rules, not stricter governance."
+        },
+        "where_this_works_best": {
+          "conditions": [
+            "Clear eng-week thresholds",
+            "Red line vs testable controversy framework",
+            "Executive AI office hours"
+          ]
+        },
+        "your_version": {
+          "title": "Your version of Experiment more without chaos in a scaleup medium b2b org",
+          "keep": [
+            "Clear intent: More learning, not just more experiments.",
+            "Org context (scaleup, medium, b2b) is known enough to tailor the operating model.",
+            "Clear eng-week thresholds",
+            "Red line vs testable controversy framework"
+          ],
+          "modify": [
+            "You may need lighter-weight coordination and clearer pressure rules, not stricter governance.",
+            "Clear eng-week thresholds",
+            "Red line vs testable controversy framework"
+          ],
+          "add": [
+            "Stand up a single experiment log: hypothesis, metric, owner, and kill date \u2014 especially when Decisions recentralize.",
+            "Require a one-page insight brief before any winning test scales; route learnings to adjacent teams weekly.",
+            "Cap concurrent experiments per squad so CEO / exec team does not deprioritize learning work every month."
+          ],
+          "watch_for": [
+            "UX-degrading growth hacks",
+            "Inconsistent experiment quality",
+            "Deck-driven transformation",
+            "PM/design capacity squeeze from eng velocity",
+            "Controversial growth tests"
+          ]
+        },
+        "core_organizational_insight": "For a PM or product lead, high experimentation fails in execution when autonomy collapse under escalation when exec priority shift \u2014 experiment deprioritized \u2014 not because the aspiration is wrong.",
+        "synthesis_path": "fallback",
+        "sources": [
+          {
+            "intelligence_id": "rc_0037",
+            "pattern_name": "Engineers as mini-PMs under two eng-weeks",
+            "source_guest": "Amol Avasare",
+            "source_episode": "Anthropic's $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
+            "quote": "Engineers can own growth experiments under ~2 eng-weeks without PM\u2014faster iteration."
+          },
+          {
+            "intelligence_id": "rc_0125",
+            "pattern_name": "Exec daily use before change management",
+            "source_guest": "Dhanji R. Prasanna",
+            "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+            "quote": "Jack and exec team use agents daily\u2026 you can't mandate what you don't model."
+          }
+        ],
+        "sources_more": [
+          {
+            "intelligence_id": "rc_0004",
+            "pattern_name": "Explore-exploit at insight level",
+            "source_guest": "Albert Cheng",
+            "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+            "quote": "Macro explore/exploit is common; I work at insight level\u2026 game review cold patterns \u2192 +25% reviews, +20% subs."
+          },
+          {
+            "intelligence_id": "rc_0011",
+            "pattern_name": "Thousand experiments aspiration",
+            "source_guest": "Albert Cheng",
+            "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+            "quote": "Duolingo aspired to 1000 experiments a year\u2026 we did ~250 at Chess\u2014volume matters."
+          },
+          {
+            "intelligence_id": "rc_0192",
+            "pattern_name": "Same-day experiment loop",
+            "source_guest": "Grant Lee",
+            "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+            "quote": "Idea in morning, prototype, recruit users with zero skin in the game, ship by afternoon, watch struggle, fix by evening."
+          }
+        ],
+        "gap_notice": null,
+        "contradicting_philosophies": [
+          "Design-led"
+        ],
+        "aspiration_id": "experiment_without_chaos",
+        "philosophy_id": null
+      }
+    }
+  ]
+}

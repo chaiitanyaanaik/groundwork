@@ -1,0 +1,227 @@
+{
+  "philosophies": [
+    {
+      "id": "move_fast",
+      "label": "Move fast",
+      "tagline": "Speed is the strategy",
+      "emotional_subtitle": "Speed compounds learning.",
+      "operational_truth": "Fast orgs often discover that coordination slows down after shipping speeds increase.",
+      "user_facing_hook": "We want to move faster and ship daily with AI.",
+      "keywords": ["move fast", "ship daily", "velocity", "research preview", "speed", "ship"],
+      "meta_pattern_ids": [
+        "research_preview_shipping",
+        "eng_velocity_pm_design_bottleneck",
+        "operating_tempo_signal"
+      ],
+      "contradicting_philosophy_ids": ["design_led", "minimal_process", "evals_first_ai"]
+    },
+    {
+      "id": "empower_teams",
+      "label": "Empower teams",
+      "tagline": "Autonomy drives outcomes",
+      "emotional_subtitle": "Teams should own decisions.",
+      "operational_truth": "Empowered teams often lose autonomy during escalations.",
+      "user_facing_hook": "We want empowered teams that own decisions.",
+      "keywords": ["empower", "autonomy", "empowered teams", "ownership", "decentralize"],
+      "meta_pattern_ids": [
+        "barrel_throughput_limit",
+        "goals_principles_over_prd",
+        "influence_not_politics"
+      ],
+      "contradicting_philosophy_ids": ["founder_mode", "ai_first"]
+    },
+    {
+      "id": "ai_first",
+      "label": "AI-first org",
+      "tagline": "AI is the default operating model",
+      "emotional_subtitle": "AI changes how work happens.",
+      "operational_truth": "AI-first mandates often create shadow workflows before adoption catches up.",
+      "user_facing_hook": "We want to become an AI-first organization.",
+      "keywords": ["ai-first", "ai first", "ai transformation", "mandate", "ai native org"],
+      "meta_pattern_ids": [
+        "ai_first_mandate",
+        "ceo_ai_literacy_gate",
+        "joy_drives_adoption"
+      ],
+      "contradicting_philosophy_ids": ["design_led", "bottom_up_ai"]
+    },
+    {
+      "id": "founder_mode",
+      "label": "Founder mode",
+      "tagline": "Founder intensity at scale",
+      "emotional_subtitle": "Ownership should stay close to the founder.",
+      "operational_truth": "Founder intensity often centralizes decisions just when teams need room.",
+      "user_facing_hook": "We want founder mode — direct ownership and speed.",
+      "keywords": ["founder mode", "founder", "barrel", "hell or high water", "direct"],
+      "meta_pattern_ids": [
+        "barrel_throughput_limit",
+        "ceo_communicator_role",
+        "kill_to_build_trust"
+      ],
+      "contradicting_philosophy_ids": ["empower_teams", "minimal_process"]
+    },
+    {
+      "id": "high_experimentation",
+      "label": "High experimentation",
+      "tagline": "Learn faster than competitors",
+      "emotional_subtitle": "Learning beats planning.",
+      "operational_truth": "Experimentation cultures often optimize for volume before learning compounds.",
+      "user_facing_hook": "We want faster experimentation and more tests.",
+      "keywords": ["experimentation", "a/b", "experiments", "explore exploit", "growth tests"],
+      "meta_pattern_ids": [
+        "experimentation_theater",
+        "growth_safety_tiers",
+        "large_swing_growth"
+      ],
+      "contradicting_philosophy_ids": ["design_led"]
+    },
+    {
+      "id": "ai_native_pms",
+      "label": "AI-native PMs",
+      "tagline": "PMs who build, not coordinate",
+      "emotional_subtitle": "PMs should build, not broker.",
+      "operational_truth": "Builder PMs often become the bottleneck when everyone waits on one prototype.",
+      "user_facing_hook": "We want AI-native PMs who ship prototypes and tools.",
+      "keywords": ["ai-native pm", "builder pm", "pm build", "prototype", "internal tools"],
+      "meta_pattern_ids": [
+        "coordination_pm_obsolescence",
+        "cheap_code_judgment_qa_shift",
+        "build_internal_tools_not_meetings"
+      ],
+      "contradicting_philosophy_ids": ["minimal_process"]
+    },
+    {
+      "id": "design_led",
+      "label": "Design-led",
+      "tagline": "Cohesion over raw speed",
+      "emotional_subtitle": "Cohesion is a product advantage.",
+      "operational_truth": "Design-led teams often ship cohesion at the cost of iteration cycles.",
+      "user_facing_hook": "We want design-led product with unified experience.",
+      "keywords": ["design-led", "design bottleneck", "cohesion", "design approval", "taste"],
+      "meta_pattern_ids": [
+        "design_intentional_bottleneck",
+        "dont_trust_process"
+      ],
+      "contradicting_philosophy_ids": ["move_fast", "high_experimentation"]
+    },
+    {
+      "id": "minimal_process",
+      "label": "Minimal process",
+      "tagline": "Principles over paperwork",
+      "emotional_subtitle": "Clarity beats paperwork.",
+      "operational_truth": "Light process often leaves ambiguity where alignment used to live.",
+      "user_facing_hook": "We want minimal process — goals and principles, not heavy PRDs.",
+      "keywords": ["minimal prd", "kill prd", "principles", "goals", "lightweight process"],
+      "meta_pattern_ids": [
+        "goals_principles_over_prd",
+        "strategy_clarity_scarce"
+      ],
+      "contradicting_philosophy_ids": ["design_led", "founder_mode"]
+    },
+    {
+      "id": "product_led_growth",
+      "label": "Product-led growth",
+      "tagline": "Distribution through the product",
+      "emotional_subtitle": "The product should sell itself.",
+      "operational_truth": "PLG motions often stall when activation doesn't match the viral loop.",
+      "user_facing_hook": "We want to be product-led — self-serve growth, not sales-led.",
+      "keywords": ["plg", "product-led", "self-serve", "growth", "retention", "activation", "monetization"],
+      "meta_pattern_ids": [
+        "growth_safety_tiers",
+        "large_swing_growth",
+        "retention_over_day_one_paywall"
+      ],
+      "contradicting_philosophy_ids": ["design_led", "platform_org"]
+    },
+    {
+      "id": "influence_without_politics",
+      "label": "Influence without politics",
+      "tagline": "Alignment without manipulation",
+      "emotional_subtitle": "Alignment shouldn't require games.",
+      "operational_truth": "Alignment without politics often breaks under executive pressure.",
+      "user_facing_hook": "We want leaders to drive alignment and buy-in without politics.",
+      "keywords": ["influence", "stakeholder", "buy-in", "exec", "alignment", "politics", "pitch"],
+      "meta_pattern_ids": [
+        "influence_not_politics",
+        "hour_turnaround_exec_test",
+        "kill_to_build_trust"
+      ],
+      "contradicting_philosophy_ids": ["founder_mode", "minimal_process"]
+    },
+    {
+      "id": "high_performance_culture",
+      "label": "High performance",
+      "tagline": "Standards over comfort",
+      "emotional_subtitle": "Standards create momentum.",
+      "operational_truth": "High-performance cultures often trade psychological safety for short-term wins.",
+      "user_facing_hook": "We want a high-performance, winning culture at the company.",
+      "keywords": ["high performance", "winning", "standards", "wartime", "excellence", "accountability"],
+      "meta_pattern_ids": [
+        "high_performance_no_safety",
+        "crucible_profitability_pressure",
+        "operating_tempo_signal"
+      ],
+      "contradicting_philosophy_ids": ["empower_teams", "minimal_process"]
+    },
+    {
+      "id": "lean_constraints",
+      "label": "Lean constraints",
+      "tagline": "Scarcity creates clarity",
+      "emotional_subtitle": "Scarcity forces focus.",
+      "operational_truth": "Constraint-driven orgs often under-invest in the work that would unlock the next constraint.",
+      "user_facing_hook": "We want to stay lean — constraints and focus beat adding headcount.",
+      "keywords": ["lean", "understaffed", "constraints", "revenue per employee", "focus", "capital efficient"],
+      "meta_pattern_ids": [
+        "constraints_freedom",
+        "under_resource_force_focus",
+        "workforce_shed_rehire"
+      ],
+      "contradicting_philosophy_ids": ["high_experimentation", "platform_org"]
+    },
+    {
+      "id": "bottom_up_ai",
+      "label": "Bottom-up AI",
+      "tagline": "Teams find the use cases",
+      "emotional_subtitle": "Teams know their workflows best.",
+      "operational_truth": "Bottom-up AI discovery often loses to top-down urgency in planning cycles.",
+      "user_facing_hook": "We want bottom-up AI adoption — teams discover what works, not top-down mandates.",
+      "keywords": ["bottom-up", "empiricism", "pilot", "discovery", "grassroots", "adoption"],
+      "meta_pattern_ids": [
+        "openai_bottoms_up_empiricism",
+        "joy_drives_adoption",
+        "prototype_free_ideation"
+      ],
+      "contradicting_philosophy_ids": ["ai_first"]
+    },
+    {
+      "id": "evals_first_ai",
+      "label": "Evals-first AI",
+      "tagline": "Measure before you scale",
+      "emotional_subtitle": "Quality has to be measurable.",
+      "operational_truth": "Evals-first teams often ship slower while competitors ship and learn in production.",
+      "user_facing_hook": "We want rigorous evals and quality bars before shipping AI features.",
+      "keywords": ["evals", "evaluation", "quality", "production monitoring", "drift", "reliability"],
+      "meta_pattern_ids": [
+        "evals_production_duality",
+        "cheap_code_judgment_qa_shift",
+        "automation_100_reliability"
+      ],
+      "contradicting_philosophy_ids": ["move_fast", "ai_first"]
+    },
+    {
+      "id": "platform_org",
+      "label": "Platform org",
+      "tagline": "Shared infrastructure wins",
+      "emotional_subtitle": "Shared systems beat duplicated effort.",
+      "operational_truth": "Platform orgs often become bottlenecks when every team needs the same scarce team.",
+      "user_facing_hook": "We want a platform org — shared systems, not GM silos and fiefdoms.",
+      "keywords": ["platform", "fiefdom", "gm", "integration", "infrastructure", "shared services"],
+      "meta_pattern_ids": [
+        "gm_fiefdom_platform",
+        "platform_career_compound",
+        "dual_org_loonshots"
+      ],
+      "contradicting_philosophy_ids": ["founder_mode", "move_fast"]
+    }
+  ]
+}

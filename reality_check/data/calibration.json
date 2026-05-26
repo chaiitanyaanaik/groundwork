@@ -1,0 +1,1004 @@
+{
+  "questions": [
+    {
+      "id": "roadmap_override",
+      "prompt": "Who usually overrides the roadmap?",
+      "framing": "When plans change, who actually decides?",
+      "options": [
+        {
+          "id": "exec_override",
+          "label": "CEO / exec team",
+          "description": "Roadmap and priorities shift to the top of the house."
+        },
+        {
+          "id": "committee_override",
+          "label": "Committee or leadership group",
+          "description": "Alignment rituals replace local team judgment."
+        },
+        {
+          "id": "team_autonomy",
+          "label": "Teams mostly decide",
+          "description": "Teams keep deciding until pressure forces escalation."
+        }
+      ]
+    },
+    {
+      "id": "priority_chaos",
+      "prompt": "How often do top priorities shift?",
+      "framing": "Help us stress-test your philosophy against your cadence.",
+      "options": [
+        {
+          "id": "chaos_weekly",
+          "label": "Weekly or more",
+          "description": "Plans change faster than teams can absorb."
+        },
+        {
+          "id": "chaos_monthly",
+          "label": "Monthly",
+          "description": "Quarterly goals rarely survive the month."
+        },
+        {
+          "id": "stable_quarterly",
+          "label": "Quarterly or slower",
+          "description": "Direction holds until an exception breaks it."
+        }
+      ]
+    },
+    {
+      "id": "revenue_pressure",
+      "prompt": "What happens when revenue or growth misses?",
+      "framing": "Under pressure, orgs behave differently than their values say.",
+      "options": [
+        {
+          "id": "recentralize",
+          "label": "Decisions recentralize",
+          "description": "Control moves upward to manage perceived risk."
+        },
+        {
+          "id": "cut_experiments",
+          "label": "Experiments and bets get cut",
+          "description": "Innovation is sidelined for immediate survival."
+        },
+        {
+          "id": "layoffs",
+          "label": "Headcount reductions",
+          "description": "Cost-cutting measures focus on talent overhead."
+        },
+        {
+          "id": "double_down",
+          "label": "Double down on current bets",
+          "description": "Rigidity increases as current paths are prioritized."
+        }
+      ]
+    },
+    {
+      "id": "bottleneck",
+      "prompt": "Where does work most often stall?",
+      "framing": "Where is the binding constraint today?",
+      "options": [
+        {
+          "id": "design_gate",
+          "label": "Design approval",
+          "description": "Shipping waits on taste and approval cycles."
+        },
+        {
+          "id": "eng_capacity",
+          "label": "Engineering capacity",
+          "description": "Backlog depth sets the real clock speed."
+        },
+        {
+          "id": "exec_calendar",
+          "label": "Exec review / calendar",
+          "description": "Calendar density becomes the bottleneck."
+        },
+        {
+          "id": "compliance",
+          "label": "Compliance / legal / security",
+          "description": "Risk review slows anything customer-visible."
+        },
+        {
+          "id": "none_clear",
+          "label": "No clear bottleneck",
+          "description": "Work stalls in different places each sprint."
+        }
+      ]
+    },
+    {
+      "id": "ai_reality",
+      "prompt": "What's your org's AI reality today?",
+      "framing": "AI changes which philosophies actually work.",
+      "options": [
+        {
+          "id": "ai_mandate",
+          "label": "AI-first mandate from leadership",
+          "description": "Mandates outpace workflow redesign on the ground."
+        },
+        {
+          "id": "ai_pilot",
+          "label": "Pilots and pockets of adoption",
+          "description": "Pockets adopt; the core operating model stays human-paced."
+        },
+        {
+          "id": "eng_led_ai",
+          "label": "Engineering-led AI shipping",
+          "description": "Engineering ships AI features ahead of org-wide adoption."
+        },
+        {
+          "id": "ai_skeptical",
+          "label": "Skeptical or slow adoption",
+          "description": "Caution slows investment in production AI paths."
+        }
+      ]
+    },
+    {
+      "id": "move_fast_quality_bar",
+      "prompt": "How much quality or cohesion review happens before ship?",
+      "framing": "Stress-testing move fast against your actual ship bar.",
+      "options": [
+        {
+          "id": "ship_minimal_review",
+          "label": "Ship with minimal review \u2014 speed first",
+          "description": "How this shows up when \"ship with minimal review \u2014 speed first\" is the norm."
+        },
+        {
+          "id": "review_lightweight",
+          "label": "Lightweight review on high-blast-radius only",
+          "description": "How this shows up when \"lightweight review on high-blast-radius only\" is the norm."
+        },
+        {
+          "id": "review_heavy",
+          "label": "Heavy review \u2014 design, eng, exec sign-off",
+          "description": "How this shows up when \"heavy review \u2014 design, eng, exec sign-off\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "empower_autonomy_reality",
+      "prompt": "How often do teams truly own outcomes vs. get overridden?",
+      "framing": "Stress-testing empowered teams against who actually decides.",
+      "options": [
+        {
+          "id": "teams_own_most",
+          "label": "Teams own most outcomes end-to-end",
+          "description": "How this shows up when \"teams own most outcomes end-to-end\" is the norm."
+        },
+        {
+          "id": "own_until_pressure",
+          "label": "Own until revenue or exec pressure hits",
+          "description": "How this shows up when \"own until revenue or exec pressure hits\" is the norm."
+        },
+        {
+          "id": "mostly_overridden",
+          "label": "Mostly overridden \u2014 exec or committee decides",
+          "description": "How this shows up when \"mostly overridden \u2014 exec or committee decides\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "ai_first_priority_setting",
+      "prompt": "Who sets AI priorities in your org?",
+      "framing": "Stress-testing AI-first against how mandates actually land.",
+      "options": [
+        {
+          "id": "central_ai_mandate",
+          "label": "Central mandate from leadership",
+          "description": "How this shows up when \"central mandate from leadership\" is the norm."
+        },
+        {
+          "id": "function_led_ai",
+          "label": "Each function sets its own AI bets",
+          "description": "How this shows up when \"each function sets its own ai bets\" is the norm."
+        },
+        {
+          "id": "team_choice_ai",
+          "label": "Teams choose \u2014 no single mandate",
+          "description": "How this shows up when \"teams choose \u2014 no single mandate\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "founder_barrel_count",
+      "prompt": "How many people truly own outcomes end-to-end (barrels)?",
+      "framing": "Stress-testing founder mode against throughput reality.",
+      "options": [
+        {
+          "id": "barrels_many",
+          "label": "Several \u2014 parallel initiatives have owners",
+          "description": "How this shows up when \"several \u2014 parallel initiatives have owners\" is the norm."
+        },
+        {
+          "id": "barrels_few",
+          "label": "A few \u2014 most work routes through them",
+          "description": "How this shows up when \"a few \u2014 most work routes through them\" is the norm."
+        },
+        {
+          "id": "barrels_one",
+          "label": "Really one or two \u2014 founder/exec bottleneck",
+          "description": "How this shows up when \"really one or two \u2014 founder/exec bottleneck\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "experiment_kill_pattern",
+      "prompt": "What usually kills or ignores an experiment?",
+      "framing": "Stress-testing experimentation culture against what actually stops learning.",
+      "options": [
+        {
+          "id": "kill_exec_priority",
+          "label": "Exec priority shift \u2014 experiment deprioritized",
+          "description": "How this shows up when \"exec priority shift \u2014 experiment deprioritized\" is the norm."
+        },
+        {
+          "id": "kill_no_insight",
+          "label": "Runs but insights don't propagate",
+          "description": "How this shows up when \"runs but insights don't propagate\" is the norm."
+        },
+        {
+          "id": "kill_risk_aversion",
+          "label": "Risk aversion \u2014 hard to get approval to start",
+          "description": "How this shows up when \"risk aversion \u2014 hard to get approval to start\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "ai_native_pm_time_split",
+      "prompt": "What share of PM time is building vs. coordinating?",
+      "framing": "Stress-testing AI-native PMs against the actual job.",
+      "options": [
+        {
+          "id": "pm_mostly_build",
+          "label": "Mostly building \u2014 prototypes, tools, specs in code",
+          "description": "How this shows up when \"mostly building \u2014 prototypes, tools, specs in code\" is the norm."
+        },
+        {
+          "id": "pm_split",
+          "label": "Split \u2014 some build, heavy alignment still",
+          "description": "How this shows up when \"split \u2014 some build, heavy alignment still\" is the norm."
+        },
+        {
+          "id": "pm_mostly_coordinate",
+          "label": "Mostly coordinating \u2014 meetings, status, handoffs",
+          "description": "How this shows up when \"mostly coordinating \u2014 meetings, status, handoffs\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "design_led_gate_role",
+      "prompt": "Is design a gate, a partner, or bypassed under pressure?",
+      "framing": "Stress-testing design-led cohesion against pressure behavior.",
+      "options": [
+        {
+          "id": "design_intentional_gate",
+          "label": "Intentional gate \u2014 cohesion over raw speed",
+          "description": "How this shows up when \"intentional gate \u2014 cohesion over raw speed\" is the norm."
+        },
+        {
+          "id": "design_partner",
+          "label": "Partner \u2014 involved early, not blocking everything",
+          "description": "How this shows up when \"partner \u2014 involved early, not blocking everything\" is the norm."
+        },
+        {
+          "id": "design_bypassed",
+          "label": "Bypassed when deadlines hit \u2014 ship anyway",
+          "description": "How this shows up when \"bypassed when deadlines hit \u2014 ship anyway\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "minimal_process_weight",
+      "prompt": "How heavy is planning and review vs. principles-only?",
+      "framing": "Stress-testing minimal process against actual coordination load.",
+      "options": [
+        {
+          "id": "process_light",
+          "label": "Light \u2014 goals and principles, little paperwork",
+          "description": "How this shows up when \"light \u2014 goals and principles, little paperwork\" is the norm."
+        },
+        {
+          "id": "process_moderate",
+          "label": "Moderate \u2014 PRDs/reviews on big bets only",
+          "description": "How this shows up when \"moderate \u2014 prds/reviews on big bets only\" is the norm."
+        },
+        {
+          "id": "process_heavy",
+          "label": "Heavy \u2014 docs, approvals, alignment rituals",
+          "description": "How this shows up when \"heavy \u2014 docs, approvals, alignment rituals\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "plg_growth_motion",
+      "prompt": "Is growth primarily product/self-serve or sales-led?",
+      "framing": "Stress-testing product-led growth against your GTM reality.",
+      "options": [
+        {
+          "id": "plg_primary",
+          "label": "Primarily PLG \u2014 product drives activation and expansion",
+          "description": "How this shows up when \"primarily plg \u2014 product drives activation and expansion\" is the norm."
+        },
+        {
+          "id": "plg_hybrid",
+          "label": "Hybrid \u2014 product plus sales assist",
+          "description": "How this shows up when \"hybrid \u2014 product plus sales assist\" is the norm."
+        },
+        {
+          "id": "sales_led",
+          "label": "Sales-led \u2014 product supports deals",
+          "description": "How this shows up when \"sales-led \u2014 product supports deals\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "influence_decision_path",
+      "prompt": "How do big decisions actually get made?",
+      "framing": "Stress-testing influence without politics against decision mechanics.",
+      "options": [
+        {
+          "id": "decide_exec_direct",
+          "label": "Exec decides \u2014 others align afterward",
+          "description": "How this shows up when \"exec decides \u2014 others align afterward\" is the norm."
+        },
+        {
+          "id": "decide_stakeholder_map",
+          "label": "Stakeholder map \u2014 influence and timing matter",
+          "description": "How this shows up when \"stakeholder map \u2014 influence and timing matter\" is the norm."
+        },
+        {
+          "id": "decide_consensus",
+          "label": "Consensus \u2014 committee or broad alignment",
+          "description": "How this shows up when \"consensus \u2014 committee or broad alignment\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "high_perf_safety_tradeoff",
+      "prompt": "What happens to psychological safety when goals slip?",
+      "framing": "Stress-testing high-performance culture under miss.",
+      "options": [
+        {
+          "id": "safety_holds",
+          "label": "Standards rise but safety mostly holds",
+          "description": "How this shows up when \"standards rise but safety mostly holds\" is the norm."
+        },
+        {
+          "id": "safety_erodes",
+          "label": "Blame surfaces \u2014 safety erodes under pressure",
+          "description": "How this shows up when \"blame surfaces \u2014 safety erodes under pressure\" is the norm."
+        },
+        {
+          "id": "safety_already_low",
+          "label": "Already low \u2014 winning is the main norm",
+          "description": "How this shows up when \"already low \u2014 winning is the main norm\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "lean_headcount_stance",
+      "prompt": "If budget allowed tomorrow, would you add headcount?",
+      "framing": "Stress-testing lean constraints against hiring reflex.",
+      "options": [
+        {
+          "id": "lean_no_hire",
+          "label": "No \u2014 constraints force focus; stay lean",
+          "description": "How this shows up when \"no \u2014 constraints force focus; stay lean\" is the norm."
+        },
+        {
+          "id": "lean_selective",
+          "label": "Selective \u2014 only clear bottlenecks",
+          "description": "How this shows up when \"selective \u2014 only clear bottlenecks\" is the norm."
+        },
+        {
+          "id": "lean_would_hire",
+          "label": "Yes \u2014 we're under-resourced today",
+          "description": "How this shows up when \"yes \u2014 we're under-resourced today\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "bottom_up_ai_sources",
+      "prompt": "Where do winning AI use cases come from today?",
+      "framing": "Stress-testing bottom-up AI against how adoption actually spreads.",
+      "options": [
+        {
+          "id": "ai_from_teams",
+          "label": "Teams discover and spread what works",
+          "description": "How this shows up when \"teams discover and spread what works\" is the norm."
+        },
+        {
+          "id": "ai_from_eng",
+          "label": "Engineering-led \u2014 eng ships first",
+          "description": "How this shows up when \"engineering-led \u2014 eng ships first\" is the norm."
+        },
+        {
+          "id": "ai_from_top",
+          "label": "Top-down mandate \u2014 teams implement",
+          "description": "How this shows up when \"top-down mandate \u2014 teams implement\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "evals_ship_order",
+      "prompt": "Do you ship AI features before evals and monitoring exist?",
+      "framing": "Stress-testing evals-first against shipping pressure.",
+      "options": [
+        {
+          "id": "evals_before_ship",
+          "label": "Evals and monitoring before scale",
+          "description": "How this shows up when \"evals and monitoring before scale\" is the norm."
+        },
+        {
+          "id": "evals_parallel",
+          "label": "Parallel \u2014 ship to small cohort with evals catching up",
+          "description": "How this shows up when \"parallel \u2014 ship to small cohort with evals catching up\" is the norm."
+        },
+        {
+          "id": "evals_after_ship",
+          "label": "Ship first \u2014 evals backfill under pressure",
+          "description": "How this shows up when \"ship first \u2014 evals backfill under pressure\" is the norm."
+        }
+      ]
+    },
+    {
+      "id": "platform_silo_reality",
+      "prompt": "Do teams share platform or run GM-style silos?",
+      "framing": "Stress-testing platform org against integration reality.",
+      "options": [
+        {
+          "id": "platform_shared",
+          "label": "Shared platform \u2014 common infra and standards",
+          "description": "How this shows up when \"shared platform \u2014 common infra and standards\" is the norm."
+        },
+        {
+          "id": "platform_partial",
+          "label": "Partial \u2014 some shared, some fiefdoms",
+          "description": "How this shows up when \"partial \u2014 some shared, some fiefdoms\" is the norm."
+        },
+        {
+          "id": "platform_fiefdoms",
+          "label": "GM fiefdoms \u2014 integration is political",
+          "description": "How this shows up when \"gm fiefdoms \u2014 integration is political\" is the norm."
+        }
+      ]
+    }
+  ],
+  "option_tags": {
+    "exec_override": [
+      "exec",
+      "ceo",
+      "top-down",
+      "recentralize",
+      "override",
+      "calendar"
+    ],
+    "committee_override": [
+      "committee",
+      "alignment",
+      "consensus",
+      "slow"
+    ],
+    "team_autonomy": [
+      "autonomy",
+      "empower",
+      "team",
+      "decentralize",
+      "self-organize"
+    ],
+    "chaos_weekly": [
+      "weekly",
+      "chaos",
+      "priority",
+      "shift",
+      "firefighting"
+    ],
+    "chaos_monthly": [
+      "monthly",
+      "pivot",
+      "replan",
+      "priority"
+    ],
+    "stable_quarterly": [
+      "quarterly",
+      "roadmap",
+      "planning",
+      "stable"
+    ],
+    "recentralize": [
+      "recentralize",
+      "exec",
+      "control",
+      "override",
+      "pressure",
+      "revenue"
+    ],
+    "cut_experiments": [
+      "experiment",
+      "cut",
+      "budget",
+      "explore",
+      "bet"
+    ],
+    "layoffs": [
+      "layoff",
+      "headcount",
+      "workforce",
+      "reduction",
+      "shed"
+    ],
+    "double_down": [
+      "double down",
+      "focus",
+      "commit",
+      "all-in"
+    ],
+    "design_gate": [
+      "design",
+      "bottleneck",
+      "approval",
+      "cohesion",
+      "gate"
+    ],
+    "eng_capacity": [
+      "engineering",
+      "eng",
+      "velocity",
+      "ship",
+      "capacity"
+    ],
+    "exec_calendar": [
+      "exec calendar",
+      "strobe",
+      "review",
+      "approval",
+      "buy-in"
+    ],
+    "compliance": [
+      "compliance",
+      "legal",
+      "security",
+      "governance",
+      "regulated"
+    ],
+    "none_clear": [
+      "flow",
+      "throughput"
+    ],
+    "ai_mandate": [
+      "ai-first",
+      "mandate",
+      "non-debatable",
+      "transformation"
+    ],
+    "ai_pilot": [
+      "pilot",
+      "pocket",
+      "experiment",
+      "adoption"
+    ],
+    "eng_led_ai": [
+      "eng-led",
+      "engineering",
+      "ship",
+      "agent",
+      "codex",
+      "velocity"
+    ],
+    "ai_skeptical": [
+      "skeptic",
+      "slow",
+      "resist",
+      "caution",
+      "humanity"
+    ],
+    "ship_minimal_review": [
+      "velocity",
+      "ship",
+      "research preview",
+      "speed"
+    ],
+    "review_lightweight": [
+      "blast-radius",
+      "review",
+      "tier"
+    ],
+    "review_heavy": [
+      "design",
+      "approval",
+      "cohesion",
+      "gate",
+      "slow"
+    ],
+    "teams_own_most": [
+      "autonomy",
+      "empower",
+      "ownership",
+      "decentralize"
+    ],
+    "own_until_pressure": [
+      "recentralize",
+      "pressure",
+      "override",
+      "autonomy"
+    ],
+    "mostly_overridden": [
+      "exec",
+      "override",
+      "top-down",
+      "committee"
+    ],
+    "central_ai_mandate": [
+      "ai-first",
+      "mandate",
+      "transformation"
+    ],
+    "function_led_ai": [
+      "pilot",
+      "pocket",
+      "function"
+    ],
+    "team_choice_ai": [
+      "bottom-up",
+      "empiricism",
+      "grassroots"
+    ],
+    "barrels_many": [
+      "barrel",
+      "parallel",
+      "throughput",
+      "owner"
+    ],
+    "barrels_few": [
+      "barrel",
+      "bottleneck",
+      "founder"
+    ],
+    "barrels_one": [
+      "founder",
+      "exec",
+      "bottleneck",
+      "serial"
+    ],
+    "kill_exec_priority": [
+      "priority",
+      "exec",
+      "cut",
+      "experiment"
+    ],
+    "kill_no_insight": [
+      "experimentation theater",
+      "insight",
+      "learning"
+    ],
+    "kill_risk_aversion": [
+      "risk",
+      "approval",
+      "slow",
+      "experiment"
+    ],
+    "pm_mostly_build": [
+      "builder pm",
+      "prototype",
+      "build",
+      "internal tools"
+    ],
+    "pm_split": [
+      "coordination",
+      "pm",
+      "alignment"
+    ],
+    "pm_mostly_coordinate": [
+      "coordination",
+      "meeting",
+      "status",
+      "handoff"
+    ],
+    "design_intentional_gate": [
+      "design",
+      "bottleneck",
+      "cohesion",
+      "gate"
+    ],
+    "design_partner": [
+      "design",
+      "partner",
+      "early"
+    ],
+    "design_bypassed": [
+      "shadow",
+      "ship",
+      "pressure",
+      "frankenstein"
+    ],
+    "process_light": [
+      "principles",
+      "goals",
+      "minimal prd",
+      "lightweight"
+    ],
+    "process_moderate": [
+      "prd",
+      "review",
+      "big bets"
+    ],
+    "process_heavy": [
+      "process",
+      "approval",
+      "alignment",
+      "doc"
+    ],
+    "plg_primary": [
+      "plg",
+      "self-serve",
+      "product-led",
+      "activation"
+    ],
+    "plg_hybrid": [
+      "hybrid",
+      "sales",
+      "product"
+    ],
+    "sales_led": [
+      "sales",
+      "enterprise",
+      "deal"
+    ],
+    "decide_exec_direct": [
+      "exec",
+      "top-down",
+      "override"
+    ],
+    "decide_stakeholder_map": [
+      "influence",
+      "stakeholder",
+      "buy-in",
+      "timing"
+    ],
+    "decide_consensus": [
+      "committee",
+      "consensus",
+      "alignment",
+      "slow"
+    ],
+    "safety_holds": [
+      "psychological safety",
+      "standards",
+      "performance"
+    ],
+    "safety_erodes": [
+      "blame",
+      "pressure",
+      "winning",
+      "safety"
+    ],
+    "safety_already_low": [
+      "high performance",
+      "winning",
+      "wartime"
+    ],
+    "lean_no_hire": [
+      "lean",
+      "constraints",
+      "revenue per employee",
+      "focus"
+    ],
+    "lean_selective": [
+      "bottleneck",
+      "hire",
+      "selective"
+    ],
+    "lean_would_hire": [
+      "under-resourced",
+      "headcount",
+      "capacity"
+    ],
+    "ai_from_teams": [
+      "bottom-up",
+      "team",
+      "discovery",
+      "adoption"
+    ],
+    "ai_from_eng": [
+      "eng-led",
+      "engineering",
+      "ship",
+      "velocity"
+    ],
+    "ai_from_top": [
+      "mandate",
+      "top-down",
+      "ai-first"
+    ],
+    "evals_before_ship": [
+      "evals",
+      "evaluation",
+      "monitoring",
+      "quality"
+    ],
+    "evals_parallel": [
+      "pilot",
+      "cohort",
+      "evals"
+    ],
+    "evals_after_ship": [
+      "ship",
+      "pressure",
+      "drift",
+      "production"
+    ],
+    "platform_shared": [
+      "platform",
+      "integration",
+      "shared",
+      "infrastructure"
+    ],
+    "platform_partial": [
+      "fiefdom",
+      "partial",
+      "integration"
+    ],
+    "platform_fiefdoms": [
+      "gm",
+      "fiefdom",
+      "silo",
+      "political"
+    ]
+  },
+  "distortion_profiles": [
+    {
+      "id": "autonomy_collapse_under_pressure",
+      "label": "Autonomy collapses under revenue or exec pressure",
+      "required_tags": [
+        "recentralize"
+      ],
+      "boost_tags": [
+        "exec_override",
+        "chaos_monthly",
+        "chaos_weekly"
+      ],
+      "collapse_pattern": "Autonomy collapse under escalation"
+    },
+    {
+      "id": "ai_velocity_vs_governance",
+      "label": "AI velocity outpaces design and governance",
+      "required_tags": [
+        "ai_mandate"
+      ],
+      "boost_tags": [
+        "design_gate",
+        "eng_led_ai",
+        "compliance"
+      ],
+      "collapse_pattern": "AI speed creates review and governance bottlenecks"
+    },
+    {
+      "id": "experimentation_theater_risk",
+      "label": "Experiment volume without learning propagation",
+      "required_tags": [
+        "cut_experiments"
+      ],
+      "boost_tags": [
+        "chaos_monthly",
+        "recentralize"
+      ],
+      "collapse_pattern": "Experimentation theater without insight propagation"
+    },
+    {
+      "id": "coordination_pm_trap",
+      "label": "PM layer stuck in coordination as build cost drops",
+      "required_tags": [
+        "eng_led_ai"
+      ],
+      "boost_tags": [
+        "exec_calendar",
+        "chaos_weekly"
+      ],
+      "collapse_pattern": "PMs collapse into coordinators when build cost drops"
+    },
+    {
+      "id": "barrel_throughput_ceiling",
+      "label": "Parallel initiatives exceed outcome-owning operators",
+      "required_tags": [
+        "exec_override"
+      ],
+      "boost_tags": [
+        "chaos_weekly",
+        "double_down"
+      ],
+      "collapse_pattern": "Barrels cap parallel initiative throughput"
+    },
+    {
+      "id": "success_disaster_firefight",
+      "label": "Growth success consumes leadership in firefighting",
+      "required_tags": [
+        "chaos_weekly"
+      ],
+      "boost_tags": [
+        "double_down",
+        "recentralize"
+      ],
+      "collapse_pattern": "Success disasters consume growth leadership"
+    },
+    {
+      "id": "speed_cohesion_clash",
+      "label": "Speed mandate collides with cohesion and review gates",
+      "required_tags": [
+        "review_heavy"
+      ],
+      "boost_tags": [
+        "design_gate",
+        "chaos_weekly"
+      ],
+      "collapse_pattern": "Preserved design process becomes liability under eng velocity"
+    },
+    {
+      "id": "empowerment_theater",
+      "label": "Empowerment rhetoric without decision rights",
+      "required_tags": [
+        "mostly_overridden"
+      ],
+      "boost_tags": [
+        "exec_override",
+        "recentralize"
+      ],
+      "collapse_pattern": "Autonomy collapse under escalation"
+    },
+    {
+      "id": "pm_coordination_trap_phil",
+      "label": "PM role remains coordination-heavy despite builder aspiration",
+      "required_tags": [
+        "pm_mostly_coordinate"
+      ],
+      "boost_tags": [
+        "eng_led_ai",
+        "exec_calendar"
+      ],
+      "collapse_pattern": "PMs collapse into coordinators when build cost drops"
+    },
+    {
+      "id": "experimentation_theater_phil",
+      "label": "Experiments run but learning does not propagate",
+      "required_tags": [
+        "kill_no_insight"
+      ],
+      "boost_tags": [
+        "cut_experiments",
+        "chaos_monthly"
+      ],
+      "collapse_pattern": "Experimentation theater without insight propagation"
+    },
+    {
+      "id": "evals_afterthought",
+      "label": "AI ships before eval and monitoring discipline exists",
+      "required_tags": [
+        "evals_after_ship"
+      ],
+      "boost_tags": [
+        "ai_mandate",
+        "chaos_weekly"
+      ],
+      "collapse_pattern": "Cheap code shifts the bottleneck to judgment and verification"
+    },
+    {
+      "id": "platform_fiefdom_block",
+      "label": "GM silos block platform integration",
+      "required_tags": [
+        "platform_fiefdoms"
+      ],
+      "boost_tags": [
+        "exec_override",
+        "committee_override"
+      ],
+      "collapse_pattern": "GM fiefdoms block platform integration"
+    },
+    {
+      "id": "mandate_vs_grassroots_ai",
+      "label": "Top-down AI mandate fights bottom-up discovery",
+      "required_tags": [
+        "ai_from_top"
+      ],
+      "boost_tags": [
+        "central_ai_mandate"
+      ],
+      "collapse_pattern": "Joy unlocks AI adoption more than mandates"
+    }
+  ]
+}

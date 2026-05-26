@@ -1,0 +1,3106 @@
+[
+  {
+    "pattern_name": "Big data before bigger models",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "These models don't have data to be trained on\u2026 human learning is a big data learning process\u2026 ImageNet + neural network + GPU was the golden recipe.",
+    "category": "AI research strategy",
+    "core_belief": "Capability gaps are often data gaps before architecture gaps.",
+    "operational_pattern": "Invest in curated benchmarkable datasets that force the field to measure progress on hard perceptual tasks.",
+    "organizational_archetype": "Research lab or frontier AI company on scaling laws",
+    "hidden_assumptions": [
+      "Label quality and taxonomy matter as much as volume",
+      "Community adopts shared benchmarks",
+      "Compute remains available"
+    ],
+    "pressure_scenarios": [
+      "AI winter skepticism",
+      "Funding droughts",
+      "Public backlash on AI branding"
+    ],
+    "failure_modes": [
+      "Models without representative training distribution",
+      "AGI marketing as scientific plan",
+      "Underestimating non-language intelligence"
+    ],
+    "contradictions": [
+      "Scale-more-data vs need for world models",
+      "AI optimism vs societal risk"
+    ],
+    "behavioral_signals": [
+      "Researchers obsess over architecture while ignoring data",
+      "Companies avoid AI label until market flips"
+    ],
+    "emotional_political_dynamics": [
+      "Pride in audacious questions",
+      "Frustration when society assigns breakthroughs to lone heroes"
+    ],
+    "operational_adaptations": [
+      "Pair scaling with domain-specific datasets where LLMs plateau"
+    ],
+    "ai_era_implications": [
+      "Data supply chains remain strategic; world models may be next bottleneck after text"
+    ]
+  },
+  {
+    "pattern_name": "Human-centered AI as operating constitution",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "AI is a civilization-level technology\u2026 we need a guiding framework anchored in human benevolence.",
+    "category": "AI governance",
+    "core_belief": "Technology outcomes are chosen by people, not predetermined by models.",
+    "operational_pattern": "Institutionalize policy bootcamps, public reporting (AI Index), and legislative engagement alongside research.",
+    "organizational_archetype": "University-linked institute or platform company with public trust exposure",
+    "hidden_assumptions": [
+      "Leaders act responsibly",
+      "Policy can keep pace",
+      "Cross-disciplinary coalition is fundable"
+    ],
+    "pressure_scenarios": [
+      "Regulatory fragmentation",
+      "Job displacement narratives",
+      "Race-to-AGI hype"
+    ],
+    "failure_modes": [
+      "Ethics theater without product constraints",
+      "Researchers disengage from deployment",
+      "Policy lag creates backlash freezes"
+    ],
+    "contradictions": [
+      "Move fast on capabilities vs slow governance",
+      "Optimism about net benefit vs preventing societal screw-ups"
+    ],
+    "behavioral_signals": [
+      "Teams ship without workforce impact analysis",
+      "AI for good without internal review loops"
+    ],
+    "emotional_political_dynamics": [
+      "Moral urgency",
+      "Fear of blame for harms not individually caused"
+    ],
+    "operational_adaptations": [
+      "Embed human-impact review in consumer AI launch criteria"
+    ],
+    "ai_era_implications": [
+      "PMs need societal-impact fluency; evals include harm and labor dimensions"
+    ]
+  },
+  {
+    "pattern_name": "World models after language scaling ceiling",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "LLMs can't count chairs in video like a toddler\u2026 need world models for spatial intelligence; scaling alone insufficient.",
+    "category": "AI research strategy",
+    "core_belief": "Language scaling hits perceptual/spatial ceilings; next innovations are multimodal world models.",
+    "operational_pattern": "Invest in spatial AI while maintaining human-centered policy; don't conflate AGI marketing with science.",
+    "organizational_archetype": "Research lab plus startup spinning world models",
+    "hidden_assumptions": [
+      "World model data collectible at scale",
+      "Robotics integrates spatial AI",
+      "Public funds policy engagement"
+    ],
+    "pressure_scenarios": [
+      "Investor AGI hype timelines",
+      "Talent drain to LLM labs",
+      "Safety debates on embodied AI"
+    ],
+    "failure_modes": [
+      "Ignoring spatial evals on chat-only roadmaps",
+      "Robotics demos without data flywheel"
+    ],
+    "contradictions": [
+      "ChatGPT as thinking machine vs incomplete spatial reasoning"
+    ],
+    "behavioral_signals": [
+      "Models fail simple visual counting",
+      "Robotics teams starved of data"
+    ],
+    "emotional_political_dynamics": [
+      "Scientist frustration at AGI definitional chaos"
+    ],
+    "operational_adaptations": [
+      "Product teams add visual/spatial eval suites"
+    ],
+    "ai_era_implications": [
+      "PMs in physical-world products should track world-model stack not only LLM APIs"
+    ]
+  },
+  {
+    "pattern_name": "Societal adoption gates deployment",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "Industry underestimates societal pushback on AI; humanity dictates adoption more than technology capability.",
+    "category": "AI philosophy",
+    "core_belief": "Deployment is bounded by human comfort and adoption curves, not lab capability alone.",
+    "operational_pattern": "Prioritize human-centered adoption design; expect pushback; align product with societal acceptance.",
+    "organizational_archetype": "Consumer platform with long human-interaction thesis",
+    "hidden_assumptions": [
+      "Tech leaders assume blind adoption",
+      "Societal pushback underrated in roadmaps"
+    ],
+    "pressure_scenarios": [
+      "AI feature rollout",
+      "Regulatory scrutiny",
+      "Parent/teen screen norms"
+    ],
+    "failure_modes": [
+      "Deploying features users reject",
+      "Trust erosion from creepy AI"
+    ],
+    "contradictions": [
+      "Internal AI enthusiasm vs consumer social realism"
+    ],
+    "behavioral_signals": [
+      "Kids screen policies by age",
+      "AR anchored in world not HUD notifications"
+    ],
+    "emotional_political_dynamics": [
+      "Lab optimism vs consumer realism"
+    ],
+    "operational_adaptations": [
+      "Agent workflows anchored to real jobs-to-be-done"
+    ],
+    "ai_era_implications": [
+      "Societal adoption becomes primary gating function for consumer AI features"
+    ]
+  },
+  {
+    "pattern_name": "North star scientific questions over hype cycles",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "We need to keep asking audacious scientific questions\u2026 not just chase the next benchmark.",
+    "category": "Research culture",
+    "core_belief": "Enduring labs are sustained by question quality, not only leaderboard position.",
+    "operational_pattern": "Protect long-horizon research portfolios against quarterly hype pivots; publish benchmarks that redirect field.",
+    "organizational_archetype": "Academic-industry hybrid AI institute",
+    "hidden_assumptions": [
+      "Funding tolerates multi-year bets",
+      "Talent motivated by mission not only comp"
+    ],
+    "pressure_scenarios": [
+      "Benchmark wars",
+      "Startup poaching researchers"
+    ],
+    "failure_modes": [
+      "Benchmark chasing without scientific depth",
+      "Brain drain to product-only roles"
+    ],
+    "contradictions": [
+      "Publish benchmarks while warning against benchmark obsession"
+    ],
+    "behavioral_signals": [
+      "Repeated investment in new dataset categories",
+      "Researchers cite mission not only SOTA"
+    ],
+    "emotional_political_dynamics": [
+      "Identity tied to scientific legacy",
+      "Frustration at AGI definitional chaos"
+    ],
+    "operational_adaptations": [
+      "Dual track: capability research plus HAI policy"
+    ],
+    "ai_era_implications": [
+      "Eval culture in products mirrors scientific benchmark discipline"
+    ]
+  },
+  {
+    "pattern_name": "Jobs change by task bundle not overnight elimination",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "We should think about tasks and skills\u2026 jobs are bundles of tasks that will be reorganized.",
+    "category": "Labor economics",
+    "core_belief": "Displacement happens at task level first; policy and training should target task portfolios.",
+    "operational_pattern": "Map occupations by automatable tasks; invest in human skills that complement models in same workflow.",
+    "organizational_archetype": "Policy-facing research org",
+    "hidden_assumptions": [
+      "Retraining infrastructure exists",
+      "Employers participate in task redesign"
+    ],
+    "pressure_scenarios": [
+      "Political job-loss panic",
+      "Rapid capability jumps"
+    ],
+    "failure_modes": [
+      "Treating AGI timeline as workforce plan",
+      "Ignoring distributional pain in transition"
+    ],
+    "contradictions": [
+      "Optimism about net jobs vs near-term displacement pain"
+    ],
+    "behavioral_signals": [
+      "Hiring for hybrid human-AI workflows",
+      "Policy focus on task-level reskilling"
+    ],
+    "emotional_political_dynamics": [
+      "Hope vs fear in public narrative",
+      "Researcher responsibility anxiety"
+    ],
+    "operational_adaptations": [
+      "AI Index tracks labor indicators not only capability"
+    ],
+    "ai_era_implications": [
+      "HR and PM role design starts from task graphs not job titles"
+    ]
+  },
+  {
+    "pattern_name": "Spatial intelligence as underinvested frontier",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "Spatial intelligence is the next frontier\u2026 language-only scaling will not get us to embodied intelligence.",
+    "category": "Research portfolio",
+    "core_belief": "Physical-world AI requires different data, evals, and talent than text labs optimize for.",
+    "operational_pattern": "Fund spatial/world-model bets in parallel with LLM scaling; build evals for geometry, physics, navigation.",
+    "organizational_archetype": "Frontier lab diversifying beyond chat",
+    "hidden_assumptions": [
+      "Spatial data collectible",
+      "Robotics economics eventually work"
+    ],
+    "pressure_scenarios": [
+      "Text product revenue funds everything",
+      "Investors want chat demos"
+    ],
+    "failure_modes": [
+      "Spatial research as marketing only",
+      "Underfunding robotics data flywheels"
+    ],
+    "contradictions": [
+      "Text products fund company while claiming spatial is next"
+    ],
+    "behavioral_signals": [
+      "Spatial eval failures on otherwise SOTA models",
+      "Dedicated spatial teams spin out"
+    ],
+    "emotional_political_dynamics": [
+      "Excitement about embodied AI",
+      "Fear of another AI winter if bets fail"
+    ],
+    "operational_adaptations": [
+      "Consumer products add visual reasoning eval gates"
+    ],
+    "ai_era_implications": [
+      "Multimodal evals become PM requirement for any camera/AR/robotics feature"
+    ]
+  },
+  {
+    "pattern_name": "Responsible deployment parallel to capability",
+    "source_episode": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "source_guest": "Dr. Fei-Fei Li",
+    "source_quote_or_context": "You cannot do responsible AI as an afterthought\u2026 it has to be parallel to capability building.",
+    "category": "AI safety operations",
+    "core_belief": "Safety and capability built sequentially guarantees public trust collapse at scale.",
+    "operational_pattern": "Run policy education, red-teaming, and societal impact review alongside model training milestones.",
+    "organizational_archetype": "Public-benefit-oriented AI lab",
+    "hidden_assumptions": [
+      "Safety org has teeth not only PR",
+      "Product teams accept launch delays"
+    ],
+    "pressure_scenarios": [
+      "Regulatory pressure",
+      "High-profile model failures"
+    ],
+    "failure_modes": [
+      "Safety washing",
+      "Safety team vetoed without escalation path"
+    ],
+    "contradictions": [
+      "Ship fast culture vs parallel safety work"
+    ],
+    "behavioral_signals": [
+      "Joint safety-product launch reviews",
+      "Published responsible scaling policies"
+    ],
+    "emotional_political_dynamics": [
+      "Internal tension safety vs growth",
+      "External activist pressure"
+    ],
+    "operational_adaptations": [
+      "HAI-style bootcamps for product leaders"
+    ],
+    "ai_era_implications": [
+      "Launch criteria include societal impact like security review"
+    ]
+  },
+  {
+    "pattern_name": "Vanity launch vs word-of-mouth machine",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "Product Hunt product of the day/week/month\u2026 signups spiked then flattened\u2026 we didn't have strong word of mouth.",
+    "category": "Product-market fit",
+    "core_belief": "PMF is proven by organic pull, not launch-day trophies.",
+    "operational_pattern": "After vanity spikes plateau, all-hands rebuild onboarding until users evangelize without paid spend.",
+    "organizational_archetype": "Lean prosumer AI startup in crowded incumbent category",
+    "hidden_assumptions": [
+      "Team survives 3\u20134 months rework on low runway",
+      "Category has shareability",
+      "AI delivers magic in first session"
+    ],
+    "pressure_scenarios": [
+      "Low runway after failed launch",
+      "Investor skepticism on slides market"
+    ],
+    "failure_modes": [
+      "Brute-forcing top-of-funnel while core loop weak",
+      "Celebrating Product Hunt as PMF"
+    ],
+    "contradictions": [
+      "Growth marketing vs product-led word of mouth"
+    ],
+    "behavioral_signals": [
+      "Flat signup curve after launch spike",
+      "Friends praise but don't return"
+    ],
+    "emotional_political_dynamics": [
+      "Founder self-deception vs brutal self-critique"
+    ],
+    "operational_adaptations": [
+      "In distribution-heavy categories design growth from day one"
+    ],
+    "ai_era_implications": [
+      "AI onboarding magic can unlock PMF if first-session output is shareable"
+    ]
+  },
+  {
+    "pattern_name": "First 30 seconds earn the next 30",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "Users are selfish, vain, and lazy\u2026 what can you give in the first 30 seconds that earns the next 30 seconds.",
+    "category": "Onboarding",
+    "core_belief": "Attention is rented in 30-second increments; onboarding is the product.",
+    "operational_pattern": "Concentrate limited eng bandwidth on door-to-door experience not feature breadth (restaurant metaphor).",
+    "organizational_archetype": "Small team prosumer SaaS",
+    "hidden_assumptions": [
+      "One differentiated egg exists",
+      "AI generation reliable in first session",
+      "Share loop exists in category"
+    ],
+    "pressure_scenarios": [
+      "Competing AI presentation tools",
+      "Rising CAC if organic fails"
+    ],
+    "failure_modes": [
+      "Five eggs in onboarding",
+      "Beautiful core with broken first mile"
+    ],
+    "contradictions": [
+      "Onboarding team vs core product false split"
+    ],
+    "behavioral_signals": [
+      "High signup low return",
+      "Low presentation share rate"
+    ],
+    "emotional_political_dynamics": [
+      "Founder anxiety about runway"
+    ],
+    "operational_adaptations": [
+      "Pull most magical capability to second zero of session"
+    ],
+    "ai_era_implications": [
+      "AI belongs in onboarding path not bolted on later"
+    ]
+  },
+  {
+    "pattern_name": "Micro-influencer manual onboarding",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "All initial influencers I onboarded manually\u2026 jump on a call\u2026 tell your story in their voice\u2026 thousands of micro influencers.",
+    "category": "Growth",
+    "core_belief": "Authentic distribution is unscalable at the start and that is the moat.",
+    "operational_pattern": "CEO-led creator onboarding: walkthrough, hook brainstorming, light feedback\u2014never scripted ads to million-follower accounts.",
+    "organizational_archetype": "Founder-led marketing at efficient AI startup",
+    "hidden_assumptions": [
+      "Founder can emulate creator craft",
+      "Micro audiences trust tool recommendations"
+    ],
+    "pressure_scenarios": [
+      "Need to scale creative volume",
+      "Creator churn after one paid post"
+    ],
+    "failure_modes": [
+      "Big-budget celebrity reads",
+      "Prescriptive scripts",
+      "Skipping relationship investment"
+    ],
+    "contradictions": [
+      "Founder-led marketing vs hire growth team early"
+    ],
+    "behavioral_signals": [
+      "One-off creator posts with no repeat",
+      "Creators don't use product off-camera"
+    ],
+    "emotional_political_dynamics": [
+      "Founder discomfort with provocative hooks"
+    ],
+    "operational_adaptations": [
+      "Onboard influencers like customers; expect repeat posts from invested relationships"
+    ],
+    "ai_era_implications": [
+      "AI multi-model orchestration is downstream; distribution still human-trust-limited"
+    ]
+  },
+  {
+    "pattern_name": "Profitable wrapper via workflow depth",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "Not one model\u201420+ models, orchestration, routing cheaper vs frontier\u2026 laser-focused workflow.",
+    "category": "AI business model",
+    "core_belief": "Wrapper is viable when you own deep workflow and model portfolio economics.",
+    "operational_pattern": "Monetize early when users demand credits; anchor pricing to ChatGPT familiarity; monitor unit economics monthly.",
+    "organizational_archetype": "Profitable prosumer AI application",
+    "hidden_assumptions": [
+      "Workflow defensible vs model vendors",
+      "Users pay ~$20/mo willingly"
+    ],
+    "pressure_scenarios": [
+      "OpenAI/Google ship native presentation features",
+      "Model price wars"
+    ],
+    "failure_modes": [
+      "Single-model dependency",
+      "Chasing shiny use cases without decade commitment"
+    ],
+    "contradictions": [
+      "Stay small/profitable vs blitzscale"
+    ],
+    "behavioral_signals": [
+      "Intercom: how do I buy credits",
+      "Million ARR within months of monetization"
+    ],
+    "emotional_political_dynamics": [
+      "Fear of being labeled just a wrapper"
+    ],
+    "operational_adaptations": [
+      "Pick problem worth decade before scaling ads"
+    ],
+    "ai_era_implications": [
+      "PMs must understand model routing cost and eval per step"
+    ]
+  },
+  {
+    "pattern_name": "Same-day experiment loop",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "Idea in morning, prototype, recruit users with zero skin in the game, ship by afternoon, watch struggle, fix by evening.",
+    "category": "Product development",
+    "core_belief": "Learning velocity beats planning cycles when runway is tight.",
+    "operational_pattern": "Daily micro-experiments with unaffiliated users; observe struggle live; iterate next day.",
+    "organizational_archetype": "Pre-PMF startup with design founder sensibility",
+    "hidden_assumptions": [
+      "Access to representative users",
+      "Scope small enough for same-day ship"
+    ],
+    "pressure_scenarios": [
+      "Enterprise sales cycles nearby",
+      "AI inference slows iteration"
+    ],
+    "failure_modes": [
+      "Friends-only feedback",
+      "Analysis paralysis"
+    ],
+    "contradictions": [
+      "Same-day loop vs enterprise 6\u201312 month deploy"
+    ],
+    "behavioral_signals": [
+      "Calendar of user tests weekly",
+      "Rapid prototype discard rate"
+    ],
+    "emotional_political_dynamics": [
+      "Discomfort watching users fail"
+    ],
+    "operational_adaptations": [
+      "Pair with 30-second onboarding focus for maximum signal"
+    ],
+    "ai_era_implications": [
+      "AI prototypes cheap; discipline shifts to who you watch in session"
+    ]
+  },
+  {
+    "pattern_name": "One egg not five at onboarding",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "Scott Belsky one egg\u2026 we put all our eggs in making the first 30 seconds magical.",
+    "category": "Focus",
+    "core_belief": "Concentrated onboarding beats scattered feature excellence pre-PMF.",
+    "operational_pattern": "Reject spreading eng across five onboarding bets; single magical path to shareable output.",
+    "organizational_archetype": "Resource-constrained AI product team",
+    "hidden_assumptions": [
+      "Team agrees on the one egg",
+      "Magic is technically feasible"
+    ],
+    "pressure_scenarios": [
+      "Investor feature requests",
+      "Competitor feature parity pressure"
+    ],
+    "failure_modes": [
+      "Five mediocre first experiences",
+      "No share loop at end of egg"
+    ],
+    "contradictions": [
+      "Later portfolio expansion requires many surfaces"
+    ],
+    "behavioral_signals": [
+      "Single onboarding funnel metrics owned",
+      "Other features deliberately deprioritized"
+    ],
+    "emotional_political_dynamics": [
+      "FOMO on competitor features",
+      "Relief when one path works"
+    ],
+    "operational_adaptations": [
+      "Revisit multi-egg only after WOM coefficient positive"
+    ],
+    "ai_era_implications": [
+      "Cheap generation increases temptation to ship five eggs\u2014discipline matters more"
+    ]
+  },
+  {
+    "pattern_name": "Bet-the-company onboarding rebuild",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "We made a bet-the-company decision: make the first 30 seconds magical\u2026 three or four months of rework.",
+    "category": "Strategic risk",
+    "core_belief": "When organic fails, fixing activation is existential not incremental.",
+    "operational_pattern": "Pause feature roadmap; redirect all eng to activation until referral and return curves inflect.",
+    "organizational_archetype": "Sub-scale ARR prosumer company with low runway",
+    "hidden_assumptions": [
+      "Runway covers rework period",
+      "Team alignment on diagnosis"
+    ],
+    "pressure_scenarios": [
+      "Flat growth post-launch",
+      "Investor pressure for new features"
+    ],
+    "failure_modes": [
+      "Half-measures on onboarding",
+      "Giving up before iteration count sufficient"
+    ],
+    "contradictions": [
+      "Feature shipping culture vs onboarding tunnel"
+    ],
+    "behavioral_signals": [
+      "Zero paid spend while fixing product",
+      "Internal morale dip during tunnel"
+    ],
+    "emotional_political_dynamics": [
+      "Fear of running out of runway",
+      "Pride when WOM returns"
+    ],
+    "operational_adaptations": [
+      "Define exit criteria for tunnel before entering"
+    ],
+    "ai_era_implications": [
+      "AI can shorten build time but not remove need for observed user struggle"
+    ]
+  },
+  {
+    "pattern_name": "Revenue per employee as discipline metric",
+    "source_episode": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma | Grant Lee",
+    "source_guest": "Grant Lee",
+    "source_quote_or_context": "We stayed lean\u2026 very high revenue per employee\u2026 profitability gave us freedom to invest in brand.",
+    "category": "Unit economics",
+    "core_belief": "Efficiency is strategic optionality, not only investor aesthetics.",
+    "operational_pattern": "Resist headcount goals that distort hiring quality; monetize when users pull for credits; track inference cost monthly.",
+    "organizational_archetype": "Bootstrapped-or-efficient AI application company",
+    "hidden_assumptions": [
+      "Product sustains pricing power",
+      "Lean team can maintain prod quality"
+    ],
+    "pressure_scenarios": [
+      "Competitor blitzscale narrative",
+      "Inference cost spikes"
+    ],
+    "failure_modes": [
+      "Underinvesting in reliability",
+      "Vanity headcount for credibility"
+    ],
+    "contradictions": [
+      "Brand investment vs stay scrappy"
+    ],
+    "behavioral_signals": [
+      "Headcount flat while ARR climbs",
+      "Profitable before heavy ad spend"
+    ],
+    "emotional_political_dynamics": [
+      "Pride in efficiency",
+      "Pressure to look bigger"
+    ],
+    "operational_adaptations": [
+      "Hire only when bottleneck is clearly human"
+    ],
+    "ai_era_implications": [
+      "Inference line item becomes core finance metric for AI apps"
+    ]
+  },
+  {
+    "pattern_name": "Founder-led sales as research loop",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "Founder led sales is not about revenue on day one. It is about learning as fast as humanly possible.",
+    "category": "Enterprise GTM",
+    "core_belief": "Early commercial work is market research conducted by the highest-authority person.",
+    "operational_pattern": "Founder runs sales to harvest budding moments that reshape positioning; defer revenue hire until ~$1M ARR.",
+    "organizational_archetype": "Zero-to-one B2B without brand or references",
+    "hidden_assumptions": [
+      "Founder tolerates rejection",
+      "Vision novel enough to spark curiosity"
+    ],
+    "pressure_scenarios": [
+      "Investor pressure to hire AE",
+      "Low outbound response"
+    ],
+    "failure_modes": [
+      "Delegating discovery to junior AE",
+      "Pretending product is finished"
+    ],
+    "contradictions": [
+      "Sell vs learn",
+      "Founder vision vs market reality"
+    ],
+    "behavioral_signals": [
+      "Salesperson blamed when vision is off",
+      "Prospects say cool but don't multi-thread"
+    ],
+    "emotional_political_dynamics": [
+      "Founder ego protection via blaming sales"
+    ],
+    "operational_adaptations": [
+      "30 highly crafted outreaches before Clay volume"
+    ],
+    "ai_era_implications": [
+      "AI startups need paid services to teach buyers process before SaaS attach"
+    ]
+  },
+  {
+    "pattern_name": "Outbound as novel-insight test",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "Stay away from better\u2026 shock value or counterintuitive\u2026 3\u20134 sentences, no scroll on mobile.",
+    "category": "Enterprise GTM",
+    "core_belief": "Response rate is primarily insight quality, not channel tactics.",
+    "operational_pattern": "Email/LinkedIn: role relevancy, counterintuitive hook, problem focus, mobile brevity\u2014leave them wanting more.",
+    "organizational_archetype": "Seed/Series A founder selling upmarket",
+    "hidden_assumptions": [
+      "Target role feels problem acutely",
+      "Problem felt in market (2% vs 12% interest)"
+    ],
+    "pressure_scenarios": [
+      "Domain health ruined by blast campaigns",
+      "Wrong ICP"
+    ],
+    "failure_modes": [
+      "Feature-first emails",
+      "Fake personalization",
+      "Scaling volume before parameters known"
+    ],
+    "contradictions": [
+      "Personalization industry vs relevancy-first"
+    ],
+    "behavioral_signals": [
+      "2% vs 12% interest on identical motion",
+      "Zero replies from 30 bespoke notes"
+    ],
+    "emotional_political_dynamics": [
+      "Founder despair misattributed to sales"
+    ],
+    "operational_adaptations": [
+      "Track win rate not just meetings"
+    ],
+    "ai_era_implications": [
+      "AI outbound without insight increases noise"
+    ]
+  },
+  {
+    "pattern_name": "Vulnerability unlocks buyer honesty",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "When you're vulnerable\u2026 not fully built yet\u2026 easier to tell someone before you make this mistake.",
+    "category": "Discovery",
+    "core_belief": "Buyers protect founders' feelings when they think product is done; honesty requires plausible incompleteness.",
+    "operational_pattern": "First call: state early stage, passion for problem, request how problem manifests\u2014no demo-first; book second call on first call.",
+    "organizational_archetype": "Technical founder selling enterprise AI",
+    "hidden_assumptions": [
+      "Buyer invests 30 minutes",
+      "Problem growing and measured internally"
+    ],
+    "pressure_scenarios": [
+      "Procurement fear on novel AI",
+      "Buyer job risk"
+    ],
+    "failure_modes": [
+      "Demo before problem clarity",
+      "Let prospect email you (soft no)"
+    ],
+    "contradictions": [
+      "April Dunford educate-market later vs Jen learn-first early"
+    ],
+    "behavioral_signals": [
+      "Prospect pulls in colleagues",
+      "Won't commit calendar = disinterest"
+    ],
+    "emotional_political_dynamics": [
+      "Buyer career protection",
+      "Founder fear of no problem here"
+    ],
+    "operational_adaptations": [
+      "Gate: is problem measured? How tried to solve? Book next meeting live"
+    ],
+    "ai_era_implications": [
+      "AI demos dazzle while hiding workflow fit\u2014delay demo until problem validated"
+    ]
+  },
+  {
+    "pattern_name": "Sell services to educate the budget",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "40\u201350% have to sell some form of service before technology\u2026 paid to educate.",
+    "category": "Enterprise GTM",
+    "core_belief": "When buyers lack process for novel problem, services revenue is GTM not failure.",
+    "operational_pattern": "Co-author scope; sell education/process design; time-box; parallel tech plus service contracts.",
+    "organizational_archetype": "Enterprise AI startup facing procurement",
+    "hidden_assumptions": [
+      "Services budget larger than innovation budget",
+      "Founder can deliver consulting"
+    ],
+    "pressure_scenarios": [
+      "Legal/procurement shutdown",
+      "18-month wait if you don't own education"
+    ],
+    "failure_modes": [
+      "Infinite services scope creep",
+      "Competitor educates account while you wait"
+    ],
+    "contradictions": [
+      "SaaS metrics vs services wedge"
+    ],
+    "behavioral_signals": [
+      "Deals stall at legal",
+      "Buyers ask HITL and metrics questions"
+    ],
+    "emotional_political_dynamics": [
+      "Founder shame on services revenue",
+      "Procurement risk minimization"
+    ],
+    "operational_adaptations": [
+      "Truncate services; onboard users before tech gate"
+    ],
+    "ai_era_implications": [
+      "PMs spec HITL and evals in services SOW\u2014they become product requirements"
+    ]
+  },
+  {
+    "pattern_name": "Sell the alpha not the feature",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "Sell the alpha, not the feature\u2026 they're buying into where you're going and the problem you're solving.",
+    "category": "Positioning",
+    "core_belief": "Enterprise buyers at $1M\u2013$10M ARR fund asymmetric insight, not feature parity.",
+    "operational_pattern": "Lead with counter-narrative and problem thesis; defer feature catalog until buyer confirms pain is strategic.",
+    "organizational_archetype": "Founder-led enterprise startup post-initial traction",
+    "hidden_assumptions": [
+      "Alpha is real not vapor",
+      "Buyer has budget for transformation"
+    ],
+    "pressure_scenarios": [
+      "Procurement compares to 17 preferred vendors",
+      "Incumbent educates buyer"
+    ],
+    "failure_modes": [
+      "Feature bake-offs against incumbents",
+      "Better-than-X positioning triggers procurement stall"
+    ],
+    "contradictions": [
+      "Product maturity needed eventually despite alpha sell"
+    ],
+    "behavioral_signals": [
+      "Buyer asks for vision not RFP checklist",
+      "Multi-thread after alpha resonates"
+    ],
+    "emotional_political_dynamics": [
+      "Founder temptation to show product",
+      "Buyer fear of career risk on novel vendor"
+    ],
+    "operational_adaptations": [
+      "Vision narrative tied to buyer's measured pain"
+    ],
+    "ai_era_implications": [
+      "AI alpha is workflow transformation not model benchmark"
+    ]
+  },
+  {
+    "pattern_name": "Win rate over meeting volume",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "Low conversion is okay if win rate is high\u2026 more at-bats vs better messaging.",
+    "category": "Sales diagnostics",
+    "core_belief": "Meetings without win rate signal are vanity; high win rate with low volume is positioning problem not effort problem.",
+    "operational_pattern": "Track win rate by segment; if win rate high, increase targeted at-bats; if low, fix insight/ICP before scaling outbound.",
+    "organizational_archetype": "Early enterprise startup",
+    "hidden_assumptions": [
+      "Enough opportunities to measure win rate",
+      "Honest loss analysis"
+    ],
+    "pressure_scenarios": [
+      "Investor demands meeting count",
+      "SDR team hired too early"
+    ],
+    "failure_modes": [
+      "Scaling outbound with broken positioning",
+      "Confusing polite meetings with pipeline"
+    ],
+    "contradictions": [
+      "Volume culture vs Jen's craft outbound"
+    ],
+    "behavioral_signals": [
+      "Few meetings high close rate",
+      "Many meetings zero follow-up"
+    ],
+    "emotional_political_dynamics": [
+      "Founder panic on low meetings",
+      "Sales rep blames product"
+    ],
+    "operational_adaptations": [
+      "30-email test before hiring SDR"
+    ],
+    "ai_era_implications": [
+      "AI can write emails but not counter-narrative\u2014that stays founder-owned"
+    ]
+  },
+  {
+    "pattern_name": "Market-first PMF faster but capped",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "Vanta market-first accelerated PMF; Figma/Airtable technical insight uncapped upside but riskier.",
+    "category": "Strategy",
+    "core_belief": "Starting from market pain speeds fit but may cap outcome; technical insight inverts risk/reward.",
+    "operational_pattern": "Choose consciously: interview-driven pain vs vision-led search; sales insight quality mirrors path.",
+    "organizational_archetype": "Early-stage B2B founder",
+    "hidden_assumptions": [
+      "Founder honesty about archetype",
+      "Investors tolerate search for tech bets"
+    ],
+    "pressure_scenarios": [
+      "Fundraising without ICP",
+      "Low outbound on tech-in-search-of-market"
+    ],
+    "failure_modes": [
+      "Sales fixable when insight weak",
+      "Never finding market on tech-led bet"
+    ],
+    "contradictions": [
+      "Accelerated PMF vs blitzscale outcome"
+    ],
+    "behavioral_signals": [
+      "Fast PMF on painkiller SKU",
+      "Years wandering on paradigm product"
+    ],
+    "emotional_political_dynamics": [
+      "Investor how huge is market fights"
+    ],
+    "operational_adaptations": [
+      "If tech-led, founder sales discovers market via budding moments"
+    ],
+    "ai_era_implications": [
+      "AI wrappers need market pain clarity; foundation models favor tech-led with distribution risk"
+    ]
+  },
+  {
+    "pattern_name": "Procurement as education battlefield",
+    "source_episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "source_guest": "Jen Abel",
+    "source_quote_or_context": "Procurement shuts down if too novel\u2026 you have to educate legal, risk, success metrics before tech.",
+    "category": "Enterprise buying",
+    "core_belief": "Novel AI purchases fail in legal/procurement unless process education is budgeted and paid.",
+    "operational_pattern": "Simple language; clearly different from incumbents; parallel service contract to teach HITL, evals, risk framework.",
+    "organizational_archetype": "Enterprise AI startup 2023\u20132025 cohort",
+    "hidden_assumptions": [
+      "Buyer has services budget",
+      "Founder articulates risk framework"
+    ],
+    "pressure_scenarios": [
+      "AI policy ignorance in legal",
+      "3\u20134 month procurement delay"
+    ],
+    "failure_modes": [
+      "Tech sale before process exists",
+      "Novelty triggers legal freeze"
+    ],
+    "contradictions": [
+      "Move fast AI vs enterprise change management"
+    ],
+    "behavioral_signals": [
+      "Deals stall at legal",
+      "Dual-track service plus tech contracts"
+    ],
+    "emotional_political_dynamics": [
+      "Founder resistance to consulting label"
+    ],
+    "operational_adaptations": [
+      "Time-box services with explicit tech migration triggers"
+    ],
+    "ai_era_implications": [
+      "Compliance and evals belong in first SOW not v2 product"
+    ]
+  },
+  {
+    "pattern_name": "Column B vision with chaos-to-clarity ladder",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "Column B: dream the magical future\u2026 ladder to the moon with rungs\u2026 chaos to clarity: write it down, pitch deck, designs, prototype.",
+    "category": "Strategic planning",
+    "core_belief": "Breakthroughs require improbable future backcast into embarrassing first steps.",
+    "operational_pattern": "10-year vision \u2192 mission pillars \u2192 crazy big goals \u2192 incremental clarity steps per project.",
+    "organizational_archetype": "Mission-driven product company at global scale",
+    "hidden_assumptions": [
+      "Team tolerates embarrassing first steps",
+      "Leadership protects fragile ideas"
+    ],
+    "pressure_scenarios": [
+      "Daily ops pull to Column A",
+      "Missed CBG timelines"
+    ],
+    "failure_modes": [
+      "Vision without rungs",
+      "Killing ideas before visual articulation"
+    ],
+    "contradictions": [
+      "Crazy big goals vs reliable delivery dates"
+    ],
+    "behavioral_signals": [
+      "No vision deck for new initiatives",
+      "CBGs without celebrations"
+    ],
+    "emotional_political_dynamics": [
+      "Inadequacy before CBGs (motivating)",
+      "Shame on microscopic steps"
+    ],
+    "operational_adaptations": [
+      "Per-project chaos\u2192clarity pipeline"
+    ],
+    "ai_era_implications": [
+      "AI features must ladder to Column B mission not hype bolt-ons"
+    ]
+  },
+  {
+    "pattern_name": "Rejection as pitch deck compiler",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "100+ investors said no\u2026 add slide on market size, competitive gap, problem-first pages.",
+    "category": "Fundraising",
+    "core_belief": "Investor rejection is structured feedback if converted into deck mutations.",
+    "operational_pattern": "Each objection \u2192 new slide; problem before solution; find tribe that gets it.",
+    "organizational_archetype": "Design-led consumer/prosumer pre-PMF",
+    "hidden_assumptions": [
+      "Founder persistence over years",
+      "Vision stable while articulation evolves"
+    ],
+    "pressure_scenarios": [
+      "100+ nos",
+      "Market size challenges"
+    ],
+    "failure_modes": [
+      "Taking rejection as identity",
+      "Over-pivoting per investor"
+    ],
+    "contradictions": [
+      "Persist vs find new tribe"
+    ],
+    "behavioral_signals": [
+      "Pitch starts with solution not problem"
+    ],
+    "emotional_political_dynamics": [
+      "Frustration vs investors wrong but helpful"
+    ],
+    "operational_adaptations": [
+      "Fundraising as chaos\u2192clarity like product"
+    ],
+    "ai_era_implications": [
+      "AI pitch decks need problem/society slides not model features"
+    ]
+  },
+  {
+    "pattern_name": "Two-year rewrite tunnel",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "Front-end rewrite estimated six months, took two years\u2014no product shipped\u2026 product company not shipping is not fun.",
+    "category": "Engineering strategy",
+    "core_belief": "Platform rewrites are multi-year morale bets; shipping identity must be gamified to survive.",
+    "operational_pattern": "Bath-toy board game standups; accept CBG slippage while protecting platform foundations.",
+    "organizational_archetype": "High-growth product company post-rewrite",
+    "hidden_assumptions": [
+      "Rewrite necessary for scale",
+      "Investors tolerate dark period"
+    ],
+    "pressure_scenarios": [
+      "Competitors shipping features",
+      "Investor pressure during silence"
+    ],
+    "failure_modes": [
+      "4x underestimate rewrite",
+      "Morale collapse without rituals"
+    ],
+    "contradictions": [
+      "Ship weekly vs platform pause"
+    ],
+    "behavioral_signals": [
+      "Zero customer launches for quarters",
+      "Season opener pile-ups before demos"
+    ],
+    "emotional_political_dynamics": [
+      "Distress and bonding in tunnel"
+    ],
+    "operational_adaptations": [
+      "Only enter tunnel with clear unlock (collaboration, i18n)"
+    ],
+    "ai_era_implications": [
+      "AI velocity makes multi-year freezes harder\u2014modularize so AI ships on branches"
+    ]
+  },
+  {
+    "pattern_name": "Ugly baby protection for fragile ideas",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "New ideas are like ugly babies\u2026 leadership has to protect them until they can stand on their own.",
+    "category": "Innovation culture",
+    "core_belief": "Early ideas are socially vulnerable; premature critique kills nonlinear bets.",
+    "operational_pattern": "Separate ideation forums from execution critique; celebrate CBGs even when rungs look embarrassing.",
+    "organizational_archetype": "Large creative product org",
+    "hidden_assumptions": [
+      "Leaders distinguish protect vs pamper",
+      "Accountability returns at scale gate"
+    ],
+    "pressure_scenarios": [
+      "Executive skepticism on wild bets",
+      "Public company quarterly pressure"
+    ],
+    "failure_modes": [
+      "Ideas die in rebuttal meetings",
+      "Protecting ideas that should die"
+    ],
+    "contradictions": [
+      "Protect ideas vs ship fast culture"
+    ],
+    "behavioral_signals": [
+      "Ideas shared only after polish",
+      "CBG celebrations despite missed dates"
+    ],
+    "emotional_political_dynamics": [
+      "Shame on small first steps vs huge mission"
+    ],
+    "operational_adaptations": [
+      "Vision deck before company-wide critique"
+    ],
+    "ai_era_implications": [
+      "Cheap prototypes increase ugly babies\u2014need faster kill criteria too"
+    ]
+  },
+  {
+    "pattern_name": "Crazy big goals as motivation device",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "Crazy Big Goals\u2026 feel inadequate before them\u2026 that's motivating not demoralizing.",
+    "category": "Goal setting",
+    "core_belief": "Goals should embarrass you slightly or they aren't directing enough energy.",
+    "operational_pattern": "Set public CBGs with celebration at milestones; pair with rungs so inadequacy converts to action.",
+    "organizational_archetype": "Mission-driven global company",
+    "hidden_assumptions": [
+      "Team understands CBGs aren't OKRs",
+      "Celebrations actually happen"
+    ],
+    "pressure_scenarios": [
+      "Missed CBG dates",
+      "External skepticism"
+    ],
+    "failure_modes": [
+      "CBGs as performance punishment",
+      "No rungs \u2192 demoralization"
+    ],
+    "contradictions": [
+      "CBG ambition vs investor quarterly cadence"
+    ],
+    "behavioral_signals": [
+      "CBGs posted publicly",
+      "Celebration events on milestone"
+    ],
+    "emotional_political_dynamics": [
+      "Productive inadequacy",
+      "Cynicism if celebrations fake"
+    ],
+    "operational_adaptations": [
+      "CBGs at company level; OKRs at execution level"
+    ],
+    "ai_era_implications": [
+      "AI compresses rungs\u2014CBGs may need shorter horizons"
+    ]
+  },
+  {
+    "pattern_name": "Design democratization as Column B",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "Empower the world to design\u2026 design shouldn't be gatekept by experts with expensive tools.",
+    "category": "Mission",
+    "core_belief": "Long-horizon mission justifies multi-year infra bets that don't optimize quarterly metrics.",
+    "operational_pattern": "Align roadmap to democratization thesis; measure success by non-designer output quality not only ARR.",
+    "organizational_archetype": "Design-led global platform",
+    "hidden_assumptions": [
+      "Market expands with easier tools",
+      "Quality bar doesn't collapse"
+    ],
+    "pressure_scenarios": [
+      "AI generates design",
+      "Incumbent copies"
+    ],
+    "failure_modes": [
+      "Mission drift toward enterprise-only",
+      "Quality collapse from democratization"
+    ],
+    "contradictions": [
+      "Democratization vs pro/designer segment revenue"
+    ],
+    "behavioral_signals": [
+      "Roadmap language returns to empower",
+      "Pro tier exists but mission stays broad"
+    ],
+    "emotional_political_dynamics": [
+      "Pride in non-designer stories",
+      "Designer community tension"
+    ],
+    "operational_adaptations": [
+      "AI features framed as empowerment not replacement"
+    ],
+    "ai_era_implications": [
+      "AI lowers design skill floor\u2014mission validated but moat shifts to distribution and brand"
+    ]
+  },
+  {
+    "pattern_name": "Pitch until tribe finds you",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "We pitched 100+ times\u2026 find investors who get the vision, not lean startup purists for Canva.",
+    "category": "Fundraising",
+    "core_belief": "Wrong investor tribe wastes years; right tribe funds unconventional paths.",
+    "operational_pattern": "Iterate deck for objections but don't change Column B vision for wrong audience; seek design-believers.",
+    "organizational_archetype": "Long-horizon consumer/prosumer bet",
+    "hidden_assumptions": [
+      "Runway to survive search",
+      "Vision is genuinely big"
+    ],
+    "pressure_scenarios": [
+      "Investor herd mentality",
+      "Market size objections"
+    ],
+    "failure_modes": [
+      "Pivoting vision for capital",
+      "Exhaustion before tribe found"
+    ],
+    "contradictions": [
+      "Persist vs pivot debate"
+    ],
+    "behavioral_signals": [
+      "Same vision different deck over years",
+      "Investor meetings cluster by thesis fit"
+    ],
+    "emotional_political_dynamics": [
+      "Rejection fatigue",
+      "Validation when tribe appears"
+    ],
+    "operational_adaptations": [
+      "Track investor archetype not only yes/no"
+    ],
+    "ai_era_implications": [
+      "AI companies face same tribe problem\u2014technical vs GTM investors"
+    ]
+  },
+  {
+    "pattern_name": "Operational chaos to clarity on every bet",
+    "source_episode": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "source_guest": "Melanie Perkins",
+    "source_quote_or_context": "Chaos to clarity on every project\u2026 write it down, pitch deck, designs, prototype\u2014don't keep it in your head.",
+    "category": "Execution",
+    "core_belief": "Unwritten ideas create alignment illusions; clarity artifacts scale beyond founder intuition.",
+    "operational_pattern": "Mandatory vision deck per initiative before resourcing; prototype as alignment not only sales.",
+    "organizational_archetype": "Scaling product org",
+    "hidden_assumptions": [
+      "Artifacts updated not stale",
+      "Teams actually read decks"
+    ],
+    "pressure_scenarios": [
+      "Speed pressure skips clarity",
+      "Remote async misalignment"
+    ],
+    "failure_modes": [
+      "Deck theater without decisions",
+      "Head-only strategy"
+    ],
+    "contradictions": [
+      "Clarity process vs move fast"
+    ],
+    "behavioral_signals": [
+      "Initiatives start with deck",
+      "Fewer thrash meetings after deck"
+    ],
+    "emotional_political_dynamics": [
+      "Frustration at documentation cost",
+      "Relief when team aligns"
+    ],
+    "operational_adaptations": [
+      "Lighter deck for small bets; full for CBG-level"
+    ],
+    "ai_era_implications": [
+      "AI can generate decks faster\u2014human must still own Column B thesis"
+    ]
+  },
+  {
+    "pattern_name": "GM to functional for AI depth",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "Went from GM structure to functional org\u2026 singular focus to drive AI and platform depth.",
+    "category": "Org design",
+    "core_belief": "You ship your org structure; portfolio of mini-companies blocks platform transformation.",
+    "operational_pattern": "Reorg: all eng\u2192one leader, all design\u2192one leader; painful change; Conway's Law as visceral lesson.",
+    "organizational_archetype": "Mature fintech/portfolio company re-becoming tech-first",
+    "hidden_assumptions": [
+      "Executive stamina for painful transformation",
+      "Exec team models daily AI use"
+    ],
+    "pressure_scenarios": [
+      "AI hype vs pilot failure narrative",
+      "Not everyone on board"
+    ],
+    "failure_modes": [
+      "AI tools on GM incentives",
+      "Partial reorg without platform sharing"
+    ],
+    "contradictions": [
+      "Autonomous BUs vs platform leverage"
+    ],
+    "behavioral_signals": [
+      "Duplicated internal tools per division",
+      "Execs don't use agents daily"
+    ],
+    "emotional_political_dynamics": [
+      "GM leaders lose fiefdoms",
+      "Change fatigue"
+    ],
+    "operational_adaptations": [
+      "Leaders use Goose on real workflows first"
+    ],
+    "ai_era_implications": [
+      "AI-native requires functional platform plus MCP orchestration"
+    ]
+  },
+  {
+    "pattern_name": "Structure beats tool efficacy",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "AI cut tests 50%; deleting bad tests saved 2\u20133x more\u2026 question base assumptions.",
+    "category": "Engineering productivity",
+    "core_belief": "Portfolio of optimizations beats silver-bullet AI; ask if process should exist.",
+    "operational_pattern": "Automate Block priority; measure 8\u201310 hrs/week saved; delete tests and cloud offload before AI-select tests.",
+    "organizational_archetype": "4000+ engineer enterprise with Goose",
+    "hidden_assumptions": [
+      "Measurement honesty",
+      "Willingness to kill sacred processes"
+    ],
+    "pressure_scenarios": [
+      "Pilot failure narratives",
+      "Security twisting into knots"
+    ],
+    "failure_modes": [
+      "Vendor AI per tool",
+      "80/20 prototypes without hardening"
+    ],
+    "contradictions": [
+      "AI 10x narrative vs 20\u201325% hours saved today"
+    ],
+    "behavioral_signals": [
+      "Risk/legal builds shadow IT with Goose",
+      "Median agent session 5\u20137 minutes"
+    ],
+    "emotional_political_dynamics": [
+      "Hype fatigue",
+      "Excitement on non-technical self-serve"
+    ],
+    "operational_adaptations": [
+      "Question vendor feature\u2014build MCP overnight"
+    ],
+    "ai_era_implications": [
+      "Greatest productivity may be fewer asks via self-serve not faster code"
+    ]
+  },
+  {
+    "pattern_name": "Goose as MCP orchestration platform",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "Goose gives LLMs arms and legs via MCPs\u2026 tries alternate routes on failure.",
+    "category": "AI platform",
+    "core_belief": "Enterprise AI leverage is integrability and retry-rich autonomy not chat alone.",
+    "operational_pattern": "Open-source agent; Snowflake/Tableau reports; experimental screen listener on core team.",
+    "organizational_archetype": "AI-native enterprise with internal platform",
+    "hidden_assumptions": [
+      "Security approves computer control",
+      "MCP protocol stability"
+    ],
+    "pressure_scenarios": [
+      "Ping-pong 5-minute sessions vs hours autonomy goal"
+    ],
+    "failure_modes": [
+      "Half-baked agent output shipped",
+      "Building highway fills with more cars"
+    ],
+    "contradictions": [
+      "Open source vs competitive differentiation"
+    ],
+    "behavioral_signals": [
+      "PRs appear before human asked",
+      "Calendar changes without UI"
+    ],
+    "emotional_political_dynamics": [
+      "Excitement vs creepiness of always-on agent"
+    ],
+    "operational_adaptations": [
+      "Allow agent route flexibility and retry"
+    ],
+    "ai_era_implications": [
+      "MCP orchestration layer may be where enterprises win"
+    ]
+  },
+  {
+    "pattern_name": "Exec daily use before change management",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "Jack and exec team use agents daily\u2026 you can't mandate what you don't model.",
+    "category": "Transformation leadership",
+    "core_belief": "AI transformation fails when leadership reads LinkedIn instead of using agents on real work.",
+    "operational_pattern": "Require executives to automate personal workflows first; then org-wide mandate has credibility.",
+    "organizational_archetype": "Public company C-suite driving AI-native shift",
+    "hidden_assumptions": [
+      "Execs have time to learn",
+      "Security allows exec experimentation"
+    ],
+    "pressure_scenarios": [
+      "Board AI mandate",
+      "Employee cynicism from mandates without tools"
+    ],
+    "failure_modes": [
+      "Deck-driven transformation",
+      "IT blocks exec tools"
+    ],
+    "contradictions": [
+      "Top-down mandate vs bottom-up discovery"
+    ],
+    "behavioral_signals": [
+      "Exec demos personal automations",
+      "All-hands shows leader using Goose"
+    ],
+    "emotional_political_dynamics": [
+      "Hypocrisy resentment if leaders don't use tools",
+      "Excitement when CEO calendar auto-managed"
+    ],
+    "operational_adaptations": [
+      "Executive AI office hours",
+      "Personal workflow wins before KPIs"
+    ],
+    "ai_era_implications": [
+      "Change management becomes show-your-agent-screen"
+    ]
+  },
+  {
+    "pattern_name": "Delete the process before automating",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "Sometimes the answer is delete the process\u2026 AI on a bad process just makes bad things faster.",
+    "category": "Process improvement",
+    "core_belief": "Automation without process audit multiplies waste.",
+    "operational_pattern": "Before AI project: ask should this workflow exist; kill meetings, tests, handoffs; then automate remainder.",
+    "organizational_archetype": "Large enterprise engineering org",
+    "hidden_assumptions": [
+      "Political will to kill sacred cows",
+      "Leaders won't punish simplification"
+    ],
+    "pressure_scenarios": [
+      "Efficiency mandates",
+      "Layoff optics tied to AI"
+    ],
+    "failure_modes": [
+      "AI on top of bureaucratic process",
+      "Fake transformation metrics"
+    ],
+    "contradictions": [
+      "AI-first mandate vs delete-first discipline"
+    ],
+    "behavioral_signals": [
+      "Test count drops before AI test selection",
+      "Meeting hours fall"
+    ],
+    "emotional_political_dynamics": [
+      "Middle managers protect headcount via process"
+    ],
+    "operational_adaptations": [
+      "Process deletion OKR before automation OKR"
+    ],
+    "ai_era_implications": [
+      "Agents make deleting-and-rebuilding cheaper\u2014bias toward rebuild"
+    ]
+  },
+  {
+    "pattern_name": "Non-technical self-serve highest surprise ROI",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "Biggest surprise was non-technical teams\u2026 weeks to hours on marketing reports and workflows.",
+    "category": "Adoption",
+    "core_belief": "Highest ROI often outside engineering\u2014where manual work was worst.",
+    "operational_pattern": "Prioritize Goose/MCP for marketing, ops, support before forcing eng-only pilots.",
+    "organizational_archetype": "Enterprise with mixed technical literacy",
+    "hidden_assumptions": [
+      "MCP connectors to real systems",
+      "Guardrails on data access"
+    ],
+    "pressure_scenarios": [
+      "Eng-centric AI narrative",
+      "Shadow IT risk"
+    ],
+    "failure_modes": [
+      "Only engineering adopts",
+      "Unsafe data exposure in self-serve"
+    ],
+    "contradictions": [
+      "Engineering-led AI strategy vs business-led wins"
+    ],
+    "behavioral_signals": [
+      "Marketing automates reports first",
+      "Support prototypes internally"
+    ],
+    "emotional_political_dynamics": [
+      "Eng jealousy of business wins",
+      "Business awe at speed"
+    ],
+    "operational_adaptations": [
+      "Vertical MCP packs per function"
+    ],
+    "ai_era_implications": [
+      "Citizen builder wave is enterprise AI's hidden adoption curve"
+    ]
+  },
+  {
+    "pattern_name": "Bigger highway more traffic problem",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "When you build a bigger highway you get more traffic\u2026 efficiency creates more demand.",
+    "category": "Systems thinking",
+    "core_belief": "Productivity gains increase appetite for work unless scope is governed.",
+    "operational_pattern": "Pair efficiency programs with prioritization discipline; expect demand surge after AI unblocks.",
+    "organizational_archetype": "Hyper-scale product/engineering org",
+    "hidden_assumptions": [
+      "Leadership can say no after efficiency",
+      "Metrics track outcomes not activity"
+    ],
+    "pressure_scenarios": [
+      "AI frees capacity",
+      "Stakeholders add scope"
+    ],
+    "failure_modes": [
+      "Infinite backlog growth",
+      "Burnout despite faster tools"
+    ],
+    "contradictions": [
+      "Do more with less rhetoric vs sustainable load"
+    ],
+    "behavioral_signals": [
+      "Backlog grows after AI rollout",
+      "Same headcount more initiatives"
+    ],
+    "emotional_political_dynamics": [
+      "Pride in speed",
+      "Exhaustion from demand"
+    ],
+    "operational_adaptations": [
+      "Capacity planning post-AI",
+      "WIP limits"
+    ],
+    "ai_era_implications": [
+      "AI removes excuse of capacity\u2014prioritization becomes binding constraint"
+    ]
+  },
+  {
+    "pattern_name": "DNA-first org design",
+    "source_episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "source_guest": "Dhanji R. Prasanna",
+    "source_quote_or_context": "Know your company DNA\u2026 ours is engineering and design first\u2014we reorganized to match that.",
+    "category": "Culture",
+    "core_belief": "Org structure must reinforce actual strategic DNA not holding-company convenience.",
+    "operational_pattern": "Diagnose DNA before copying Netflix/Spotify models; align functional structure to how you win.",
+    "organizational_archetype": "Company transforming from conglomerate to platform",
+    "hidden_assumptions": [
+      "DNA diagnosis honest",
+      "Leaders agree on DNA"
+    ],
+    "pressure_scenarios": [
+      "M&A additions",
+      "Investor pushes conglomerate narrative"
+    ],
+    "failure_modes": [
+      "Org chart copy-paste",
+      "DNA rhetoric without hiring/ promotion alignment"
+    ],
+    "contradictions": [
+      "Platform narrative vs historical BU autonomy"
+    ],
+    "behavioral_signals": [
+      "Promotions reward platform contribution",
+      "Cross-BU duplication shrinks"
+    ],
+    "emotional_political_dynamics": [
+      "Identity loss in acquired teams",
+      "Clarity relief when DNA explicit"
+    ],
+    "operational_adaptations": [
+      "Platform KPIs in reviews"
+    ],
+    "ai_era_implications": [
+      "AI-native DNA requires integrated data\u2014holding co model fails"
+    ]
+  },
+  {
+    "pattern_name": "Hype checklist vs production boring",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "People think: latest AI news, agentic framework, vector DB\u2026 Actually: talk to users, reliable platform, better data, workflows, prompts.",
+    "category": "AI product engineering",
+    "core_belief": "App quality is won on data, workflows, and reliability\u2014not toolchain novelty.",
+    "operational_pattern": "Prioritize user research, workflow optimization, RAG data prep over framework churn.",
+    "organizational_archetype": "AI app team in enterprise or startup",
+    "hidden_assumptions": [
+      "Leadership won't reward framework theater",
+      "User outcomes measurable"
+    ],
+    "pressure_scenarios": [
+      "Exec mandate to adopt agents",
+      "Competitor launches"
+    ],
+    "failure_modes": [
+      "Vector DB yak shaving",
+      "Fine-tune before prompt/data work"
+    ],
+    "contradictions": [
+      "Move fast vs invest in platform"
+    ],
+    "behavioral_signals": [
+      "Team reads AI news more than tickets",
+      "RAG flat after DB swap"
+    ],
+    "emotional_political_dynamics": [
+      "FOMO on frameworks",
+      "Engineer prestige from complex stack"
+    ],
+    "operational_adaptations": [
+      "Publish what actually improves apps checklist for leadership"
+    ],
+    "ai_era_implications": [
+      "PM skill: workflow mapping and data contracts"
+    ]
+  },
+  {
+    "pattern_name": "Eval ROI by blast radius",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "Exec: 80%\u219285% for two engineers vs new feature\u2026 pick battles\u2026 catastrophic domains need tyrannical evals.",
+    "category": "AI evaluation",
+    "core_belief": "Evals are insurance proportional to downside and competitive advantage.",
+    "operational_pattern": "Stepwise eval on agent pipelines; skip fixed count\u2014cover failure modes that matter.",
+    "organizational_archetype": "Scaling AI product with executive feature appetite",
+    "hidden_assumptions": [
+      "Can estimate incremental lift from eval investment",
+      "Failures observable before catastrophic"
+    ],
+    "pressure_scenarios": [
+      "Scale with catastrophic tail risk",
+      "Exec impatience on incremental gains"
+    ],
+    "failure_modes": [
+      "Zero eval on high-risk surface",
+      "Hundreds of low-value judges"
+    ],
+    "contradictions": [
+      "Vibe shipping vs eval culture"
+    ],
+    "behavioral_signals": [
+      "Traffic up happiness vague",
+      "Engineers propose 2 eng-months for 5% lift on side feature"
+    ],
+    "emotional_political_dynamics": [
+      "Exec fear invisible failure",
+      "Practitioner joy in eval craft vs budget scrutiny"
+    ],
+    "operational_adaptations": [
+      "Deep research: eval each fan-out search step"
+    ],
+    "ai_era_implications": [
+      "PMs own outcome metrics; evals align to user-valued segments"
+    ]
+  },
+  {
+    "pattern_name": "Evals as cross-functional system",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "Who should write eval? Not separate\u2014system problem across components and user behaviors.",
+    "category": "AI organization",
+    "core_belief": "Evaluation is product instrumentation for non-deterministic systems.",
+    "operational_pattern": "Break eng/product wall; align evals to user care-abouts; senior review on AI-generated code.",
+    "organizational_archetype": "Forward-moving enterprise AI teams",
+    "hidden_assumptions": [
+      "Psychological safety on failures",
+      "Production traces exist"
+    ],
+    "pressure_scenarios": [
+      "Rapid org change",
+      "Junior-heavy AI code output"
+    ],
+    "failure_modes": [
+      "PM throws eval over wall to ML",
+      "Evals disconnected from prod monitoring"
+    ],
+    "contradictions": [
+      "Functional titles vs blurred AI roles"
+    ],
+    "behavioral_signals": [
+      "No owner for end-to-end agent quality"
+    ],
+    "emotional_political_dynamics": [
+      "Territorialism on metrics",
+      "Fear of replacement by codegen"
+    ],
+    "operational_adaptations": [
+      "Start with prod segments failing"
+    ],
+    "ai_era_implications": [
+      "Headcount may shrink at junior layer; eval plus review become factory floor"
+    ]
+  },
+  {
+    "pattern_name": "Data preparation beats model swap",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "Most gains come from better data and prompts before swapping to the newest model.",
+    "category": "AI engineering",
+    "core_belief": "Model churn is seductive; data and workflow fixes are unglamorous and high leverage.",
+    "operational_pattern": "Invest in RAG corpus quality, labeling, and prompt iteration before architecture changes.",
+    "organizational_archetype": "ML/LLM product team",
+    "hidden_assumptions": [
+      "Team can measure quality deltas",
+      "Data access permitted"
+    ],
+    "pressure_scenarios": [
+      "Weekly new model releases",
+      "Sales promises latest model"
+    ],
+    "failure_modes": [
+      "Endless model A/B without data fix",
+      "Stale RAG corpus"
+    ],
+    "contradictions": [
+      "Build for next model vs fix today"
+    ],
+    "behavioral_signals": [
+      "Quality jumps after data clean not model swap",
+      "High spend on models flat metrics"
+    ],
+    "emotional_political_dynamics": [
+      "Excitement at new model API",
+      "Frustration at data cleaning"
+    ],
+    "operational_adaptations": [
+      "Data prep sprint before model upgrade"
+    ],
+    "ai_era_implications": [
+      "Model routing matters after data baseline solid"
+    ]
+  },
+  {
+    "pattern_name": "Production reliability over demo magic",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "The hard part is not the demo\u2014it's reliable, maintainable systems in production.",
+    "category": "Operations",
+    "core_belief": "Demo-success creates false confidence; production is different optimization problem.",
+    "operational_pattern": "Treat prod requirements (latency, cost, failure modes, monitoring) as day-one not phase two.",
+    "organizational_archetype": "AI product moving enterprise",
+    "hidden_assumptions": [
+      "Infra and SRE engaged early",
+      "Leadership accepts slower demo polish"
+    ],
+    "pressure_scenarios": [
+      "Sales-driven demo deadlines",
+      "POC culture"
+    ],
+    "failure_modes": [
+      "Demo-grade code in prod",
+      "No observability on LLM calls"
+    ],
+    "contradictions": [
+      "Move fast research preview vs enterprise reliability"
+    ],
+    "behavioral_signals": [
+      "Incidents after launch",
+      "No tracing on agent steps"
+    ],
+    "emotional_political_dynamics": [
+      "Sales frustration at slower ship",
+      "Eng pride in reliable ship"
+    ],
+    "operational_adaptations": [
+      "Prod checklist parallel to demo"
+    ],
+    "ai_era_implications": [
+      "Observability and evals are the new on-call stack for AI"
+    ]
+  },
+  {
+    "pattern_name": "Agent frameworks as temporary scaffolding",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "Many agent frameworks are scaffolding that will be absorbed by models and platforms.",
+    "category": "Architecture",
+    "core_belief": "Heavy framework bets have short half-life in fast-moving model era.",
+    "operational_pattern": "Keep harness thin; own workflow and data; avoid deep lock-in to orchestration libraries.",
+    "organizational_archetype": "Startup or enterprise AI platform team",
+    "hidden_assumptions": [
+      "Team can refactor quarterly",
+      "Customers tolerate integration evolution"
+    ],
+    "pressure_scenarios": [
+      "Framework hype cycle",
+      "Enterprise asks for named stack"
+    ],
+    "failure_modes": [
+      "Framework becomes religion",
+      "Migration cost traps team"
+    ],
+    "contradictions": [
+      "Teach frameworks in courses while warning in prod"
+    ],
+    "behavioral_signals": [
+      "Frequent harness refactors",
+      "Internal decks track scaffolding half-life"
+    ],
+    "emotional_political_dynamics": [
+      "FOMO on LangChain etc",
+      "Relief when deleting abstraction"
+    ],
+    "operational_adaptations": [
+      "Interface boundaries around framework-specific code"
+    ],
+    "ai_era_implications": [
+      "Moats are workflow data and distribution not orchestration glue"
+    ]
+  },
+  {
+    "pattern_name": "User research still first on AI apps",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "Talk to users\u2014still the first thing that actually improves AI applications.",
+    "category": "Discovery",
+    "core_belief": "Non-determinism doesn't remove need for grounded user problems.",
+    "operational_pattern": "Qualitative and quantitative user research before eval investment on wrong feature.",
+    "organizational_archetype": "AI product team",
+    "hidden_assumptions": [
+      "Researchers have access to users",
+      "Leadership funds research"
+    ],
+    "pressure_scenarios": [
+      "AI hype internal pressure",
+      "Competitor feature copy"
+    ],
+    "failure_modes": [
+      "Building AI features users don't want",
+      "Evals on irrelevant behaviors"
+    ],
+    "contradictions": [
+      "Move fast without research"
+    ],
+    "behavioral_signals": [
+      "Low usage despite high eval scores",
+      "Support tickets mismatch roadmap"
+    ],
+    "emotional_political_dynamics": [
+      "Impatience with research cadence"
+    ],
+    "operational_adaptations": [
+      "Weekly user touchpoints on AI features"
+    ],
+    "ai_era_implications": [
+      "AI can simulate users but not replace grounded discovery"
+    ]
+  },
+  {
+    "pattern_name": "Cost-aware architecture from day one",
+    "source_episode": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "source_guest": "Chip Huyen",
+    "source_quote_or_context": "You have to think about cost and latency as design constraints, not afterthoughts.",
+    "category": "Economics",
+    "core_belief": "LLM products fail unit economics when cost is bolted on after architecture freeze.",
+    "operational_pattern": "Model routing, caching, batching, and smaller models for easy steps designed into v1.",
+    "organizational_archetype": "AI application at scale",
+    "hidden_assumptions": [
+      "Finance engaged on unit economics",
+      "Metrics per request tracked"
+    ],
+    "pressure_scenarios": [
+      "Inference cost spikes at scale",
+      "Investor pressure on margins"
+    ],
+    "failure_modes": [
+      "Opus for everything",
+      "No caching on repeated retrievals"
+    ],
+    "contradictions": [
+      "Subsidize tokens early vs cost discipline"
+    ],
+    "behavioral_signals": [
+      "COGS line explodes with usage",
+      "Latency SLOs missed"
+    ],
+    "emotional_political_dynamics": [
+      "Finance vs product tension",
+      "Eng surprise at bill"
+    ],
+    "operational_adaptations": [
+      "Cost dashboard per feature",
+      "Haiku for easy steps"
+    ],
+    "ai_era_implications": [
+      "PM owns cost-per-successful-user metric"
+    ]
+  },
+  {
+    "pattern_name": "DORA speed-stability coupling",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "Four metrics: lead time, deploy frequency, MTTR, change fail rate\u2026 speed and stability move in tandem.",
+    "category": "Engineering measurement",
+    "core_belief": "Fast and stable delivery is achievable with capabilities not slogans.",
+    "operational_pattern": "Measure four keys; benchmark elite; improve capabilities per Accelerate research.",
+    "organizational_archetype": "Tech-driven enterprise adopting DevOps",
+    "hidden_assumptions": [
+      "Instrumentation exists",
+      "Leadership won't weaponize metrics"
+    ],
+    "pressure_scenarios": [
+      "ROI demands for speed",
+      "Layoff narratives tied to AI"
+    ],
+    "failure_modes": [
+      "Metrics without capability investment",
+      "Brute force speed"
+    ],
+    "contradictions": [
+      "Elite targets vs legacy release trains"
+    ],
+    "behavioral_signals": [
+      "Monthly releases justified as safe",
+      "Rising fail rate with deploy push"
+    ],
+    "emotional_political_dynamics": [
+      "Defensiveness when metrics feel judgmental"
+    ],
+    "operational_adaptations": [
+      "Pair DORA with SPACE for local metrics"
+    ],
+    "ai_era_implications": [
+      "AI codegen speed is not productivity\u2014review-heavy workflow needs new metrics"
+    ]
+  },
+  {
+    "pattern_name": "SPACE balanced metric selection",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "SPACE: Satisfaction, Performance, Activity, Communication, Efficiency/flow\u2014use at least three dimensions.",
+    "category": "Engineering measurement",
+    "core_belief": "Complex creative work requires balanced intentional metrics\u2014not one vanity number.",
+    "operational_pattern": "After DORA diagnostic pick context-fit metrics across SPACE; triangulate surveys with telemetry.",
+    "organizational_archetype": "Any org measuring knowledge work",
+    "hidden_assumptions": [
+      "Psychological safety on surveys",
+      "Metrics won't be gamed"
+    ],
+    "pressure_scenarios": [
+      "AI copilot adoption",
+      "Hybrid work shifts"
+    ],
+    "failure_modes": [
+      "Lines of code",
+      "Single-metric OKRs",
+      "Instrumentation-only when surveys disagree"
+    ],
+    "contradictions": [
+      "DORA fixed four vs SPACE pick-your-own"
+    ],
+    "behavioral_signals": [
+      "Satisfaction drops before throughput craters"
+    ],
+    "emotional_political_dynamics": [
+      "Fear metrics used for layoffs"
+    ],
+    "operational_adaptations": [
+      "Write problem statement in a week; hunt any signal"
+    ],
+    "ai_era_implications": [
+      "Add trust/reliance dimension for AI tools"
+    ]
+  },
+  {
+    "pattern_name": "AI productivity is not halving headcount",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "HTTP server 50% faster isn't productivity\u2026 enables harder work\u2026 changed mental model, friction, cognitive load.",
+    "category": "AI culture",
+    "core_belief": "Copilot-class tools shift work from writing to reviewing; workforce cuts from micro-benchmarks are category error.",
+    "operational_pattern": "Study holistic outcomes; communicate balanced metrics to CEOs; prepare SPACE evolution for trust/reliability.",
+    "organizational_archetype": "Enterprise adopting GitHub Copilot",
+    "hidden_assumptions": [
+      "Leaders listen to nuance",
+      "Longitudinal studies possible"
+    ],
+    "pressure_scenarios": [
+      "Layoff pressure",
+      "10x engineer narratives"
+    ],
+    "failure_modes": [
+      "Over-reliance on generated code",
+      "Measuring task time only"
+    ],
+    "contradictions": [
+      "Experts love AI vs fear replacement"
+    ],
+    "behavioral_signals": [
+      "Review queue growth",
+      "Experts report efficiency anecdotally"
+    ],
+    "emotional_political_dynamics": [
+      "CEO simplification vs researcher nuance"
+    ],
+    "operational_adaptations": [
+      "Define problem before buying DevEx tools"
+    ],
+    "ai_era_implications": [
+      "PMs plan review-heavy SDLC; juniors need mentors not only autocomplete"
+    ]
+  },
+  {
+    "pattern_name": "Surveys beat instrumentation when they conflict",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "When surveys disagree with advanced instrumentation, surveys are almost always correct.",
+    "category": "DevEx",
+    "core_belief": "Felt experience captures friction telemetry misses.",
+    "operational_pattern": "Triangulate DevEx surveys with system metrics; act on survey when conflict.",
+    "organizational_archetype": "Large tech with mature telemetry",
+    "hidden_assumptions": [
+      "Survey design quality",
+      "Leaders act on signal"
+    ],
+    "pressure_scenarios": [
+      "AI tool rollout",
+      "Reorg"
+    ],
+    "failure_modes": [
+      "Dashboard theater",
+      "Ignoring survey because data says fine"
+    ],
+    "contradictions": [
+      "Objective data religion vs qualitative signal"
+    ],
+    "behavioral_signals": [
+      "Survey/telemetry divergence",
+      "Developers cite flow breaks instrumentation misses"
+    ],
+    "emotional_political_dynamics": [
+      "Distrust of HR surveys"
+    ],
+    "operational_adaptations": [
+      "Week-one problem statement plus any signal hunt"
+    ],
+    "ai_era_implications": [
+      "Measure review burden and trust in AI output"
+    ]
+  },
+  {
+    "pattern_name": "Measurement journey phases",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "Measurement journey: more subjective early, more systemic later\u2014you need both.",
+    "category": "Measurement strategy",
+    "core_belief": "Mature measurement builds from interviews and surveys toward system metrics\u2014not only dashboards day one.",
+    "operational_pattern": "Phase 1: interviews and surveys define problem; Phase 2: instrument systems; Phase 3: correlate and refine.",
+    "organizational_archetype": "Org starting DevEx or AI productivity program",
+    "hidden_assumptions": [
+      "Patience for multi-quarter program",
+      "Executives accept phased approach"
+    ],
+    "pressure_scenarios": [
+      "Board wants AI ROI number in 30 days"
+    ],
+    "failure_modes": [
+      "Dashboard before problem definition",
+      "Permanent survey-only without systems"
+    ],
+    "contradictions": [
+      "Google-scale methods at startup scale"
+    ],
+    "behavioral_signals": [
+      "Can't answer what problem we're solving",
+      "Metrics change quarterly"
+    ],
+    "emotional_political_dynamics": [
+      "Impatience for numbers",
+      "Researcher caution labeled obstruction"
+    ],
+    "operational_adaptations": [
+      "Google-style phases adapted to company size"
+    ],
+    "ai_era_implications": [
+      "AI tool ROI requires phased methodology not single metric"
+    ]
+  },
+  {
+    "pattern_name": "Never lines of code",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "Never use lines of code\u2014it's the worst metric for knowledge work.",
+    "category": "Anti-patterns",
+    "core_belief": "Activity metrics that reward volume destroy quality and incentives.",
+    "operational_pattern": "Ban LOC/PR count as performance metrics; use outcomes, flow, and satisfaction.",
+    "organizational_archetype": "Any engineering org under AI pressure",
+    "hidden_assumptions": [
+      "Leadership accepts non-activity metrics",
+      "Comp system doesn't reward volume"
+    ],
+    "pressure_scenarios": [
+      "AI increases code volume",
+      "Exec wants simple number"
+    ],
+    "failure_modes": [
+      "Gamified LOC",
+      "Meaningless PR velocity targets"
+    ],
+    "contradictions": [
+      "Need some activity signal for capacity planning"
+    ],
+    "behavioral_signals": [
+      "LOC in team OKRs",
+      "Review time explodes while LOC up"
+    ],
+    "emotional_political_dynamics": [
+      "Developers cynical on measurement",
+      "Middle managers default to visible activity"
+    ],
+    "operational_adaptations": [
+      "Educate execs on review-time metric"
+    ],
+    "ai_era_implications": [
+      "AI makes LOC even more misleading"
+    ]
+  },
+  {
+    "pattern_name": "Problem statement before tool purchase",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "Write down the problem you're trying to solve in a week\u2014then hunt for signals.",
+    "category": "DevEx procurement",
+    "core_belief": "Tool-first AI productivity programs fail without diagnosed bottleneck.",
+    "operational_pattern": "One-week problem definition workshop before buying copilot/enterprise AI seats.",
+    "organizational_archetype": "Enterprise rolling out AI coding tools",
+    "hidden_assumptions": [
+      "Cross-functional agreement on problem",
+      "Budget tied to diagnosis"
+    ],
+    "pressure_scenarios": [
+      "Vendor sales pressure",
+      "Competitor adopted Copilot"
+    ],
+    "failure_modes": [
+      "Enterprise licenses with 5% WAU",
+      "No baseline metrics"
+    ],
+    "contradictions": [
+      "Move fast adopt AI vs diagnose first"
+    ],
+    "behavioral_signals": [
+      "Tools purchased before baseline",
+      "Can't articulate success criteria"
+    ],
+    "emotional_political_dynamics": [
+      "FOMO purchasing",
+      "Vendor relief at signature"
+    ],
+    "operational_adaptations": [
+      "Baseline DORA/SPACE before rollout"
+    ],
+    "ai_era_implications": [
+      "AI tool evals should include developer trust not only speed"
+    ]
+  },
+  {
+    "pattern_name": "Frictionless as capabilities not slogans",
+    "source_episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "source_guest": "Nicole Forsgren",
+    "source_quote_or_context": "Frictionless is about capabilities and practices that reduce friction\u2014not declaring less process.",
+    "category": "Change management",
+    "core_belief": "Sustainable speed comes from technical and organizational capabilities documented in Accelerate.",
+    "operational_pattern": "Invest in CI, architecture, psychological safety, and small batches\u2014not only AI licenses.",
+    "organizational_archetype": "Enterprise pursuing AI-era DevEx",
+    "hidden_assumptions": [
+      "Leadership funds capability work",
+      "Not using frictionless as excuse to cut needed process"
+    ],
+    "pressure_scenarios": [
+      "AI mandate without infra investment",
+      "Layoffs cut platform teams"
+    ],
+    "failure_modes": [
+      "Frictionless washing",
+      "Cutting QA because AI"
+    ],
+    "contradictions": [
+      "AI replaces process narrative vs capabilities book"
+    ],
+    "behavioral_signals": [
+      "AI adopted but DORA flat",
+      "Platform team understaffed"
+    ],
+    "emotional_political_dynamics": [
+      "Change fatigue",
+      "Hope in new book/framework"
+    ],
+    "operational_adaptations": [
+      "Map initiatives to DORA/SPACE drivers"
+    ],
+    "ai_era_implications": [
+      "AI amplifies existing friction if capabilities weak"
+    ]
+  },
+  {
+    "pattern_name": "Search expansion not substitution",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "Core search needs unchanged\u2026 AI is expansionary\u2014more questions, Lens +70% YoY\u2026 not death of search.",
+    "category": "Platform strategy",
+    "core_belief": "AI grows total query space; does not zero-sum replace navigational search.",
+    "operational_pattern": "Ship AI Overviews plus Lens multimodal plus AI Mode with fan-out grounding in Shopping/Maps/Web.",
+    "organizational_archetype": "Incumbent consumer platform with research plus product fusion",
+    "hidden_assumptions": [
+      "Models consumer-grade",
+      "Quality rater guidelines predict helpfulness"
+    ],
+    "pressure_scenarios": [
+      "ChatGPT/Perplexity narrative",
+      "Publisher ecosystem anxiety"
+    ],
+    "failure_modes": [
+      "Copying chat UX without intent fit",
+      "Ignoring long tail"
+    ],
+    "contradictions": [
+      "Keywords vs natural language"
+    ],
+    "behavioral_signals": [
+      "Users paste hard questions into Google",
+      "Lens visual search surge"
+    ],
+    "emotional_political_dynamics": [
+      "Internal urgency post-ChatGPT",
+      "Publisher political pressure"
+    ],
+    "operational_adaptations": [
+      "Integrate previews in SERP then deep link AI Mode"
+    ],
+    "ai_era_implications": [
+      "SEO becomes intent satisfaction for AI fan-out queries"
+    ]
+  },
+  {
+    "pattern_name": "Query fan-out grounding",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "AI Mode does query fan-out\u2014dozens of searches, data backends, paired with content satisfying rater intent guidelines.",
+    "category": "AI architecture",
+    "core_belief": "Helpful AI answers are search problems multiplied not single-prompt completions.",
+    "operational_pattern": "Construct via many sub-queries plus live data graphs; rank sources by enduring quality guidelines.",
+    "organizational_archetype": "Incumbent search plus frontier model partnership",
+    "hidden_assumptions": [
+      "Rater guidelines approximate satisfaction",
+      "Latency affordable for fan-out"
+    ],
+    "pressure_scenarios": [
+      "Chatbots with single-shot answers",
+      "SEO manipulation"
+    ],
+    "failure_modes": [
+      "Thin sites gaming one variant",
+      "Over-reliance on static index"
+    ],
+    "contradictions": [
+      "Chat UX simplicity vs backend complexity"
+    ],
+    "behavioral_signals": [
+      "Fan-out visible in UI",
+      "Sites with intent match in overviews"
+    ],
+    "emotional_political_dynamics": [
+      "SEO industry fear",
+      "Google internal focus urgency"
+    ],
+    "operational_adaptations": [
+      "Publishers: design for intent satisfaction"
+    ],
+    "ai_era_implications": [
+      "AEO: optimize for selection in fan-out research passes"
+    ]
+  },
+  {
+    "pattern_name": "Close Friends multi-year root cause",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "Close Friends failed: favorites mistranslated, one person added, loop not closed\u2026 2\u20133 years to find where it worked.",
+    "category": "Consumer iteration",
+    "core_belief": "Consumer wins require obsessive problem decomposition not feature cloning.",
+    "operational_pattern": "Ship broad \u2192 measure where works \u2192 simplify scope \u2192 rename \u2192 design for 20\u201330 friend loop.",
+    "organizational_archetype": "Large consumer product org",
+    "hidden_assumptions": [
+      "Leadership tolerates years on strategic bets",
+      "Analytics segment working cohorts"
+    ],
+    "pressure_scenarios": [
+      "Competitive Stories pressure",
+      "Global launches"
+    ],
+    "failure_modes": [
+      "Copy feature without job-to-be-done",
+      "Multi-surface before one works"
+    ],
+    "contradictions": [
+      "Speed culture vs multi-year bake"
+    ],
+    "behavioral_signals": [
+      "Usage concentrated in subsets",
+      "No DM replies = broken loop"
+    ],
+    "emotional_political_dynamics": [
+      "Team morale on public failures"
+    ],
+    "operational_adaptations": [
+      "JTBD for causation",
+      "Simplify until loop closes"
+    ],
+    "ai_era_implications": [
+      "AI features need same loop analytics"
+    ]
+  },
+  {
+    "pattern_name": "Underappreciated query long tail",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "There's a massive long tail of questions people already ask Google that AI unlocks.",
+    "category": "Growth",
+    "core_belief": "Incumbent distribution wins on queries users already attempt but get poor answers.",
+    "operational_pattern": "Optimize for hard multi-sentence and multimodal queries; don't only chase head terms.",
+    "organizational_archetype": "Search incumbent",
+    "hidden_assumptions": [
+      "Infrastructure handles volume",
+      "Quality scales to long tail"
+    ],
+    "pressure_scenarios": [
+      "Startup narrative Google is dead"
+    ],
+    "failure_modes": [
+      "Only optimizing head queries",
+      "Neglecting core navigational"
+    ],
+    "contradictions": [
+      "Expansionary AI vs protect core search revenue"
+    ],
+    "behavioral_signals": [
+      "AI Mode threads grow",
+      "Hard questions in Search console"
+    ],
+    "emotional_political_dynamics": [
+      "Fear of cannibalization internally"
+    ],
+    "operational_adaptations": [
+      "Separate metrics for exploratory vs navigational"
+    ],
+    "ai_era_implications": [
+      "Long tail explodes with natural language\u2014ops cost is the constraint"
+    ]
+  },
+  {
+    "pattern_name": "Distribution beats startup feature parity",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "We have distribution and data graphs startups don't\u2026 that compounds over time.",
+    "category": "Competitive strategy",
+    "core_belief": "In platform shifts, distribution plus grounding data often beats feature-first startups long-term.",
+    "operational_pattern": "Integrate AI into existing high-intent surfaces; leverage Shopping/Maps/Lens graphs.",
+    "organizational_archetype": "Hyperscaler consumer platform",
+    "hidden_assumptions": [
+      "Integration doesn't break core experience",
+      "Regulatory allows integration"
+    ],
+    "pressure_scenarios": [
+      "Fast-moving AI startups",
+      "Antitrust scrutiny"
+    ],
+    "failure_modes": [
+      "Boiling the ocean on chat-only",
+      "Slow integration loses window"
+    ],
+    "contradictions": [
+      "Innovator's dilemma on ad model"
+    ],
+    "behavioral_signals": [
+      "AI features in core SERP not only labs",
+      "Cross-product data in answers"
+    ],
+    "emotional_political_dynamics": [
+      "Startup envy vs incumbent pride"
+    ],
+    "operational_adaptations": [
+      "Ship in core product not only beta site"
+    ],
+    "ai_era_implications": [
+      "Startups need data moats\u2014not only better model"
+    ]
+  },
+  {
+    "pattern_name": "Quality raters as product compass",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "We've used quality raters for years\u2026 what satisfies intent is surprisingly stable guidance.",
+    "category": "Quality systems",
+    "core_belief": "Human rater frameworks encode durable intent satisfaction better than viral AI demos.",
+    "operational_pattern": "Align AI Overviews/Mode to rater guidelines; use raters when metrics conflict with intuition.",
+    "organizational_archetype": "Search quality org",
+    "hidden_assumptions": [
+      "Rater guidelines updated for AI",
+      "Product respects rater program"
+    ],
+    "pressure_scenarios": [
+      "AI hallucination incidents",
+      "Publisher criticism"
+    ],
+    "failure_modes": [
+      "Metrics gaming without intent",
+      "Ignoring rater feedback for speed"
+    ],
+    "contradictions": [
+      "Move fast vs quality bar"
+    ],
+    "behavioral_signals": [
+      "Rater experiments before launches",
+      "Intent satisfaction metrics"
+    ],
+    "emotional_political_dynamics": [
+      "Tension product vs policy"
+    ],
+    "operational_adaptations": [
+      "Publish rater-informed SEO guidance"
+    ],
+    "ai_era_implications": [
+      "LLM evals should encode intent satisfaction not only fluency"
+    ]
+  },
+  {
+    "pattern_name": "Competing Against Luck for causation",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "Competing Against Luck\u2026 understand the job to be done not just the feature request.",
+    "category": "Product theory",
+    "core_belief": "Feature failures are often wrong job hypotheses not execution failures.",
+    "operational_pattern": "When feature underperforms, run JTBD analysis before killing or scaling.",
+    "organizational_archetype": "Consumer product leadership",
+    "hidden_assumptions": [
+      "Team trained on JTBD",
+      "Time allocated for diagnosis"
+    ],
+    "pressure_scenarios": [
+      "Executive demand for fast fix",
+      "Competitor shipped similar"
+    ],
+    "failure_modes": [
+      "Rename and re-ship without diagnosis",
+      "Kill too early"
+    ],
+    "contradictions": [
+      "Data-heavy Google vs qualitative JTBD"
+    ],
+    "behavioral_signals": [
+      "Feature works in subset only",
+      "Mistranslation or wrong loop"
+    ],
+    "emotional_political_dynamics": [
+      "Blame execution team unfairly"
+    ],
+    "operational_adaptations": [
+      "Close Friends playbook: segment then simplify"
+    ],
+    "ai_era_implications": [
+      "AI features need job hypothesis not prompt hypothesis"
+    ]
+  },
+  {
+    "pattern_name": "Urgency without panic post-ChatGPT",
+    "source_episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein",
+    "source_guest": "Robby Stein",
+    "source_quote_or_context": "There was real urgency\u2026 but we also had to be thoughtful about search's role in the ecosystem.",
+    "category": "Change management",
+    "core_belief": "Incumbent turnaround requires focused urgency plus ecosystem stewardship.",
+    "operational_pattern": "Accelerate AI shipping while managing publisher, ads, and quality stakeholder tradeoffs.",
+    "organizational_archetype": "Public company core product",
+    "hidden_assumptions": [
+      "Leadership aligned on dual mandate",
+      "Quality org has veto power when needed"
+    ],
+    "pressure_scenarios": [
+      "Stock narrative",
+      "Regulatory attention"
+    ],
+    "failure_modes": [
+      "Panic shipping",
+      "Paralysis from ecosystem fear"
+    ],
+    "contradictions": [
+      "Startup speed vs incumbent responsibility"
+    ],
+    "behavioral_signals": [
+      "Faster release cadence on AI",
+      "Parallel stakeholder engagement"
+    ],
+    "emotional_political_dynamics": [
+      "Fear of being disrupted",
+      "Responsibility weight"
+    ],
+    "operational_adaptations": [
+      "AI Mode as distinct surface for experimentation"
+    ],
+    "ai_era_implications": [
+      "Platform companies need ecosystem evals not only user evals"
+    ]
+  },
+  {
+    "pattern_name": "Enterprise AI is operational chisel",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "Headlines vs ground: dig roads for broadband\u2026 enterprise robustness 6\u201312 months\u2026 95% POC fail is denominator/hype.",
+    "category": "Enterprise deployment",
+    "core_belief": "Production AI is change-management and judgment-encoding not demo magic.",
+    "operational_pattern": "Expert labeling plus RL environments; legal/policy approval; resist clickbait POC failure rates.",
+    "organizational_archetype": "Enterprise buyer plus data partner plus frontier lab",
+    "hidden_assumptions": [
+      "Right data exists",
+      "Experts available",
+      "Six-month executive patience"
+    ],
+    "pressure_scenarios": [
+      "Easy POC sprawl",
+      "Board AI mandate"
+    ],
+    "failure_modes": [
+      "RAG on wrong corpus",
+      "Week-long demo sold as production"
+    ],
+    "contradictions": [
+      "Move fast AI vs 6\u201312 month hardening"
+    ],
+    "behavioral_signals": [
+      "Many POCs few robust",
+      "Legal stall on novel AI"
+    ],
+    "emotional_political_dynamics": [
+      "Buyer career risk",
+      "Vendor hype vs operator cynicism"
+    ],
+    "operational_adaptations": [
+      "Count only serious deployments in success metrics"
+    ],
+    "ai_era_implications": [
+      "PM roadmap: compliance eval HITL\u2014not feature demos"
+    ]
+  },
+  {
+    "pattern_name": "Expert data generalizability economics",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "80% bachelor's+, 15% PhD\u2026 trajectory recordings, Salesforce agent environments\u2026 generalizable tasks worth more.",
+    "category": "Training data",
+    "core_belief": "As models improve, data must be expert, environment-rich, and generalizable.",
+    "operational_pattern": "Shift from cheap generalist labeling to PhD-heavy tasks; build RL sandboxes.",
+    "organizational_archetype": "Frontier lab supplier plus enterprise solutions",
+    "hidden_assumptions": [
+      "Expert supply scalable",
+      "Labs pay for quality"
+    ],
+    "pressure_scenarios": [
+      "Model capability jumps",
+      "Competitor narrative wars"
+    ],
+    "failure_modes": [
+      "Stale generalist datasets",
+      "Non-generalizable overfit"
+    ],
+    "contradictions": [
+      "Scale pioneered cheap labeling vs now expert-heavy"
+    ],
+    "behavioral_signals": [
+      "Labs request fixes Scale surfaced first"
+    ],
+    "emotional_political_dynamics": [
+      "Pride in category creation",
+      "Defensive on pivots"
+    ],
+    "operational_adaptations": [
+      "Two businesses: data to labs, solutions to enterprises"
+    ],
+    "ai_era_implications": [
+      "Human expert work shifts to environment design and eval authorship"
+    ]
+  },
+  {
+    "pattern_name": "Wide aperture until coalescence",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "Keep very wide aperture on ideas\u2026 mobile convenience trucks in DC\u2014crickets\u2014needed cigarettes/beer traffic drivers.",
+    "category": "Innovation",
+    "core_belief": "Bad-at-start ideas deserve dig time; ground truth beats headlines.",
+    "operational_pattern": "Explore many bets until unit economics and traffic drivers clarify; humility from failure string.",
+    "organizational_archetype": "Operator-CEO in high-growth tech",
+    "hidden_assumptions": [
+      "Capital for experiments",
+      "Culture tolerates failures"
+    ],
+    "pressure_scenarios": [
+      "Pressure to look decisive",
+      "AI FOMO bets"
+    ],
+    "failure_modes": [
+      "Premature convergence",
+      "Hubris market-making"
+    ],
+    "contradictions": [
+      "Explore vs exploit at scale"
+    ],
+    "behavioral_signals": [
+      "Orders of magnitude miss on demand tests"
+    ],
+    "emotional_political_dynamics": [
+      "Humility from failure chain"
+    ],
+    "operational_adaptations": [
+      "Small geo probes before national scale"
+    ],
+    "ai_era_implications": [
+      "Keep aperture wide on use cases until environment-data loop proves"
+    ]
+  },
+  {
+    "pattern_name": "Most enterprise data is useless for training",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "Most companies have petabytes that aren't useful for training\u2026 need curated expert judgment.",
+    "category": "Data strategy",
+    "core_belief": "Raw enterprise volume \u2260 training moat; curation and task design determine value.",
+    "operational_pattern": "Audit data for generalizable tasks; invest in expert labeling and environments not lake size.",
+    "organizational_archetype": "Enterprise AI buyer and data vendor",
+    "hidden_assumptions": [
+      "Legal clearance for data use",
+      "Experts can articulate judgment"
+    ],
+    "pressure_scenarios": [
+      "Board says we have the data",
+      "Vendor promises RAG on everything"
+    ],
+    "failure_modes": [
+      "Garbage in frontier fine-tunes",
+      "Overpaying for undifferentiated data"
+    ],
+    "contradictions": [
+      "Data scale marketing vs expert quality reality"
+    ],
+    "behavioral_signals": [
+      "POC fails despite large corpus",
+      "Expert rework requested by lab"
+    ],
+    "emotional_political_dynamics": [
+      "Buyer shame on data uselessness",
+      "Vendor oversell resentment"
+    ],
+    "operational_adaptations": [
+      "Start with task-specific datasets"
+    ],
+    "ai_era_implications": [
+      "Eval environments become the unit of data value"
+    ]
+  },
+  {
+    "pattern_name": "Two-business model labs vs enterprise",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "We serve frontier labs with data and enterprises with solutions\u2014different sales cycles, same core capability.",
+    "category": "Business model",
+    "core_belief": "Lab and enterprise buyers need different packaging of same underlying data expertise.",
+    "operational_pattern": "Separate GTM and product for lab research velocity vs enterprise robustness; shared expert network.",
+    "organizational_archetype": "Scale-up AI infrastructure company",
+    "hidden_assumptions": [
+      "Neither side starves the other",
+      "Quality bar holds across both"
+    ],
+    "pressure_scenarios": [
+      "Meta-scale deal optics",
+      "Enterprise hype cycle"
+    ],
+    "failure_modes": [
+      "Enterprise sales culture on lab buyers",
+      "Lab speed culture on enterprise"
+    ],
+    "contradictions": [
+      "Focus vs diversification"
+    ],
+    "behavioral_signals": [
+      "Different account teams",
+      "Shared expert ops backbone"
+    ],
+    "emotional_political_dynamics": [
+      "Identity tension which customer matters"
+    ],
+    "operational_adaptations": [
+      "Clear metrics per business line"
+    ],
+    "ai_era_implications": [
+      "Data/eval vendors must pick buyer archetype or bifurcate org"
+    ]
+  },
+  {
+    "pattern_name": "Operator hears problems not applause",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "When you're the operator you hear when things go wrong\u2014that keeps you grounded.",
+    "category": "Leadership",
+    "core_belief": "Customer-facing operators develop skepticism that protects against hype narratives.",
+    "operational_pattern": "Leadership spends time on failed POCs and deployment blockers not only sizzle reels.",
+    "organizational_archetype": "CEO of B2B AI infrastructure",
+    "hidden_assumptions": [
+      "Org routes bad news upward",
+      "CEO doesn't punish messengers"
+    ],
+    "pressure_scenarios": [
+      "Hypergrowth narrative pressure",
+      "Media cycle"
+    ],
+    "failure_modes": [
+      "Bubble culture",
+      "Ignoring deployment failures"
+    ],
+    "contradictions": [
+      "Optimistic lab partnerships vs cynical enterprise reality"
+    ],
+    "behavioral_signals": [
+      "Postmortems on failed deployments",
+      "Product roadmap from blockers"
+    ],
+    "emotional_political_dynamics": [
+      "Grounded anxiety",
+      "Pride in hard problems solved"
+    ],
+    "operational_adaptations": [
+      "Rotate execs through customer support escalations"
+    ],
+    "ai_era_implications": [
+      "AI leaders need deployment-time not demo-time exposure"
+    ]
+  },
+  {
+    "pattern_name": "POC denominator inflation",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "95% of POCs fail\u2014easy POCs that shouldn't have started inflate the denominator.",
+    "category": "Sales hygiene",
+    "core_belief": "Reported enterprise AI failure rates mix serious deployments with vanity science projects.",
+    "operational_pattern": "Filter POC pipeline; only count resourced deployments with executive sponsor and production path.",
+    "organizational_archetype": "Enterprise AI vendor and buyer",
+    "hidden_assumptions": [
+      "Buyers honest about intent",
+      "Vendors willing to walk away"
+    ],
+    "pressure_scenarios": [
+      "Land-grab POC culture",
+      "Board demands AI experiments"
+    ],
+    "failure_modes": [
+      "Vanity POCs as pipeline padding",
+      "Cynicism about all enterprise AI"
+    ],
+    "contradictions": [
+      "High fail rate narrative vs real production wins"
+    ],
+    "behavioral_signals": [
+      "POCs without exec sponsor",
+      "No production criteria in SOW"
+    ],
+    "emotional_political_dynamics": [
+      "Buyer POC fatigue",
+      "Vendor desperation"
+    ],
+    "operational_adaptations": [
+      "POC gate checklist before resources"
+    ],
+    "ai_era_implications": [
+      "Serious deployments need eval + compliance in POC scope"
+    ]
+  },
+  {
+    "pattern_name": "Judgment encoding as enterprise product",
+    "source_episode": "First interview with Scale AI's CEO: $14B Meta deal, what's working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "source_guest": "Jason Droege",
+    "source_quote_or_context": "Enterprise AI is about encoding expert judgment into systems that work in their environment.",
+    "category": "Product definition",
+    "core_belief": "Value is operationalizing expertise not model access alone.",
+    "operational_pattern": "Build environment-specific agents with expert-in-the-loop data; measure robustness not demo accuracy.",
+    "organizational_archetype": "Enterprise AI solutions team",
+    "hidden_assumptions": [
+      "Experts available and paid fairly",
+      "Environment representative in sandbox"
+    ],
+    "pressure_scenarios": [
+      "Model commoditization",
+      "Buyer wants chatbot only"
+    ],
+    "failure_modes": [
+      "Generic copilot on private data",
+      "No expert loop"
+    ],
+    "contradictions": [
+      "Scale speed vs enterprise thoroughness"
+    ],
+    "behavioral_signals": [
+      "Solutions deals include custom env",
+      "Repeat expert engagements"
+    ],
+    "emotional_political_dynamics": [
+      "Experts as high-value workers not cost center"
+    ],
+    "operational_adaptations": [
+      "Price on outcomes and robustness not seats"
+    ],
+    "ai_era_implications": [
+      "Mercor/Surge model: experts write evals that encode judgment"
+    ]
+  },
+  {
+    "pattern_name": "Explore-exploit at insight level",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "Macro explore/exploit is common; I work at insight level\u2026 game review cold patterns \u2192 +25% reviews, +20% subs.",
+    "category": "Growth experimentation",
+    "core_belief": "Growth teams die by local optimization; wins must be amplified across surfaces before brainstorming anew.",
+    "operational_pattern": "Oscillate: divergent experiments \u2192 articulate insight \u2192 adjacent PMs exploit \u2192 detect saturation \u2192 re-explore.",
+    "organizational_archetype": "Consumer subscription product",
+    "hidden_assumptions": [
+      "Experiment infrastructure",
+      "PM documents hypothesis",
+      "Leader scans cross-experiment patterns"
+    ],
+    "pressure_scenarios": [
+      "Stagnating DAU",
+      "Brand wave arrives"
+    ],
+    "failure_modes": [
+      "Exploit until juice gone unnoticed",
+      "Hoard learnings in one squad"
+    ],
+    "contradictions": [
+      "Brand big swings vs experimentation compounding"
+    ],
+    "behavioral_signals": [
+      "Cluster of insignificant tests",
+      "Win not propagated to puzzles/onboarding"
+    ],
+    "emotional_political_dynamics": [
+      "PM pride in original experiment",
+      "Excitement on negative results with lesson"
+    ],
+    "operational_adaptations": [
+      "Experiment explorer tools plus AI Slack bots for patterns"
+    ],
+    "ai_era_implications": [
+      "AI accelerates explore; exploit still needs prod bridge and stats"
+    ]
+  },
+  {
+    "pattern_name": "Retention gold over day-one paywall",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "User retention is gold\u2026 without retention, onus on day-one pay\u2026 Duolingo/Chess organic WOM.",
+    "category": "Consumer growth",
+    "core_belief": "Word-of-mouth plus retention beats paid desperation for subscription consumer.",
+    "operational_pattern": "Target high experiment volume; focus existing-user retention for daily habit products.",
+    "organizational_archetype": "Organic-first consumer subscription",
+    "hidden_assumptions": [
+      "Product can grow market",
+      "Unit economics allow slow burn"
+    ],
+    "pressure_scenarios": [
+      "CAC inflation",
+      "Subscription fatigue"
+    ],
+    "failure_modes": [
+      "Aggressive day-one upsell before habit",
+      "Paid growth with weak retention"
+    ],
+    "contradictions": [
+      "Free reach vs monetization"
+    ],
+    "behavioral_signals": [
+      "Low D1",
+      "High churn",
+      "WOM near zero"
+    ],
+    "emotional_political_dynamics": [
+      "Indie paywall dream vs treadmill reality"
+    ],
+    "operational_adaptations": [
+      "Grow market size not only share"
+    ],
+    "ai_era_implications": [
+      "AI must deepen habit loops not novelty"
+    ]
+  },
+  {
+    "pattern_name": "Positive framing beat cold coach",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "Game review taught worst moves\u2026 flip to celebrate best moves\u2014+25% game reviews, +20% subscriptions.",
+    "category": "Product psychology",
+    "core_belief": "Reframing feedback from deficit to celebration unlocks engagement in learning products.",
+    "operational_pattern": "Audit cold/defeat patterns in UX; run exploit wave on positive reinforcement.",
+    "organizational_archetype": "Edutainment consumer app",
+    "hidden_assumptions": [
+      "Users avoid pain of seeing mistakes",
+      "Success states measurable"
+    ],
+    "pressure_scenarios": [
+      "PM bias toward helpful criticism",
+      "Competitive AI tutors"
+    ],
+    "failure_modes": [
+      "Toxic negativity in coach UX",
+      "Insight not shared company-wide"
+    ],
+    "contradictions": [
+      "Brutal honesty pedagogy vs positive psychology"
+    ],
+    "behavioral_signals": [
+      "High drop after game review",
+      "Subscription lift when copy changes"
+    ],
+    "emotional_political_dynamics": [
+      "Users feel judged",
+      "Pride in intellectual rigor resists softening"
+    ],
+    "operational_adaptations": [
+      "Document hypothesis for swarm",
+      "Treat huge losses as valuable"
+    ],
+    "ai_era_implications": [
+      "LLM coaches need evals for tone/outcome not only correctness"
+    ]
+  },
+  {
+    "pattern_name": "Swarm exploitation before new explore",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "When you find something that works, exploit it across the product before exploring again.",
+    "category": "Growth operations",
+    "core_belief": "Insight half-life is short; cross-surface propagation captures value before saturation.",
+    "operational_pattern": "Run exploit playbook across modules (copy, color, success rating) until p-values cluster insignificant.",
+    "organizational_archetype": "Multi-surface consumer app",
+    "hidden_assumptions": [
+      "PMs cooperate on insight docs",
+      "Stats discipline maintained"
+    ],
+    "pressure_scenarios": [
+      "AI hype pushing random LLM features",
+      "Brand moment needs capture"
+    ],
+    "failure_modes": [
+      "One-team win stays local",
+      "Overfitting color tweaks without insight"
+    ],
+    "contradictions": [
+      "Explore novelty vs exploit discipline"
+    ],
+    "behavioral_signals": [
+      "Same insight in puzzles onboarding email",
+      "Non-significant pile in area"
+    ],
+    "emotional_political_dynamics": [
+      "Not invented here between squads"
+    ],
+    "operational_adaptations": [
+      "Leader mandates insight broadcast"
+    ],
+    "ai_era_implications": [
+      "AI generates variants faster\u2014exploit phase needs human insight anchor"
+    ]
+  },
+  {
+    "pattern_name": "Thousand experiments aspiration",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "Duolingo aspired to 1000 experiments a year\u2026 we did ~250 at Chess\u2014volume matters.",
+    "category": "Experimentation culture",
+    "core_belief": "High experiment throughput increases odds of non-obvious insights.",
+    "operational_pattern": "Invest in platform, stats, and PM literacy; celebrate learning from losses; leader reviews cross-portfolio patterns.",
+    "organizational_archetype": "Mature growth org",
+    "hidden_assumptions": [
+      "Infrastructure supports volume",
+      "Legal/ethical guardrails on tests"
+    ],
+    "pressure_scenarios": [
+      "Small team can't hit volume",
+      "Exec impatience"
+    ],
+    "failure_modes": [
+      "Quantity without quality",
+      "P-hacking"
+    ],
+    "contradictions": [
+      "250 vs 1000\u2014scale-dependent"
+    ],
+    "behavioral_signals": [
+      "Experiment log growth",
+      "Weekly growth review of portfolio"
+    ],
+    "emotional_political_dynamics": [
+      "Fatigue from constant tests",
+      "Excitement on surprise wins"
+    ],
+    "operational_adaptations": [
+      "Right-size volume to team; keep insight process"
+    ],
+    "ai_era_implications": [
+      "AI drafts hypotheses; humans own design and interpretation"
+    ]
+  },
+  {
+    "pattern_name": "Grow the market not only share",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "Duolingo grew the language-learning market\u2026 chess grew interest in chess during Queen's Gambit.",
+    "category": "Market expansion",
+    "core_belief": "Category growth beats zero-sum share fights for habit products.",
+    "operational_pattern": "Invest in brand, content, community when tailwind hits; capture with onboarding and loops.",
+    "organizational_archetype": "Consumer category leader or challenger",
+    "hidden_assumptions": [
+      "Product ready for influx",
+      "Brand authentic to community"
+    ],
+    "pressure_scenarios": [
+      "Cultural moment",
+      "Viral spike"
+    ],
+    "failure_modes": [
+      "Spike with broken onboarding",
+      "Gimmick alienates core community"
+    ],
+    "contradictions": [
+      "Brand marketing vs growth team science"
+    ],
+    "behavioral_signals": [
+      "Overnight registration multiplier",
+      "Retention flat during spike"
+    ],
+    "emotional_political_dynamics": [
+      "Community passion vs growth gimmick tension"
+    ],
+    "operational_adaptations": [
+      "Spike playbook pre-built"
+    ],
+    "ai_era_implications": [
+      "AI content can create micro-spikes; retention still determines value"
+    ]
+  },
+  {
+    "pattern_name": "Right AI for the job",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "Chess engines vs LLM\u2026 use the right technology for the user value, not hype.",
+    "category": "AI product strategy",
+    "core_belief": "Specialized AI often beats general LLM for domain-specific user outcomes.",
+    "operational_pattern": "Evaluate whether LLM is best tool; prefer proven domain AI when quality bar is competitive.",
+    "organizational_archetype": "Domain-rich consumer product",
+    "hidden_assumptions": [
+      "Team can maintain specialized stack",
+      "Users care about quality not tech"
+    ],
+    "pressure_scenarios": [
+      "Pressure to ship ChatGPT wrapper",
+      "Investor AI narrative"
+    ],
+    "failure_modes": [
+      "LLM coach weaker than engine",
+      "Hype features hurt trust"
+    ],
+    "contradictions": [
+      "AI everywhere mandate vs domain excellence"
+    ],
+    "behavioral_signals": [
+      "LLM features underperform engine features in tests"
+    ],
+    "emotional_political_dynamics": [
+      "FOMO on LLM",
+      "Purist community backlash"
+    ],
+    "operational_adaptations": [
+      "LLM for language layers; engines for analysis"
+    ],
+    "ai_era_implications": [
+      "Product teams need AI tool selection discipline not default LLM"
+    ]
+  },
+  {
+    "pattern_name": "Leader as insight pattern scanner",
+    "source_episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "source_guest": "Albert Cheng",
+    "source_quote_or_context": "My job is often to look across experiments and see patterns others miss.",
+    "category": "Growth leadership",
+    "core_belief": "Individual PMs optimize locally; growth leader compounds by connecting insights across surfaces.",
+    "operational_pattern": "Weekly portfolio review; experiment explorer; require insight docs on wins and large losses.",
+    "organizational_archetype": "Head of growth at multi-PM growth org",
+    "hidden_assumptions": [
+      "PMs write clear hypotheses",
+      "Data accessible cross-team"
+    ],
+    "pressure_scenarios": [
+      "Siloed growth squads",
+      "High PM turnover"
+    ],
+    "failure_modes": [
+      "Leader only reacts to biggest win",
+      "Patterns die in Slack"
+    ],
+    "contradictions": [
+      "Democratized experimentation vs central pattern role"
+    ],
+    "behavioral_signals": [
+      "Cross-team exploit waves",
+      "AI bots surfacing correlations"
+    ],
+    "emotional_political_dynamics": [
+      "PM wants credit for insight",
+      "Leader as coach not hero"
+    ],
+    "operational_adaptations": [
+      "Insight doc template mandatory on |\u0394|>threshold"
+    ],
+    "ai_era_implications": [
+      "AI surfaces correlations; leader validates causality"
+    ]
+  }
+]

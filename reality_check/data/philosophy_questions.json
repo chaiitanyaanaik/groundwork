@@ -1,0 +1,60 @@
+{
+  "universal_question_ids": [
+    "roadmap_override",
+    "priority_chaos",
+    "revenue_pressure",
+    "bottleneck"
+  ],
+  "conditional_questions": [
+    {
+      "question_id": "ai_reality",
+      "applies_to_philosophy_ids": [
+        "move_fast",
+        "ai_first",
+        "ai_native_pms",
+        "bottom_up_ai",
+        "evals_first_ai"
+      ]
+    }
+  ],
+  "philosophy_question_ids": {
+    "move_fast": "move_fast_quality_bar",
+    "empower_teams": "empower_autonomy_reality",
+    "ai_first": "ai_first_priority_setting",
+    "founder_mode": "founder_barrel_count",
+    "high_experimentation": "experiment_kill_pattern",
+    "ai_native_pms": "ai_native_pm_time_split",
+    "design_led": "design_led_gate_role",
+    "minimal_process": "minimal_process_weight",
+    "product_led_growth": "plg_growth_motion",
+    "influence_without_politics": "influence_decision_path",
+    "high_performance_culture": "high_perf_safety_tradeoff",
+    "lean_constraints": "lean_headcount_stance",
+    "bottom_up_ai": "bottom_up_ai_sources",
+    "evals_first_ai": "evals_ship_order",
+    "platform_org": "platform_silo_reality"
+  },
+  "simulation_styles": {
+    "move_fast": "Emphasize speed-first drift: shortcuts, review debt, cohesion quietly erodes.",
+    "empower_teams": "Emphasize autonomy collapse: trusted in stability, overridden under risk.",
+    "ai_first": "Emphasize mandate vs adoption lag: governance and design lag behind AI velocity.",
+    "founder_mode": "Emphasize centralization drift: barrels bottleneck, decisions pull upward.",
+    "high_experimentation": "Emphasize learning collapse: experiments run, insights don't propagate.",
+    "ai_native_pms": "Emphasize coordination trap: PMs talk about building but calendar wins.",
+    "design_led": "Emphasize cohesion bypass: design gates erode when deadlines hit.",
+    "minimal_process": "Emphasize process creep: principles rhetoric, paperwork reality.",
+    "product_led_growth": "Emphasize GTM pull: sales motion overrides product loops.",
+    "influence_without_politics": "Emphasize decision theater: alignment rituals without real buy-in.",
+    "high_performance_culture": "Emphasize safety erosion: standards rise, blame surfaces under miss.",
+    "lean_constraints": "Emphasize hidden hiring: lean narrative, shadow headcount growth.",
+    "bottom_up_ai": "Emphasize grassroots vs mandate friction: pockets of wins, no scale.",
+    "evals_first_ai": "Emphasize ship-before-eval: velocity wins, monitoring chases releases.",
+    "platform_org": "Emphasize silo drift: shared platform rhetoric, GM fiefdom behavior."
+  },
+  "role_options": [
+    {"id": "founder_ceo", "label": "Founder / CEO"},
+    {"id": "pm_product_lead", "label": "PM or product lead"},
+    {"id": "eng_design_leader", "label": "Eng or design leader"},
+    {"id": "other_leader", "label": "Other leader"}
+  ]
+}

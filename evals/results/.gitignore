@@ -1,0 +1,4 @@
+# Timestamped runs stay local (optional to commit)
+judge_*.json
+# Always refresh this file — easy to open in the IDE
+!latest.json

@@ -1,0 +1,398 @@
+#!/usr/bin/env python3
+"""Generate operational-intelligence-batch5.json from episode themes."""
+
+import json
+
+patterns = []
+
+
+def add(
+    ep,
+    guest,
+    name,
+    quote,
+    cat,
+    belief,
+    op,
+    arch,
+    hidden,
+    pres,
+    fail,
+    con,
+    sig,
+    emo,
+    adapt,
+    ai,
+):
+    patterns.append(
+        {
+            "pattern_name": name,
+            "source_episode": ep,
+            "source_guest": guest,
+            "source_quote_or_context": quote,
+            "category": cat,
+            "core_belief": belief,
+            "operational_pattern": op,
+            "organizational_archetype": arch,
+            "hidden_assumptions": hidden,
+            "pressure_scenarios": pres,
+            "failure_modes": fail,
+            "contradictions": con,
+            "behavioral_signals": sig,
+            "emotional_political_dynamics": emo,
+            "operational_adaptations": adapt,
+            "ai_era_implications": ai,
+        }
+    )
+
+
+# --- RAVI MEHTA ---
+ep = "The secret to better AI prototypes: Why Tinder's CPO starts with JSON, not design | Ravi Mehta"
+g = "Ravi Mehta"
+
+add(
+    ep,
+    g,
+    "Latency Beats Velocity for Startups",
+    "Startups have tight turning radius; big companies have high velocity. Latency is idea-to-validated-hypothesis cycle time, not output volume.",
+    "strategy",
+    "Early-stage advantage is decision-to-learning speed, not throughput.",
+    "Measure button-test latency; shrink bets to days/weeks; prefer conviction decisions when N is too small for stats.",
+    "Founder transitioning from scaled PM org to zero-to-one",
+    "That startups are inherently faster at everything; that big-co network transfers cleanly",
+    "Investor pressure for quarterly experiments; temptation to copy big-co A/B culture",
+    "Running quarter-long tests on tiny samples; paralysis by analysis; hiring big-co playbooks",
+    "Says startups slower initially on raw output while arguing they win on speed",
+    "Leaders optimizing team size/velocity instead of cycle time",
+    "Big-co alumni frustrated by 'slower' feel",
+    "Plug indie hacker/Everything Marketplaces networks early; conviction thresholds by stage",
+    "AI shrinks build latency further—startups that don't exploit loop speed lose the only edge",
+)
+
+add(
+    ep,
+    g,
+    "Product Strategy Stack Debug Loop",
+    "Mission → company strategy → product strategy → roadmap → goals; debug bottom-up when stuck prioritizing.",
+    "product_strategy",
+    "Prioritization failures are usually strategy gaps, not opportunity-sizing gaps.",
+    "When A vs B is unclear, walk stack top-down (define) or bottom-up (debug); wireframes required so strategy isn't interpreted differently.",
+    "PM org using stack as decision system",
+    "Vision folded into mission is enough; wireframes are designer-only luxury",
+    "OKR season forcing metric-first planning; exec reviews without visual alignment",
+    "Goals-first roadmaps optimizing local metrics against mission (TripAdvisor booking leapfrog)",
+    "Contrarian goals-after-roadmap vs OKR orthodoxy",
+    "PMs yelling about goal ordering; nav-bar disagreements at implementation",
+    "Strategy debates without shared visual anchor",
+    "PMs sketch/Balsamiq; Tinder vs Hinge stack comparison for same feature different strategy",
+    "AI prototypes replace wireframes for alignment—but strategy stack logic persists",
+)
+
+add(
+    ep,
+    g,
+    "Goals After Roadmap (Destination Before Mileage)",
+    "Road trip: pick Vegas before committing to 250 miles; goals measure progress toward strategy-derived destination.",
+    "goal_setting",
+    "Metrics without destination context pull teams off-mission.",
+    "Derive roadmap from strategy with embedded quant hypotheses; set goals as progress checks—not the starting point.",
+    "Product org fighting OKR culture",
+    "Leadership will accept goal-free quarters",
+    "Board demands retention/follower goals anyway",
+    "Hope-for-best outcome goals without understanding frontier",
+    "Acknowledges managers may still require metric commits",
+    "Friction with finance/OKR coaches",
+    "Reframe quarter as understanding → execution → strategic validation phases",
+    "NCTs over pure OKRs when frontier unclear",
+    "AI enables faster roadmap iteration—goals must attach to shorter strategy seasons",
+)
+
+add(
+    ep,
+    g,
+    "Frontier of Understanding Goals",
+    "Four risks: understanding, dependency, execution, strategic—set goals matching your frontier, not always the metric.",
+    "goal_setting",
+    "Committing to move a metric you don't understand is theater.",
+    "When levers unknown, goal = increase understanding; sequence understanding → execution → outcome goals; use 2×2 hit goal vs know why.",
+    "Mature product teams with OKR fatigue",
+    "Execs won't fund 'learning quarters'",
+    "End-of-quarter metric panic",
+    "Spaghetti experiments without taxonomy",
+    "Says don't always skip outcome goals—compress learning into quarter start",
+    "Teams celebrating hits without causal knowledge",
+    "PM fear of looking unambitious",
+    "Miss goal but document where frontier broke; teach NCT framing to managers",
+    "AI obscures causality—frontier discipline more critical as metrics move fast",
+)
+
+add(
+    ep,
+    g,
+    "Selective Micromanagement Matrix",
+    "Two valid modes: scalable leadership (confidence + autonomy) or temporary selective micromanagement when direction wrong—not for both, teach frameworks then pull back.",
+    "leadership",
+    "Hands-off while team is wrong is as failure-prone as permanent micromanagement.",
+    "On misalignment: engage tactically, transfer decision framework, exit to scalable mode; avoid micro-mismatch without end state.",
+    "Product leader coaching new managers",
+    "Micromanagement always bad; senior = only strategic work",
+    "First-time lead roles; high-stakes launches",
+    "Permanent micromanagement; hands-off drift off rails",
+    "Cites Jobs/Musk/Zuckerberg micromanagers while advocating temporary version",
+    "Leaders avoiding detail engagement; managers hoarding decisions",
+    "Trust/autonomy tension in triads",
+    "Dynamic range model—CPOs zoom in/out deliberately",
+    "AI agents need same pattern: tight spec handoff, async review, framework transfer",
+)
+
+add(
+    ep,
+    g,
+    "Alignment-Confidence Currency",
+    "Two axes with manager: alignment and confidence; need one to get permission on the other.",
+    "stakeholder_management",
+    "Political capital is binary on alignment × confidence—not org chart level.",
+    "Map where you sit before pushing alternate direction; build confidence or align before big bets.",
+    "PM navigating exec disagreement",
+    "Influence skills replace either axis",
+    "Reorgs; strategy pivots",
+    "Pushing without both—blocked or overruled silently",
+    "Complements influence-without-authority PM model",
+    "Managers surprised by 'no' despite good work",
+    "Frustration when 'right' idea dies",
+    "Pre-wire alignment; demonstrate small wins for confidence",
+    "Same for AI tool adoption—exec confidence gates agent rollout",
+)
+
+add(
+    ep,
+    g,
+    "Big-Co Network Stage Mismatch",
+    "People build careers/lifestyles around company stage; Facebook/Tinder networks rarely convert to early-stage hiring graph.",
+    "founder_transition",
+    "Your rolodex matches the stage you're leaving, not the stage you're entering.",
+    "Pre-founder: join indie hackers, marketplace communities, angel circles; separate GTM/hiring playbooks by stage.",
+    "Big-tech PM planning startup",
+    "Network equals universal asset",
+    "Recruiting crunch at seed",
+    "Hiring senior leaders who won't write specs/code",
+    "Recommends big-co network for other purposes while warning it won't transfer",
+    "Founders surprised by cold start on talent",
+    "Identity tied to prestigious employers",
+    "Deliberate stage-specific community investment years before leap",
+    "AI lowers build cost but not stage-correct operator network",
+)
+
+add(
+    ep,
+    g,
+    "Exponential Feedback via Competencies",
+    "Surface symptom feedback dies; competency-lens feedback (12 PM competencies) compounds.",
+    "people_development",
+    "Root-cause feedback on behaviors beats one-off fixes.",
+    "Self/manager rate competencies (needs focus/on track/outperforming); disagree = deep conversation; invite real-time feedback permission.",
+    "Product org with career ladder",
+    "Managers naturally give exponential feedback",
+    "Review season crunch",
+    "Symptom-only feedback loops",
+    "PM competency framework applies APM→CPO with different expression",
+    "Managers defensive about shallow reviews",
+    "PMs melting inside while thanking feedback givers",
+    "Use competency kit for 1:1s; pair with Outpace-style structured coaching",
+    "AI coaching drafts help—but human competency framing still gates quality",
+)
+
+add(
+    ep,
+    g,
+    "Whale Misread → Platinum Tier",
+    "Data showed whale spend on boost/super-like; assumed wealth flaunting—users were high-intent mobile daters framing cost vs dating spend.",
+    "product_discovery",
+    "Quantitative anomalies need qualitative reframing before productizing.",
+    "Identify outliers → usability interviews → reprice against job-to-be-done (utility of meeting people fast) → tier + super-like-with-note.",
+    "Growth/monetization team at consumer subscription",
+    "Whales are always high net worth",
+    "Pressure to copy competitor filters/search",
+    "Building filters that kill serendipity (Tinder resisted search-engine dating)",
+    "User research vs Rabois anti-interview tension in consumer",
+    "PM running to office after each call",
+    "Surprise at willingness to pay for note-before-match",
+    "Platinum tier; priced super-swipe above initial estimates",
+    "AI can cluster spenders faster—human interview still required to reframe mental model",
+)
+
+# --- HAMEL HUSAIN & SHREYA SHANKAR ---
+ep = "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar"
+g = "Hamel Husain, Shreya Shankar"
+
+add(
+    ep,
+    g,
+    "Evals as Data Analytics Not Tests",
+    "Evals systematically measure/improve AI apps—start with data analysis, not jumping to unit tests.",
+    "quality",
+    "Test-first evals miss the stochastic surface area of LLM products.",
+    "Instrument traces → open-code review → cluster failure modes → then codify metrics/tests.",
+    "Cross-functional eval pod with PM in room",
+    "Evals = automated test suite only",
+    "Exec demand for 'we have evals' slide",
+    "100 brittle LLM judges before problem clarity",
+    "They teach LLM judges later while warning against auto-eval traces",
+    "Teams skipping trace reading",
+    "PM vs eng on who owns taste",
+    "Error analysis addiction as cultural norm",
+    "Eval loop becomes core PM skill like analytics once was",
+)
+
+add(
+    ep,
+    g,
+    "Benevolent Dictator for Open Coding",
+    "Appoint one domain expert (often PM) to annotate traces—committee open coding makes evals too expensive to run.",
+    "quality",
+    "Speed of failure taxonomy beats democratic perfection.",
+    "Sample traces; first-upstream error note only; one trusted taste-maker; avoid 1–5 scoring—binary later.",
+    "Product-led AI team",
+    "Everyone must sign off on failure labels",
+    "Regulated domains needing consensus",
+    "Committee paralysis; eval process abandoned",
+    "PM as dictator vs inclusive culture values",
+    "Notes say 'janky' then refined",
+    "Discomfort with single arbiter",
+    "Rename categories for actionability after LLM clustering",
+    "Human trace review remains job even as agents proliferate",
+)
+
+add(
+    ep,
+    g,
+    "Open Coding Before Automation",
+    "Manual trace notes grounded in product context—LLM can't detect 'offered virtual tour' hallucination without business facts.",
+    "quality",
+    "Automation without domain context declares bad traces 'good'.",
+    "Human: scan ~100 traces until theoretical saturation; LLM: cluster open codes into axial failure modes only after.",
+    "PM + eng observability workflow",
+    "Soon agents will replace trace review",
+    "Scale pressure to auto-eval everything",
+    "False confidence from LLM 'looks fine' on sales-critical errors",
+    "Shreya: parts automatable later, not this step",
+    "Skipping straight to judge prompts",
+    "Eng wanting full automation day one",
+    "Export notes CSV → Claude axial codes dumb-first workflow",
+    "Agent reviewers need injected business context tables—still human seeds taxonomy",
+)
+
+add(
+    ep,
+    g,
+    "Theoretical Saturation Stop Rule",
+    "Stop open coding when new traces don't surface new failure types—not a fixed N.",
+    "quality",
+    "Eval rigor is about learning rate, not checklist count.",
+    "Start with mental target ~100 to unblock; exit when note novelty drops; iterate taxonomy rounds.",
+    "Practitioner-heavy AI product team",
+    "100 is magic number always",
+    "Time-boxed sprint pressure",
+    "Under-sampling misses cohort shifts; over-sampling delays ship",
+    "Recommend 100 while defining saturation",
+    "Analysts quitting early vs binge-reading traces",
+    "Pride in thoroughness vs ship",
+    "Track novel axial codes per batch",
+    "Continuous eval as distribution shift detector in AI era",
+)
+
+add(
+    ep,
+    g,
+    "Binary LLM Judges Only",
+    "When building LLM-as-judge, use binary pass/fail—not 1–5 scales—to keep eval cycle fast.",
+    "quality",
+    "Graded rubrics create false precision and slow iteration.",
+    "After axial codes, pick priority failure mode → binary judge prompt → regression suite; avoid committee rubric design.",
+    "Eng+PM eval authors",
+    "More judge granularity = better",
+    "Legal/compliance wants scored audits",
+    "Judge theater; regressions that don't move user outcomes",
+    "Anti 'AI eval AI' while using Claude to cluster",
+    "Debates on 3 vs 4 severity",
+    "Shame about 'vibes' blocking honest review",
+    "Actionability filter on axial code names",
+    "Cheap inference makes binary judges default—scale comes from count not rubric depth",
+)
+
+add(
+    ep,
+    g,
+    "PM as Domain Expert Evaluator",
+    "For non-code AI (leasing, legal, health), developers aren't suited to error analysis—PM/domain expert must own open coding.",
+    "role_design",
+    "The conversation trace IS the product surface; PM taste is production QA.",
+    "Put PM on trace review shifts; pair with eng on tooling; eval course targets PMs at OpenAI/Anthropic for reason.",
+    "AI application team with vertical workflow",
+    "Eng can eval by reading code alone",
+    "Horizontal copilot teams",
+    "Shipping 'correct' but business-wrong replies",
+    "Oftentimes PM is benevolent dictator",
+    "PMs excluded from eval rooms",
+    "Eng frustration at 'subjective' notes",
+    "Embed PM in observability tools daily",
+    "PM job partially becomes eval authoring + failure taxonomy curator",
+)
+
+add(
+    ep,
+    g,
+    "Evals Controversy from Bad Past Runs",
+    "Anti-eval camp often burned by over-automated or committee eval processes that lost trust.",
+    "culture",
+    "Eval skepticism is organizational scar tissue, not technical truth.",
+    "Start small, manual, fun error analysis; show quick product wins; separate evals from benchmark vanity.",
+    "AI lab product orgs debating eval religion",
+    "One true eval methodology exists",
+    "Twitter false dichotomies (evals vs monitoring)",
+    "100 judges nobody maintains",
+    "Call evals fun/addictive while teaching rigor",
+    "Public dunking on eval hype",
+    "Burned teams refusing second try",
+    "Dual track: pre-deploy tests + production trace monitoring",
+    "Evals merge with observability category—same team owns both",
+)
+
+add(
+    ep,
+    g,
+    "Actionable Improvement Over Eval Perfection",
+    "Goal is not perfect evals—actionably improve product with confidence to iterate.",
+    "quality",
+    "Perfect measurement systems that never ship are worse than good-enough signal.",
+    "Ship minimal high-signal eval set tied to top axial code; experiment; expand failure classes as saturation shifts.",
+    "Lean AI product team",
+    "Enterprise needs comprehensive compliance evals day one",
+    "Auditors demanding full coverage",
+    "Eval project becomes Q4 science fair",
+    "Maven #1 course scale vs 'start dumb' advice",
+    "Leaders citing public benchmarks instead of product evals",
+    "Perfectionism blocking preview launches",
+    "Weekly eval readout tied to prompt/model changes",
+    "Eval debt compounds like tech debt—pay down top failure mode first",
+)
+
+add(
+    ep,
+    g,
+    "Vibe Checks Then Evals",
+    "Vibe checks essential early; unmanageable alone as app grows—evals extend vibes with metrics.",
+    "product_development",
+    "Don't skip vibes; graduate to evals when complexity crosses intuition threshold.",
+    "Phase 1: founder/PM vibes; Phase 2: trace open coding; Phase 3: automated regression on prioritized modes.",
+    "AI-native startup scaling",
+    "Vibes sufficient at scale",
+    "Demo-day pressure",
+    "False confidence from cherry-picked vibes",
+    "Real estate assistant example grounds abstract method",
+    "Team allergic to any manual QA",
+    "Eng wanting tests before any users",
+    "Keep vibe ritual for new features pre-instrumentation",
+    "More surfaces to vibe-check—eval cadence must increase not decrease",
+)
+

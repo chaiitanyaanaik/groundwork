@@ -18,6 +18,37 @@ This repo is the public starter pack with a limited number of transcripts and po
 - `newsletters/`
 - `podcasts/`
 - `LICENSE.md`
+- **Reality Check (buildathon app):**
+  - [`PRD.md`](PRD.md) — product spec
+  - [`REALITY_CHECK_API.md`](REALITY_CHECK_API.md) — API setup & testing
+  - `reality_check/` — FastAPI backend
+  - `frontend/` — GroundWork UI (static; served at `/` when running the API)
+  - `reality-check-intelligence.json` — 458 intelligence objects
+  - `normalized-intelligence.json` — 45 meta-patterns
+
+## Reality Check — quick start
+
+Stress-test startup/product philosophies against operational reality (Lenny corpus).
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env   # add OPENAI_API_KEY
+uvicorn reality_check.api.main:app --reload --port 8000
+```
+
+Open http://localhost:8000/ for the GroundWork app (aspiration → calibration → personalized report). API docs: http://localhost:8000/docs.
+
+**Tests (no OpenAI spend):**
+
+```bash
+pytest tests/ -v
+```
+
+Includes philosophy-relevance checks so each section stays tied to the selected transformation. See [`REALITY_CHECK_API.md`](REALITY_CHECK_API.md) for the full response schema and verification checklist.
+
+Deploy to Replit as-is — see **Replit deployment plan** in [`REALITY_CHECK_API.md`](REALITY_CHECK_API.md).
+
 
 ## Quick Start
 

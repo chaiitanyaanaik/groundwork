@@ -1,0 +1,394 @@
+{
+  "aspirations": [
+    {
+      "id": "move_faster_quality",
+      "label": "Move faster without losing quality",
+      "emotional_subtitle": "Ship more. Coordinate less.",
+      "operational_truth": "Organizations that increase velocity often discover that coordination becomes the new bottleneck.",
+      "theme": "velocity",
+      "philosophy_id": "move_fast",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Review cycles tighten. Exceptions multiply. Quality debates move later — when they're more expensive."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Clear ownership at interfaces, lightweight decision rights, and review systems that scale with throughput — not against it."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Shipping speed rises while cross-team dependencies stay opaque. Everyone moves fast in isolation."
+        },
+        {
+          "title": "What drifts first",
+          "body": "The definition of \"done.\" Standards become negotiable under deadline pressure."
+        }
+      ]
+    },
+    {
+      "id": "team_ownership",
+      "label": "Create more ownership in teams",
+      "emotional_subtitle": "Decisions shouldn't always escalate upward.",
+      "operational_truth": "Organizations trying to empower teams often recentralize during escalations.",
+      "theme": "ownership",
+      "philosophy_id": "empower_teams",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Leaders step back in — not from distrust, but because stakes feel too high for distributed calls."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Psychological safety to be wrong, explicit decision boundaries, and consequences that don't punish local judgment."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Ownership on paper, approval in practice. Teams own execution but not tradeoffs."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Escalation as the default path. Slack threads become the real org chart."
+        }
+      ]
+    },
+    {
+      "id": "ai_first_real",
+      "label": "Become genuinely AI-first",
+      "emotional_subtitle": "AI should change workflows, not just tools.",
+      "operational_truth": "AI-first change often adds tools before workflows actually shift.",
+      "theme": "ai",
+      "philosophy_id": "ai_first",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Mandates accelerate. Adoption metrics rise. Actual workflow redesign stalls."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Literacy at the leadership layer, time to redesign work — not just layer AI on top, and incentives aligned to new outputs."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Shadow workflows: the official process plus the AI-assisted workaround nobody documents."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Tool sprawl. Every team picks its own stack. Integration debt compounds quietly."
+        }
+      ]
+    },
+    {
+      "id": "experiment_without_chaos",
+      "label": "Experiment more without chaos",
+      "emotional_subtitle": "More learning, not just more experiments.",
+      "operational_truth": "More experiments often mean more noise before learning compounds.",
+      "theme": "experiment",
+      "philosophy_id": "high_experimentation",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Experiment volume becomes the metric. Learning loops shorten on paper, not in decisions."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Shared hypotheses, kill criteria, and a culture that rewards null results — not just wins."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Parallel tests without synthesis. Every squad runs its own A/B program."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Statistical theater. Significance chasing replaces judgment."
+        }
+      ]
+    },
+    {
+      "id": "reduce_coordination",
+      "label": "Reduce coordination overhead",
+      "emotional_subtitle": "Less process. More momentum.",
+      "operational_truth": "Cutting coordination often leaves gaps nobody agreed to own.",
+      "theme": "coordination",
+      "philosophy_id": "minimal_process",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Meetings shrink. Handoffs blur. Ambiguity shows up as rework."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Explicit interfaces between teams, written principles that replace meetings, and leaders who model async clarity."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Less process without more context. People fill gaps with ad hoc syncs anyway."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Tacit agreements. What everyone \"knows\" but never wrote down."
+        }
+      ]
+    },
+    {
+      "id": "product_cohesion",
+      "label": "Build stronger product cohesion",
+      "emotional_subtitle": "Consistency without bureaucracy.",
+      "operational_truth": "Stronger cohesion often slows the loops that used to ship learning.",
+      "theme": "cohesion",
+      "philosophy_id": "design_led",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Design gates thicken. Exceptions require senior taste. Shipping slows at the edges."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Shared design language, empowered reviewers who say no with alternatives, and room for intentional inconsistency where it matters."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Cohesion as veto power. Uniformity replaces product judgment."
+        },
+        {
+          "title": "What drifts first",
+          "body": "The backlog of polish. Small teams wait on central review for moves that used to be local."
+        }
+      ]
+    },
+    {
+      "id": "execution_speed_no_burnout",
+      "label": "Increase execution speed without burnout",
+      "emotional_subtitle": "Velocity without constant firefighting.",
+      "operational_truth": "Speed initiatives often compress planning while dependencies stay the same.",
+      "theme": "execution",
+      "philosophy_id": "lean_constraints",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Intensity rises. Planning windows shrink. Heroics become the norm."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Sustainable scope buffers, visible dependency maps, and permission to say no without career cost."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Faster output, same structural bottlenecks. Burnout shows up in retention, not dashboards."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Recovery time. Weekends become part of the release train."
+        }
+      ]
+    },
+    {
+      "id": "ai_change_workflows",
+      "label": "Make AI actually change workflows",
+      "emotional_subtitle": "AI should reshape work, not sit beside it.",
+      "operational_truth": "Workflow change lags tool adoption — teams optimize around old roles first.",
+      "theme": "workflow",
+      "philosophy_id": "bottom_up_ai",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Pilots multiply. Production workflows stay human-paced. AI sits in side tools."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Time to redesign jobs, success metrics tied to workflow outcomes, and leaders who use the tools themselves."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Grassroots wins that don't scale. Central mandates that don't stick locally."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Role confusion. Who owns AI output quality when the old QA model still applies?"
+        }
+      ]
+    },
+    {
+      "id": "product_led",
+      "label": "Become more product-led",
+      "emotional_subtitle": "Growth through product behavior, not process.",
+      "operational_truth": "PLG motions often stall when activation doesn't match the viral loop.",
+      "theme": "plg",
+      "philosophy_id": "product_led_growth",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Sales pressure re-enters through \"enterprise exceptions.\" Self-serve metrics get gamed."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Activation clarity, monetization that fits the product loop, and sales aligned to product signals — not overrides."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "PLG as a slogan. GTM still runs on relationships while product optimizes for signups."
+        },
+        {
+          "title": "What drifts first",
+          "body": "The onboarding path. It bends toward whoever shouts loudest in the quarter."
+        }
+      ]
+    },
+    {
+      "id": "high_performance",
+      "label": "Create a high-performance culture",
+      "emotional_subtitle": "Intensity without organizational drift.",
+      "operational_truth": "High-performance cultures often trade psychological safety for short-term wins.",
+      "theme": "performance",
+      "philosophy_id": "high_performance_culture",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Standards rise. Feedback sharpens. People stop raising concerns early."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Clear performance definitions, room to recover from misses, and leaders who model sustainable intensity."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Winning culture that punishes learning. Mistakes become identity, not data."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Candor. Hard truths move to private channels."
+        }
+      ]
+    },
+    {
+      "id": "cross_functional_alignment",
+      "label": "Improve cross-functional alignment",
+      "emotional_subtitle": "Less coordination theater. More shared direction.",
+      "operational_truth": "Alignment efforts often produce more meetings before they produce shared decisions.",
+      "theme": "alignment",
+      "philosophy_id": "influence_without_politics",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Syncs multiply. Documents proliferate. The same disagreements resurface weekly."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "One written north star, decision rights at interfaces, and leaders who resolve tradeoffs publicly."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Alignment as consensus theater. Everyone agrees in the room, diverges in execution."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Shared language. Teams use the same words for different priorities."
+        }
+      ]
+    },
+    {
+      "id": "pm_builders",
+      "label": "Empower PMs to become builders",
+      "emotional_subtitle": "From coordination to creation.",
+      "operational_truth": "Builder PMs often become the bottleneck when everyone waits on one prototype.",
+      "theme": "builders",
+      "philosophy_id": "ai_native_pms",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "PMs ship demos faster. Engineering waits on product experiments. Judgment gaps show up late."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Clear build vs. delegate boundaries, QA expectations for prototypes, and eng partnership in tool choices."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Coordination PMs asked to build without time. Builders asked to coordinate without authority."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Production standards. What ships in a demo isn't what ships to customers."
+        }
+      ]
+    },
+    {
+      "id": "reduce_roadmap_chaos",
+      "label": "Reduce roadmap chaos",
+      "emotional_subtitle": "Stability without slowing down.",
+      "operational_truth": "Clearer priorities often collapse when revenue pressure hits.",
+      "theme": "roadmap",
+      "philosophy_id": "founder_mode",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "The roadmap reopens. Exec asks become sprints. Planning feels fictional."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Protected focus windows, explicit kill criteria, and influence skills that don't depend on politics."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Priority thrash disguised as agility. Every quarter resets the narrative."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Trust in planning. Teams stop investing in long-horizon work."
+        }
+      ]
+    },
+    {
+      "id": "ai_trust",
+      "label": "Build trust in AI systems",
+      "emotional_subtitle": "Reliability before automation dependency.",
+      "operational_truth": "Evals-first teams often ship slower while competitors ship and learn in production.",
+      "theme": "trust",
+      "philosophy_id": "evals_first_ai",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Quality bars rise. Launch dates slip. Teams route around official AI features."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Production monitoring, evals tied to user outcomes, and permission to ship iteratively with guardrails."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Perfect-before-ship in a market that rewards learning speed."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Human override paths. They're designed once and never maintained."
+        }
+      ]
+    },
+    {
+      "id": "scale_innovation",
+      "label": "Scale innovation without fragmentation",
+      "emotional_subtitle": "More experimentation. Less organizational drift.",
+      "operational_truth": "Innovation at scale often fragments into siloed bets that don't compound.",
+      "theme": "innovation",
+      "philosophy_id": "platform_org",
+      "reflection_layers": [
+        {
+          "title": "What changes under pressure",
+          "body": "Innovation labs spin up. Core product absorbs the risk. Learning stays local."
+        },
+        {
+          "title": "What conditions are often missing",
+          "body": "Shared learning infrastructure, paths from experiment to platform, and constraints that focus — not just cut."
+        },
+        {
+          "title": "Where teams usually struggle",
+          "body": "Many experiments, no synthesis. Each team owns a narrative, not a system."
+        },
+        {
+          "title": "What drifts first",
+          "body": "Portfolio coherence. The org can't tell which bets reinforce each other."
+        }
+      ]
+    }
+  ]
+}

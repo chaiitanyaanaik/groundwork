@@ -1,0 +1,98 @@
+{
+  "scenarios": [
+    {
+      "id": "move_fast_pm_design_gate",
+      "description": "PM at B2B scaleup wants to move faster; design is the bottleneck; lightweight review bar.",
+      "philosophy_id": "move_fast",
+      "org_profile": {
+        "stage": "scaleup",
+        "size": "medium",
+        "model": "b2b",
+        "user_role": "pm_product_lead",
+        "calibration": {
+          "roadmap_override": "exec_override",
+          "priority_chaos": "chaos_monthly",
+          "revenue_pressure": "recentralize",
+          "bottleneck": "design_gate",
+          "move_fast_quality_bar": "review_lightweight",
+          "ai_reality": "ai_mandate"
+        }
+      }
+    },
+    {
+      "id": "experiment_exec_kill_pm",
+      "description": "PM wants experimentation with learning; exec deprioritizes tests; weekly priority chaos.",
+      "aspiration_id": "experiment_without_chaos",
+      "org_profile": {
+        "stage": "scaleup",
+        "size": "medium",
+        "model": "b2b",
+        "user_role": "pm_product_lead",
+        "calibration": {
+          "roadmap_override": "exec_override",
+          "priority_chaos": "chaos_weekly",
+          "revenue_pressure": "recentralize",
+          "bottleneck": "design_gate",
+          "experiment_kill_pattern": "kill_exec_priority",
+          "ai_reality": "ai_mandate"
+        }
+      }
+    },
+    {
+      "id": "experiment_no_insight_pm",
+      "description": "PM wants experimentation culture but insights do not propagate across teams.",
+      "philosophy_id": "high_experimentation",
+      "org_profile": {
+        "stage": "scaleup",
+        "size": "medium",
+        "model": "b2b",
+        "user_role": "pm_product_lead",
+        "calibration": {
+          "roadmap_override": "exec_override",
+          "priority_chaos": "chaos_monthly",
+          "revenue_pressure": "recentralize",
+          "bottleneck": "design_gate",
+          "experiment_kill_pattern": "kill_no_insight",
+          "ai_reality": "ai_mandate"
+        }
+      }
+    },
+    {
+      "id": "empower_teams_founder",
+      "description": "Founder wants empowered teams but recentralizes under revenue pressure.",
+      "philosophy_id": "empower_teams",
+      "org_profile": {
+        "stage": "scaleup",
+        "size": "medium",
+        "model": "b2b",
+        "user_role": "founder_ceo",
+        "calibration": {
+          "roadmap_override": "exec_override",
+          "priority_chaos": "chaos_monthly",
+          "revenue_pressure": "recentralize",
+          "bottleneck": "design_gate",
+          "empower_autonomy_reality": "own_until_pressure"
+        }
+      }
+    },
+    {
+      "id": "ai_native_pm_coordinate",
+      "description": "Org wants AI-native PMs but PM time is still mostly coordination.",
+      "philosophy_id": "ai_native_pms",
+      "org_profile": {
+        "stage": "scaleup",
+        "size": "medium",
+        "model": "b2b",
+        "user_role": "pm_product_lead",
+        "calibration": {
+          "roadmap_override": "exec_override",
+          "priority_chaos": "chaos_monthly",
+          "revenue_pressure": "recentralize",
+          "bottleneck": "design_gate",
+          "ai_native_pm_time_split": "pm_mostly_coordinate",
+          "ai_reality": "ai_mandate"
+        }
+      }
+    }
+  ]
+}

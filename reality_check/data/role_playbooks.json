@@ -1,0 +1,332 @@
+{
+  "move_fast": {
+    "pm_product_lead": [
+      "Publish a one-page ship bar for the next 30 days — what can ship as research preview vs what needs design review when {c0}.",
+      "Partner with design on blast-radius tiers instead of blocking every eng-led preview when {c1}.",
+      "Batch exec roadmap overrides weekly; protect only committed customer dates."
+    ],
+    "founder_ceo": [
+      "Name three ship decisions you will not pull upward for 30 days so velocity sticks despite {c0}.",
+      "Mandate research-preview labeling for fast paths; reserve exec review for trust-risk launches.",
+      "Signal that {c1} alone does not trigger automatic roadmap override."
+    ],
+    "eng_design_leader": [
+      "Agree with PM on preview vs full-review tiers before the next sprint when {c0}.",
+      "Support in-flight shipping; schedule post-ship cohesion passes instead of early gates when {c1}.",
+      "Escalate only on blast-radius or customer trust — not every fast PR."
+    ],
+    "other_leader": [
+      "Document what move fast means for the next 30 days given {c0}.",
+      "Define one lightweight decision rule for ship bar under pressure.",
+      "Assign a single owner for review exceptions — not a committee."
+    ]
+  },
+  "high_experimentation": {
+    "pm_product_lead": [
+      "Stand up a single experiment log: hypothesis, metric, owner, and kill date — especially when {c2}.",
+      "Require a one-page insight brief before any winning test scales; route learnings to adjacent teams weekly.",
+      "Cap concurrent experiments per squad so {c0} does not deprioritize learning work every month."
+    ],
+    "founder_ceo": [
+      "Protect experiment capacity in the roadmap for 30 days — no exec reprioritization without written tradeoff when {c0}.",
+      "Review insight propagation monthly, not just win rate — ask what stopped {c2}.",
+      "Fund a pattern-review ritual before funding the next experiment wave."
+    ],
+    "eng_design_leader": [
+      "Ship experiment infrastructure before new surface area — flags, logging, and rollback when {c1}.",
+      "Pair with PM on insight docs for large swings; do not scale variants without propagated learning.",
+      "Block launches that skip pre-registered success criteria."
+    ],
+    "other_leader": [
+      "Name what faster experimentation changes for the next 30 days given {c2}.",
+      "Define one rule for when experiments must stop or share insights.",
+      "Assign one owner for cross-team learning — not just local wins."
+    ]
+  },
+  "empower_teams": {
+    "pm_product_lead": [
+      "Write decision rights per squad for 30 days — what they own without escalation when {c0}.",
+      "Use written tradeoffs when exec override happens; restore autonomy after the fire drill.",
+      "Coach leads to escalate patterns, not single tasks, when {c1} shifts priorities."
+    ],
+    "founder_ceo": [
+      "List decisions you will not reclaim for 30 days so teams can own outcomes despite {c0}.",
+      "Require escalation summaries instead of reassigning work when revenue pressure hits.",
+      "Celebrate teams that course-correct without pulling decisions upward."
+    ],
+    "eng_design_leader": [
+      "Clarify technical ownership boundaries with PM when {c0} — who owns tradeoffs on the roadmap.",
+      "Default to team-level resolution for cross-squad conflicts before exec escalation.",
+      "Document when override is allowed vs when teams must decide."
+    ],
+    "other_leader": [
+      "Define what empowered teams may decide without approval for 30 days.",
+      "Create a lightweight escalation template tied to {c1}.",
+      "Review override frequency monthly — not ad hoc."
+    ]
+  },
+  "ai_first": {
+    "pm_product_lead": [
+      "Pick three workflows where AI is mandatory next month — not every team at once — given {c0}.",
+      "Pair each mandate with a joy metric: time saved or quality lift teams can feel.",
+      "Run a shadow-workflow audit when {c2} shows mandate without adoption."
+    ],
+    "founder_ceo": [
+      "Sequence AI mandates by function; avoid company-wide theater when {c0}.",
+      "Fund literacy time before throughput targets — especially for {c1}.",
+      "Inspect shadow tools monthly; formalize what teams already use."
+    ],
+    "eng_design_leader": [
+      "Standardize eval hooks and logging before scaling AI features when {c2}.",
+      "Co-design guardrails with PM — not security-only gates after ship.",
+      "Ship internal templates teams can fork instead of one-off demos."
+    ],
+    "other_leader": [
+      "Name three AI-first workflows to pilot for 30 days.",
+      "Measure adoption by usage, not announcements.",
+      "Address shadow workflows before adding policy."
+    ]
+  },
+  "founder_mode": {
+    "pm_product_lead": [
+      "Map which decisions stay with founders vs barrels for 30 days when {c0}.",
+      "Protect barrel throughput — limit parallel initiatives per operator when {c1}.",
+      "Translate founder intent into written principles teams can apply without daily pull-ins."
+    ],
+    "founder_ceo": [
+      "Name your barrels explicitly; do not add initiatives without removing one when {c1}.",
+      "Use founder intensity on customer-zero problems only — delegate the rest for 30 days.",
+      "Kill one project publicly to build trust in focus."
+    ],
+    "eng_design_leader": [
+      "Align eng leads on who owns end-to-end delivery per barrel when {c0}.",
+      "Reduce cross-team dependencies that force founder escalation.",
+      "Escalate only when barrel capacity is exceeded — with options, not blockers."
+    ],
+    "other_leader": [
+      "Clarify founder vs team decision rights for the next sprint.",
+      "Limit WIP at the barrel level.",
+      "Document escalation paths before pressure hits."
+    ]
+  },
+  "ai_native_pms": {
+    "pm_product_lead": [
+      "Block 40% calendar for build/prototype time — protect it when {c0} overrides roadmap.",
+      "Ship one internal tool or customer prototype this month; delegate coordination explicitly.",
+      "Pair with eng on eval bar for anything PM-shipped that touches users."
+    ],
+    "founder_ceo": [
+      "Stop rewarding coordination theater — measure shipped prototypes and decisions per PM.",
+      "Fund builder time as capacity, not a side project when {c1}.",
+      "Hire or coach for judgment, not just output volume."
+    ],
+    "eng_design_leader": [
+      "Treat PM prototypes as hypotheses — fast feedback, clear ownership handoff.",
+      "Provide starter kits so PM builds do not fork the stack.",
+      "Review blast-radius before PM demos go wide."
+    ],
+    "other_leader": [
+      "Define build vs coordinate split for PMs for 30 days.",
+      "Set one prototype outcome per PM this month.",
+      "Clarify QA expectations for PM-shipped work."
+    ]
+  },
+  "design_led": {
+    "pm_product_lead": [
+      "Agree on customer-facing surfaces that require design approval when {c2}.",
+      "Route exceptions through a weekly design+product forum — not Slack overrides when {c0}.",
+      "Measure cohesion regressions, not just ship count."
+    ],
+    "founder_ceo": [
+      "Back design gate on customer-facing work for 30 days — no shadow launches.",
+      "Fund design capacity proportional to eng throughput when {c1}.",
+      "Kill features that bypass the gate to reset norms."
+    ],
+    "eng_design_leader": [
+      "Publish design approval tiers before the next release train.",
+      "Join eng early on in-flight work — integrate cohesion after ship where gate is light.",
+      "Escalate shadow launches with data on UX debt."
+    ],
+    "other_leader": [
+      "Document which changes require design sign-off.",
+      "Run a weekly cohesion review.",
+      "Track bypass incidents."
+    ]
+  },
+  "minimal_process": {
+    "pm_product_lead": [
+      "Replace one PRD with goals + principles doc for the next bet when {c0}.",
+      "Keep a single decision log instead of new templates when {c1}.",
+      "Audit process creep monthly — remove one ritual that no longer earns its cost."
+    ],
+    "founder_ceo": [
+      "Model lightweight decisions publicly for 30 days.",
+      "Ban new process layers without removing two.",
+      "Reward teams that ship with principles, not paperwork."
+    ],
+    "eng_design_leader": [
+      "Align on minimum spec for eng start — what can be verbal vs written.",
+      "Use RFCs only for irreversible decisions.",
+      "Push back on process added under pressure."
+    ],
+    "other_leader": [
+      "Pick one artifact to eliminate for 30 days.",
+      "Define minimum documentation for launch.",
+      "Review meetings added in the last quarter."
+    ]
+  },
+  "product_led_growth": {
+    "pm_product_lead": [
+      "Instrument one product loop metric before the next GTM push when {c0}.",
+      "Negotiate sales exceptions with a written impact on the loop — not ad hoc discounts.",
+      "Run a weekly loop review separate from pipeline review."
+    ],
+    "founder_ceo": [
+      "Protect product-led metrics on the exec dashboard for 30 days.",
+      "Cap sales-led exceptions per quarter.",
+      "Fund growth engineering on the loop, not only campaigns."
+    ],
+    "eng_design_leader": [
+      "Ship instrumentation and onboarding fixes before new acquisition features.",
+      "Partner with growth on experiment quality — not only velocity.",
+      "Flag features that bypass self-serve activation."
+    ],
+    "other_leader": [
+      "Name the core product loop for this quarter.",
+      "Track one leading indicator weekly.",
+      "Document sales exceptions and loop impact."
+    ]
+  },
+  "influence_without_politics": {
+    "pm_product_lead": [
+      "Map real decision makers for your top bet — not the meeting roster when {c0}.",
+      "Use pre-writes and prototypes instead of alignment meetings when {c1}.",
+      "Close decisions in writing within 48 hours after discussion."
+    ],
+    "founder_ceo": [
+      "Require decision records for cross-functional bets.",
+      "Stop rewarding consensus theater — reward clear owners.",
+      "Intervene only when decision latency exceeds one week."
+    ],
+    "eng_design_leader": [
+      "Bring options with tradeoffs to product reviews — not open-ended debate.",
+      "Document technical constraints before political negotiation starts.",
+      "Escalate decision stalls, not interpersonal friction."
+    ],
+    "other_leader": [
+      "Identify the decider for each initiative.",
+      "Time-box alignment to one session per bet.",
+      "Publish decisions where teams look."
+    ]
+  },
+  "high_performance_culture": {
+    "pm_product_lead": [
+      "Separate learning reviews from blame postmortems when a miss happens under {c0}.",
+      "Set explicit safety rules for raising risks early — especially when {c1}.",
+      "Coach managers on behavior standards, not heroics."
+    ],
+    "founder_ceo": [
+      "Model blameless incident response once publicly this month.",
+      "Tie standards to support and coaching — not public shaming.",
+      "Inspect whether high bar language increases hiding."
+    ],
+    "eng_design_leader": [
+      "Run blameless retros on outages and misses.",
+      "Pair high bar with clear escalation for help.",
+      "Measure repeat failures, not single mistakes."
+    ],
+    "other_leader": [
+      "Define what high performance means behaviorally for 30 days.",
+      "Add psychological safety signals to team health checks.",
+      "Review how misses are discussed in exec forums."
+    ]
+  },
+  "lean_constraints": {
+    "pm_product_lead": [
+      "Inventory shadow headcount and contractors when {c2} — align with lean narrative.",
+      "Prioritize bets that do not require net-new roles for 30 days.",
+      "Kill low-leverage work before requesting hires."
+    ],
+    "founder_ceo": [
+      "Publish headcount tradeoffs when approving new initiatives.",
+      "Fund leverage tools before bodies when {c0}.",
+      "Audit shadow hiring quarterly."
+    ],
+    "eng_design_leader": [
+      "Automate toil before asking for headcount.",
+      "Flag projects that imply hidden staffing.",
+      "Consolidate tools to reduce operational load."
+    ],
+    "other_leader": [
+      "List must-have vs nice-to-have scope for the quarter.",
+      "Track contractor and agency spend against lean goals.",
+      "Defer hires until leverage experiments run."
+    ]
+  },
+  "bottom_up_ai": {
+    "pm_product_lead": [
+      "Catalog grassroots AI wins for 30 days — do not mandate top-down replacements when {c2}.",
+      "Pick two pockets to scale with shared infra and guardrails.",
+      "Bridge to exec with outcomes, not tool bans."
+    ],
+    "founder_ceo": [
+      "Fund a bottom-up showcase before issuing mandates.",
+      "Standardize what works — do not crush experiments prematurely.",
+      "Set red lines only for trust and compliance."
+    ],
+    "eng_design_leader": [
+      "Provide shared API keys, templates, and logging for grassroots tools.",
+      "Integrate winning experiments into platform — not parallel stacks.",
+      "Review security on shadow tools with fix paths."
+    ],
+    "other_leader": [
+      "Survey teams for AI workflows already in use.",
+      "Scale one grassroots win with platform support.",
+      "Document red lines clearly."
+    ]
+  },
+  "evals_first_ai": {
+    "pm_product_lead": [
+      "Block ship on user-facing AI without eval suite when {c2} — start with top three failure modes.",
+      "Pair prompt changes with eval diffs in review.",
+      "Ship internal-only until evals pass a agreed bar."
+    ],
+    "founder_ceo": [
+      "Fund eval infrastructure before velocity targets on AI features.",
+      "Accept slower external ship for 30 days to build trust.",
+      "Inspect regressions in exec review — not only launches."
+    ],
+    "eng_design_leader": [
+      "CI gate on eval regressions for model-backed paths.",
+      "Version prompts and evals together.",
+      "Run shadow traffic before full release."
+    ],
+    "other_leader": [
+      "Define minimum eval bar for AI features.",
+      "List failure modes to test before launch.",
+      "Assign eval owner per feature."
+    ]
+  },
+  "platform_org": {
+    "pm_product_lead": [
+      "Publish platform SLAs and intake rules when {c0} — reduce silent workarounds.",
+      "Charge back platform time to GMs with shared roadmap visibility.",
+      "Run one integration pilot before mandating platform adoption."
+    ],
+    "founder_ceo": [
+      "Align GM incentives to platform usage — not only local optima.",
+      "Kill duplicate infra with executive backing.",
+      "Fund platform as product with roadmap, not a tax."
+    ],
+    "eng_design_leader": [
+      "Treat platform teams as internal customers — roadmap and SLOs.",
+      "Deprecate forks with migration support.",
+      "Measure adoption and toil reduction."
+    ],
+    "other_leader": [
+      "Map platform vs product team boundaries.",
+      "Track workaround incidents.",
+      "Set integration standards for new initiatives."
+    ]
+  }
+}
