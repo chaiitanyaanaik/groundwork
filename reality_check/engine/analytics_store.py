@@ -10,6 +10,7 @@ from typing import Any
 
 _LOCK = threading.Lock()
 _ANALYTICS_FILE = Path(os.getenv("ANALYTICS_FILE", "analytics.jsonl"))
+_FEEDBACK_FILE = Path(__file__).resolve().parents[1] / "data" / "feedback.jsonl"
 
 
 def _analytics_path() -> Path:
@@ -43,6 +44,21 @@ def _read_events() -> list[dict]:
                     except json.JSONDecodeError:
                         pass
     return events
+
+
+def _read_feedback() -> list[dict]:
+    if not _FEEDBACK_FILE.exists():
+        return []
+    rows = []
+    with open(_FEEDBACK_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                try:
+                    rows.append(json.loads(line))
+                except json.JSONDecodeError:
+                    pass
+    return rows
 
 
 def compute_summary() -> dict[str, Any]:
@@ -81,6 +97,32 @@ def compute_summary() -> dict[str, Any]:
 
     sorted_daily = dict(sorted(daily_counts.items())[-14:])
 
+    # Feedback
+    feedback_rows = _read_feedback()
+    thumbs_up = sum(1 for r in feedback_rows if r.get("rating") == "up")
+    thumbs_down = sum(1 for r in feedback_rows if r.get("rating") == "down")
+    total_feedback = len(feedback_rows)
+    satisfaction_pct = round(thumbs_up / total_feedback * 100, 1) if total_feedback > 0 else None
+
+    feedback_by_aspiration: dict[str, dict[str, int]] = defaultdict(lambda: {"up": 0, "down": 0})
+    for r in feedback_rows:
+        aid = r.get("aspiration_id") or "unknown"
+        rating = r.get("rating")
+        if rating in ("up", "down"):
+            feedback_by_aspiration[aid][rating] += 1
+
+    recent_comments = [
+        {
+            "rating": r.get("rating"),
+            "comment": r.get("comment"),
+            "aspiration_id": r.get("aspiration_id"),
+            "transformation_name": (r.get("result_summary") or {}).get("transformation_name"),
+            "created_at": r.get("created_at"),
+        }
+        for r in reversed(feedback_rows)
+        if r.get("comment")
+    ][:10]
+
     return {
         "total_events": total,
         "by_event": dict(sorted(by_event.items(), key=lambda x: -x[1])),
@@ -95,4 +137,12 @@ def compute_summary() -> dict[str, Any]:
         "stress_tests_submitted": submitted,
         "stress_tests_completed": completed,
         "daily_events_last_14d": sorted_daily,
+        "feedback": {
+            "total": total_feedback,
+            "thumbs_up": thumbs_up,
+            "thumbs_down": thumbs_down,
+            "satisfaction_pct": satisfaction_pct,
+            "by_aspiration": {k: dict(v) for k, v in feedback_by_aspiration.items()},
+            "recent_comments": recent_comments,
+        },
     }

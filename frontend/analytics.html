@@ -208,6 +208,72 @@
       }
       .event-table td:last-child { text-align: right; color: #6b7280; }
 
+      .feedback-summary {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+      }
+      .feedback-stat {
+        flex: 1;
+        min-width: 120px;
+        background: #f9faf9;
+        border: 1px solid #e4e4df;
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        text-align: center;
+      }
+      .feedback-stat .fs-value {
+        font-family: "Literata", serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #1e4d35;
+        line-height: 1;
+      }
+      .feedback-stat .fs-label {
+        font-size: 0.75rem;
+        color: #6b7280;
+        margin-top: 0.2rem;
+      }
+      .feedback-asp-row {
+        display: grid;
+        grid-template-columns: 9rem 1fr auto auto;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        padding: 0.3rem 0;
+        border-bottom: 1px solid #f3f3f0;
+      }
+      .feedback-asp-row:last-child { border-bottom: none; }
+      .thumb-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        padding: 0.15rem 0.5rem;
+        border-radius: 20px;
+        font-size: 0.78rem;
+        font-weight: 700;
+      }
+      .thumb-pill--up { background: #dcfce7; color: #166534; }
+      .thumb-pill--down { background: #fee2e2; color: #991b1b; }
+
+      .comment-list { display: flex; flex-direction: column; gap: 0.75rem; }
+      .comment-card {
+        background: #f9faf9;
+        border: 1px solid #e4e4df;
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+      }
+      .comment-card__meta {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.35rem;
+        font-size: 0.78rem;
+        color: #6b7280;
+      }
+      .comment-card__text { font-size: 0.875rem; color: #374151; }
+
       .daily-chart {
         display: flex;
         align-items: flex-end;
@@ -242,6 +308,7 @@
         <h1>GroundWork Analytics</h1>
         <p>Enter the analytics password to continue.</p>
         <form id="login-form" onsubmit="handleLogin(); return false;">
+          <input type="text" name="username" value="analytics" autocomplete="username" style="display:none" aria-hidden="true" />
           <input
             type="password"
             class="login-input"
@@ -376,6 +443,69 @@
         }).join("")}</div>`;
       }
 
+      function renderFeedbackSection(fb) {
+        if (!fb) return "";
+        const satColor = fb.satisfaction_pct === null ? "#6b7280"
+          : fb.satisfaction_pct >= 70 ? "#1e4d35"
+          : fb.satisfaction_pct >= 40 ? "#b45309" : "#dc2626";
+        const satDisplay = fb.satisfaction_pct === null ? "—" : `${fb.satisfaction_pct}%`;
+
+        const byAspHtml = Object.entries(fb.by_aspiration).length
+          ? Object.entries(fb.by_aspiration).map(([aid, counts]) => `
+              <div class="feedback-asp-row">
+                <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600;color:#374151" title="${esc(aid)}">${esc(aid)}</span>
+                <span></span>
+                <span class="thumb-pill thumb-pill--up">👍 ${counts.up || 0}</span>
+                <span class="thumb-pill thumb-pill--down">👎 ${counts.down || 0}</span>
+              </div>`).join("")
+          : "<p style='color:#9ca3af;font-size:.85rem'>No feedback yet</p>";
+
+        const commentsHtml = fb.recent_comments.length
+          ? `<div class="comment-list">${fb.recent_comments.map(c => `
+              <div class="comment-card">
+                <div class="comment-card__meta">
+                  <span class="thumb-pill ${c.rating === 'up' ? 'thumb-pill--up' : 'thumb-pill--down'}">${c.rating === 'up' ? '👍 Helpful' : '👎 Not helpful'}</span>
+                  ${c.transformation_name ? `<span>${esc(c.transformation_name)}</span>` : ""}
+                  ${c.created_at ? `<span style="margin-left:auto">${c.created_at.slice(0,10)}</span>` : ""}
+                </div>
+                <p class="comment-card__text">${esc(c.comment)}</p>
+              </div>`).join("")}</div>`
+          : "<p style='color:#9ca3af;font-size:.85rem'>No comments yet</p>";
+
+        return `
+          <div class="section">
+            <div class="section-title">Report Feedback</div>
+            <div class="card">
+              <div class="feedback-summary">
+                <div class="feedback-stat">
+                  <div class="fs-value">${fb.total}</div>
+                  <div class="fs-label">Total ratings</div>
+                </div>
+                <div class="feedback-stat">
+                  <div class="fs-value" style="color:#166534">👍 ${fb.thumbs_up}</div>
+                  <div class="fs-label">Helpful</div>
+                </div>
+                <div class="feedback-stat">
+                  <div class="fs-value" style="color:#991b1b">👎 ${fb.thumbs_down}</div>
+                  <div class="fs-label">Not helpful</div>
+                </div>
+                <div class="feedback-stat">
+                  <div class="fs-value" style="color:${satColor}">${satDisplay}</div>
+                  <div class="fs-label">Satisfaction</div>
+                </div>
+              </div>
+              <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#6b7280;margin-bottom:.6rem">By Aspiration</p>
+              ${byAspHtml}
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Recent Comments</div>
+            <div class="card">${commentsHtml}</div>
+          </div>
+        `;
+      }
+
       function render(d) {
         const completionColor = d.completion_rate_pct >= 50 ? "#1e4d35"
           : d.completion_rate_pct >= 25 ? "#b45309" : "#dc2626";
@@ -433,6 +563,8 @@
               <div class="card">${barList(d.confidence_distribution)}</div>
             </div>
           </div>
+
+          ${renderFeedbackSection(d.feedback)}
         `;
       }
 
