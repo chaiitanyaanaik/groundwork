@@ -1,17 +1,27 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
-from pathlib import Path
+import os
 
-FEEDBACK_PATH = Path(__file__).resolve().parents[1] / "data" / "feedback.jsonl"
+import psycopg2
+
+
+def _conn():
+    return psycopg2.connect(os.environ["DATABASE_URL"])
 
 
 def append_feedback(record: dict) -> None:
-    FEEDBACK_PATH.parent.mkdir(parents=True, exist_ok=True)
-    row = {
-        **record,
-        "created_at": datetime.now(timezone.utc).isoformat(),
-    }
-    with FEEDBACK_PATH.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    result_summary = record.get("result_summary")
+    with _conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO feedback (rating, comment, aspiration_id, result_summary)
+            VALUES (%s, %s, %s, %s)
+            """,
+            (
+                record.get("rating"),
+                record.get("comment"),
+                record.get("aspiration_id"),
+                json.dumps(result_summary) if result_summary else None,
+            ),
+        )

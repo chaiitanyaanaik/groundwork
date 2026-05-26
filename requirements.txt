@@ -14,3 +14,4 @@ pydantic-settings
 pytest
 python-dotenv
 uvicorn[standard]
+psycopg2-binary

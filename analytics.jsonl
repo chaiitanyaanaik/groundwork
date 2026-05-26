@@ -8,3 +8,4 @@
 {"ts": "2026-05-26T13:08:17.455526+00:00", "event": "stress_test_completed", "properties": {"aspiration_id": "move_faster_quality", "confidence": "high", "transformation_name": "Move faster without losing quality"}}
 {"ts": "2026-05-26T13:08:48.523078+00:00", "event": "page_view", "properties": {"referrer": "https://6ef3f92f-eb76-42c4-acbb-01a740a45f6a-00-yx4qo3pii706.sisko.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=default-start-application"}}
 {"ts": "2026-05-26T13:13:20.080374+00:00", "event": "page_view", "properties": {"referrer": "https://6ef3f92f-eb76-42c4-acbb-01a740a45f6a-00-yx4qo3pii706.sisko.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=default-start-application"}}
+{"ts": "2026-05-26T13:16:25.473525+00:00", "event": "page_view", "properties": {"referrer": null}}
